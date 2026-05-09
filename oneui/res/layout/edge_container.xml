@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.app.honeyspace.edge.edgepanel.ui.panel.presentation.EdgeContainer android:id="@id/root_container" android:tag="layout/edge_container_0" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/full_blur_view" android:tag="binding_1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/edge_panel_shadow_elevation" />
+    <View android:id="@id/full_dim_view" android:tag="binding_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/edge_panel_shadow_elevation" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/trigger_container" android:tag="binding_3" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/edge_panels_tool_tip">
+        <include android:id="@id/trigger_view" layout="@layout/edge_trigger" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/trigger_anim_container" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/trigger_anim_view" android:tag="binding_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/trigger_drag_view" layout="@layout/edge_trigger_drag" />
+    <View android:id="@id/out_touch_region_view" android:tag="binding_6" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/open_container" android:tag="binding_7" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/panel_description_container" layout="@layout/edge_description_container" />
+        <include android:id="@id/panel_container" layout="@layout/edge_panel_container" />
+        <include android:id="@id/page_indicator" layout="@layout/edge_page_indicator" />
+        <include android:id="@id/setting_button" android:clipChildren="false" android:clipToPadding="false" layout="@layout/edge_setting_button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.samsung.app.honeyspace.edge.edgepanel.ui.panel.presentation.panel.DragContainer android:id="@id/drag_container" android:tag="binding_8" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.samsung.app.honeyspace.edge.edgepanel.ui.panel.presentation.EdgeContainer>

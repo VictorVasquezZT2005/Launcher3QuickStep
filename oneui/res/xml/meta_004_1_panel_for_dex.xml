@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThemeMetaData>
+    <AppMetaData Name="SamsungDeX_QS" TargetApi="30" TargetPackageName="com.sec.android.app.launcher">
+        <Include RefName="SESL" />
+        <Property Comment="QS Tile Icon Color On Dim" DefaultValue="#ffffffff" DestAttribName="qs_tile_icon_dim_tint_color, qs_tile_icon_on_tint_color" POption="AlwaysOverriden" UID="4_1-2-1" ValueRef="4-2-1" ValueType="TintColor" />
+        <Property Comment="QS Tile Icon Color Off" DefaultValue="#e6ffffff" DestAttribName="qs_tile_icon_off_tint_color" POption="AlwaysOverriden" UID="4_1-2-2" ValueRef="4-2-2" ValueType="TintColor" />
+        <Property Comment="QS Tile BG Color On" DefaultValue="#ff2d66ff" DestAttribName="qs_tile_round_background_on" POption="AlwaysOverriden" UID="4_1-2-3" ValueRef="4-2-3" ValueType="TintColor" />
+        <Property Comment="QS Tile BG Color Off" DefaultValue="#40000000" DestAttribName="qs_tile_round_background_off" POption="AlwaysOverriden" UID="4_1-2-4" ValueRef="4-2-4" ValueType="TintColor" />
+        <Property DefaultValue="#802d66ff" DestAttribName="qs_tile_round_background_dim" Opacity="50" UID="4_1-2-5" ValueRef="4-2-3" ValueType="TintColor" comment="QS Tile BG Color Dim" />
+        <Property DefaultValue="#888fa2" DestAttribName="open_theme_noti_header_color" UID="4-22-20" ValueType="TintColor" />
+    </AppMetaData>
+</ThemeMetaData>

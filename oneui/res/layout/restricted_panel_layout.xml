@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/restricted_panel_root_view" android:tag="layout/restricted_panel_layout_0" android:background="@color/panel_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/restricted_panel_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/security_panel_icon_color" android:layout_centerHorizontal="true" />
+    <TextView android:textAppearance="@style/SecRegular" android:textSize="13.0sp" android:textColor="@color/security_panel_icon_color" android:ellipsize="end" android:gravity="center" android:id="@id/restricted_panel_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/security_panel_desc_margin_top" android:text="@string/security_panel_desc" android:layout_below="@id/restricted_panel_icon" android:layout_centerHorizontal="true" android:lineSpacingExtra="4.0sp" />
+</RelativeLayout>

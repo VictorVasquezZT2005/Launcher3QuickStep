@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/description_container" android:tag="layout/panel_description_layout_0" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_layout" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/global_edge_setting_button_container_height" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/title_icon" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxHeight="@dimen/panel_title_icon_size" android:minHeight="@dimen/panel_title_text_size" />
+        <TextView android:enabled="true" android:textSize="@dimen/panel_title_text_size" android:textColor="@color/panel_title_text_color" android:ellipsize="end" android:id="@id/panel_title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sec-roboto-light" android:layoutDirection="locale" />
+        <ImageView android:id="@id/title_navi_icon" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/panel_title_navi_icon_size" android:layout_height="@dimen/panel_title_navi_icon_size" android:src="@drawable/edge_ic_title_link" android:contentDescription="@string/open_app" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="top" android:orientation="vertical" android:id="@id/help_container" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/title_layout" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

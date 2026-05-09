@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/more_icon_button_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="end|top" android:id="@id/more_button_container" android:tag="binding_1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/more_menu_button_size" android:layout_height="@dimen/more_menu_button_size">
+        <FrameLayout android:id="@id/more_button_background_blur" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/floating_workspace_tab_background_elevation" />
+        <FrameLayout android:id="@id/backgroundContainer" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/floating_workspace_tab_background_elevation" />
+        <ImageView android:layout_gravity="center" android:id="@id/more_icon_imageview" android:tag="binding_4" android:background="@drawable/button_ripple_background" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/tw_ic_ab_more_mtrl" android:scaleType="center" android:contentDescription="@string/options_menu" android:elevation="@dimen/floating_workspace_tab_background_elevation" android:tooltipText="@string/options_menu" />
+        <View android:layout_gravity="top" android:id="@id/support_sort_option" android:layout_width="match_parent" android:layout_height="0.0dp" />
+    </FrameLayout>
+</FrameLayout>

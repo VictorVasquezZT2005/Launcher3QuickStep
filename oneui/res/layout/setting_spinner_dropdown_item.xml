@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textSize="@dimen/settings_dropdown_list_text_size" android:textColor="@color/app_custom_spinner_dropdown_item_text_color" android:ellipsize="marquee" android:id="@android:id/text1" android:layout_width="match_parent" android:layout_height="0.0dp" android:checkMark="@drawable/dropdown_item_check_mark" android:singleLine="true" android:layoutDirection="locale" style="?android:spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

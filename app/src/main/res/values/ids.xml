@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tag_start_x" type="id" />
+    <item name="tag_start_y" type="id" />
+    <item name="tag_is_long_pressed" type="id" />
+</resources>

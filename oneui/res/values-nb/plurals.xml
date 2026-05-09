@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke legge til mer enn %d skrivebordsområde.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kan ikke legge til mer enn %d skrivebordsområder.</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke legge til mer enn %d stablet widget.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kan ikke legge til mer enn %d stablede widgeter.</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke holde mer enn %d app åpen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kan ikke holde mer enn %d apper åpne.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d time igjen i dag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d timer igjen i dag</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minutt gjenstår i dag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d minutter gjenstår i dag</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aktiv app</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aktive apper</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aktivt element i bakgrunnen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aktive elementer i bakgrunnen</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kolonne</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kolonner</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rad</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rader</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke angi mer enn %d tegn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kan ikke angi mer enn %d tegn.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nytt varsel</item>
+        <item quantity="other">%d nye varsler</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d %2$s-varsel til</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d %2$s-varsler til</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opptil %d app</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Opptil %d apper</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan ikke velge mer enn %d panel.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Kan ikke velge mer enn %d paneler.</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag igjen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d dager igjen</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Om %d dag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Om %d dager</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s og %3$d til</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s, %2$s og %3$d til</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gjentas hver dag (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gjentas hver %d. dag</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gjentas hver time (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gjentas hver %d. time</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gjentas hvert minutt (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gjentas hvert %d. minutt</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gjentas hver måned (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gjentas hver %d. måned</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gjentas hver uke (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gjentas hver %d. uke</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gjentas hvert år (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Gjentas hvert %d. år</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ble valgt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ble valgt</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sovetid: %d time</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Sovetid: %d timer</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sovetid: %d minutt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Sovetid: %d minutter</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d app er holdt åpen for hurtigstart.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d apper er holdt åpne for hurtigstart.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">Ingen varsler</item>
+        <item quantity="one">%d varsel</item>
+        <item quantity="other">%d varsler</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kolonne</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kolonner</item>
+    </plurals>
+</resources>

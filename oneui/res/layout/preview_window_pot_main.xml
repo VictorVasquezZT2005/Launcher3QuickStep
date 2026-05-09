@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.hotseat.presentation.previewwindow.PreviewWindowRoot android:id="@id/preview_window_container" android:tag="layout/preview_window_pot_main_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/preview_window_panel_elevation" android:clipToOutline="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/preview_window_recycler_view" android:background="@drawable/preview_window_panel_bg" android:paddingTop="@dimen/preview_window_panel_padding" android:paddingBottom="@dimen/preview_window_panel_bottom_padding" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/preview_window_min_height" android:overScrollMode="never" android:paddingStart="@dimen/preview_window_panel_padding" android:paddingEnd="@dimen/preview_window_panel_padding" />
+</com.honeyspace.ui.honeypots.hotseat.presentation.previewwindow.PreviewWindowRoot>

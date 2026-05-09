@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.appscreen.presentation.DragGuide android:id="@id/drag_guide_top_container" android:tag="layout/drag_guide_top_panel_0" android:background="@drawable/apps_edit_bg_top_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/drag_guide_drop" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/apps_drag_guide_text_size" android:textColor="@color/drag_guide_text_color" android:gravity="center_horizontal" android:id="@id/drag_guide_text" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/move_to_home" android:fontFamily="sec" android:textFontWeight="400" />
+        <View android:id="@id/drag_guide_divider" android:background="@color/drag_guide_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/drag_guide_divider_height" />
+    </LinearLayout>
+</com.honeyspace.ui.honeypots.appscreen.presentation.DragGuide>

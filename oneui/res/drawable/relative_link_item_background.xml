@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/relative_link_background_corner_radius" />
+            <solid android:color="@android:color/white" />
+            <padding android:left="@dimen/relative_link_text_padding_side" android:top="@dimen/relative_link_text_padding_top" android:right="@dimen/relative_link_text_padding_side" android:bottom="@dimen/relative_link_text_padding_top" />
+        </shape>
+    </item>
+</ripple>

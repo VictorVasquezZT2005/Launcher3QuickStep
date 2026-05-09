@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="result_thumbnail1_2_grid_span_count">7</integer>
+    <integer name="result_thumbnail5_grid_span_count">5</integer>
+</resources>

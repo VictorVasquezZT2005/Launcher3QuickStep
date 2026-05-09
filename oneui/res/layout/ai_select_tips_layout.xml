@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/tips_container" android:background="@drawable/ai_select_tips_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="right|top" android:id="@id/delete_button" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="left|top" android:id="@id/delete_img" android:background="@drawable/tips_delete_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="@dimen/ai_select_tips_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/tips_img" android:background="@drawable/ai_select_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@style/SecRegular" android:textSize="@dimen/ai_select_tips_text_size" android:textColor="@color/ai_select_tips_text_color" android:layout_gravity="center_horizontal" android:id="@id/tips_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

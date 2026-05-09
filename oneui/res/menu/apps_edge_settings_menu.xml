@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/search" android:title="@string/all_apps_saerch_hint" android:contentDescription="@string/all_apps_saerch_hint" android:tooltipText="@string/all_apps_saerch_hint" app:actionLayout="@layout/settings_search_button_layout" app:showAsAction="ifRoom" />
+    <group android:id="@id/toggle_menu_group">
+        <item android:id="@id/show_recent" android:title="@string/settings_dialog_show_recent_apps" android:showAsAction="never" />
+        <item android:id="@id/show_app_label" android:title="@string/settings_show_app_names" android:showAsAction="never" />
+    </group>
+    <item android:id="@id/open_in_split" android:title="@string/settings_dialog_open_in_split_screen_view" android:showAsAction="never" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:tag="layout/from_recent_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/from_recent_header" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.samsung.app.honeyspace.edge.fromrecent.presentation.FromRecentRecyclerView android:id="@id/list_container" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

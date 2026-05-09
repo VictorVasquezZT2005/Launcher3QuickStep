@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/setting_panel_item_0" android:paddingBottom="@dimen/settings_contained_button_margin_top" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:tag="binding_1" android:layout_width="@dimen/settings_wide_panel_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_wide_panel_top_margin">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/settings_wide_panel_check_width" android:layout_height="@dimen/settings_wide_panel_check_height" android:importantForAccessibility="noHideDescendants">
+            <CheckBox android:layout_gravity="center" android:id="@id/check" android:tag="binding_2" android:focusable="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <TextView android:id="@id/label" android:layout_width="match_parent" android:layout_height="wrap_content" android:hyphenationFrequency="normal" style="@style/PanelLabelText" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/settings_wide_panel_preview_height" android:layout_marginTop="@dimen/settings_wide_panel_preview_top_margin" android:importantForAccessibility="noHideDescendants">
+            <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.MaskingPreview android:layout_gravity="center" android:id="@id/preview" android:tag="binding_3" android:background="@drawable/panel_preview_img_bg" android:layout_width="match_parent" android:layout_height="@dimen/settings_wide_panel_preview_height" android:scaleType="centerCrop" />
+        </FrameLayout>
+    </LinearLayout>
+    <Button android:textAppearance="@style/SecSemiBold" android:textSize="@dimen/settings_edit_text_size" android:textColor="@color/settings_edit_btn_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/edit" android:tag="binding_4" android:background="@drawable/recoil_transparent_button_bg" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/settings_edit_text_height" android:text="@string/settings_edit" android:maxLines="1" android:textAllCaps="false" android:stateListAnimator="?seslSmallTouchAnimator" />
+</LinearLayout>

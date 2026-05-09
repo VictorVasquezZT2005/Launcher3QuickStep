@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/rectangle" />
+    <item android:gravity="center" android:drawable="@drawable/tw_ic_ab_more_mtrl" />
+</layer-list>

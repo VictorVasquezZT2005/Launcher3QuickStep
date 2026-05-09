@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.folder.presentation.dialog.DialogFolderContainer android:id="@id/dialog_folder_container" android:tag="layout/dialog_folder_container_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.honeyspace.ui.honeypots.folder.presentation.open.BlurBackground android:id="@id/blur_background" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+    <View android:id="@id/dim_background" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+</com.honeyspace.ui.honeypots.folder.presentation.dialog.DialogFolderContainer>

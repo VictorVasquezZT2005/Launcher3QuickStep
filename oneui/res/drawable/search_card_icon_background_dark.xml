@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/icon_background_radius" />
+            <size android:height="@dimen/icon_background_height" android:width="@dimen/icon_background_width" />
+            <solid android:color="@color/common_card_icon_background_color_dark" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/icon_background_radius" />
+            <stroke android:width="@dimen/suggestion_settings_card_item_border" android:color="@color/common_card_item_border_color_dark_medium" />
+        </shape>
+    </item>
+</layer-list>

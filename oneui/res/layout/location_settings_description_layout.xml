@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/settings_background_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_description_vertical_padding" android:paddingEnd="@dimen/preference_description_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:theme="@style/DescriptionTextTheme" android:id="@id/description_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/search_settings_apps_to_search_in_desc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:background="@drawable/tw_noti_badge_mtrl" android:layout_width="@dimen/new_badge_img_size" android:layout_height="@dimen/new_badge_img_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

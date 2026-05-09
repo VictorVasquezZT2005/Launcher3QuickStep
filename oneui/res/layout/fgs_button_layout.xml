@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:id="@id/fgsButtonTouchArea" android:tag="layout/fgs_button_layout_0" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/SemiBold" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/fgsButton" android:tag="binding_1" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/fgs_button_default_height" android:maxWidth="@dimen/fgs_button_max_width" android:minWidth="@dimen/fgs_button_default_width" android:maxLines="1" android:paddingHorizontal="@dimen/fgs_button_inner_padding_horizontal" />
+</FrameLayout>

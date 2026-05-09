@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center|top" android:layout_gravity="center|top" android:id="@id/multi_select_panel" android:tag="layout/multi_select_panel_0" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/multi_select_panel_layout" android:tag="binding_1" android:paddingLeft="@dimen/multi_select_panel_padding_left" android:paddingRight="@dimen/multi_select_panel_padding_right" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/multi_select_uninstall_button" android:tag="binding_2" android:background="@drawable/multi_select_panel_focusable_bg" android:visibility="visible" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/multi_select_uninstall_imageview" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            <TextView android:id="@id/multi_select_uninstall" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sec" android:textFontWeight="400" style="@style/MultiSelectPanelText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/multi_select_remove_shortcut_button" android:tag="binding_5" android:background="@drawable/multi_select_panel_focusable_bg" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/multi_select_remove_shortcut_imageview" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            <TextView android:id="@id/multi_select_remove_shortcut" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_option_remove_shortcut" android:fontFamily="sec" android:textFontWeight="400" style="@style/MultiSelectPanelText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/multi_select_create_folder_button" android:tag="binding_8" android:background="@drawable/multi_select_panel_focusable_bg" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/multi_select_create_folder_imageview" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            <TextView android:id="@id/multi_select_create_folder" android:tag="binding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/multi_select_create_folder" android:fontFamily="sec" android:textFontWeight="400" style="@style/MultiSelectPanelText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/multi_select_cancel_button" android:tag="binding_11" android:background="@drawable/multi_select_panel_focusable_bg" android:paddingRight="@dimen/multi_select_panel_cancel_button_padding" android:layout_width="wrap_content" android:layout_height="match_parent" android:contentDescription="@string/cancel" android:tooltipText="@string/cancel">
+            <ImageView android:id="@id/divider" android:tag="binding_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            <ImageView android:id="@id/multi_select_cancel_button_imageview" android:tag="binding_13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/multi_select_panel_padding_right" android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

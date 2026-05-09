@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d የዴስክቶፕ የስራ ቦታ በላይ ማከል አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d የዴስክቶፕ የስራ ቦታዎች በላይ ማከል አይቻልም።</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d የተቆለለ ዊጄት በላይ ማከል አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d የተቆለለ ዊጄቶች በላይ ማከል አይቻልም።</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d መተግበሪያ በላይ ከፍቶ ማቆየት አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ %d መተግበሪያዎች በላይ ከፍቶ ማቆየት አይቻልም።</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዛሬ %d ሰዓት ቀርቷል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ዛሬ %d ሰዓታት ቀርቶታል</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዛሬ %d ደቂቃ ቀርቶታል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ዛሬ %d ደቂቃዎች ቀርቶታል</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ተግባር ላይ ያለው መተግበሪያ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ተግባር ላይ ያሉ መተግበሪያዎች</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ዝርዝር ነገር ከበስተጀርባ ተግባር ላይ ነው</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ዝርዝር ነገሮች ከበስተጀርባ ተግባር ላይ ነው</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አምድ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አምዶች</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ረድፍ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ረድፎች</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ቁምፊ ማስገባት አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d በላይ ቁምፊዎች ማስገባት አይችሉም።</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ተጨማሪ %2$s ማሳወቅያ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$d ተጨማሪ %2$s ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">እስከ %d መተግበሪያ ድረስ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">እስከ %d መተግበሪያዎች ድረስ</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ፓነል በላይ መምረጥ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ከ%d ፓነሎች በላይ መምረጥ አይቻልም።</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ቀን ቀርቷል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ቀናት ቀርተዋል</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በ %d ቀን</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በ %d ቀናት</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s፣ %2$s፣ እና %3$d ሌላ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s፣ %2$s፣ እና %3$d ሌሎች</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ቀን ይደግማል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በየ %d ቀናት ይደግማል</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ሰዓት ይደገማል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በየ %d ሰዓታት ይደገማል</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ደቂቃ ይደገማል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በየ %d ደቂቃዎች ይደገማል</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ወር ይደግማል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በየ %d ወራት ይደግማል</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ሳምንት ይደግማል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በየ %d ሳምንታት ይደግማል</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ዓመት ይደግማል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">በየ %d ዓመታት ይደግማል</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ተመርጧል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ተመርጧል</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የእንቅልፍ ጊዜ፡ %d ሰዓት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የእንቅልፍ ጊዜ፡ %d ሰዓታት</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የእንቅልፍ ጊዜ፡ %d ደቂቃ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">የእንቅልፍ ጊዜ፡ %d ደቂቃዎች</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d መተግበሪያ በፍጥነት ለማስጀመር ክፍት ሆኖ ቆይቷል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d መተግበሪያዎች በፍጥነት ለማስጀመር ክፍት ሆኖ ቆይቷል።</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">ምንም ማሳወቂያዎች የሉም</item>
+        <item quantity="one">%d ማሳወቂያ</item>
+        <item quantity="other">%d ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አምድ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d አምዶች</item>
+    </plurals>
+</resources>

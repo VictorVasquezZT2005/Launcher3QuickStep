@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/section" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/section_padding" android:paddingEnd="@dimen/section_padding" android:accessibilityHeading="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.app.honeyspace.edge.fromrecent.presentation.FromRecentTextView android:textAppearance="@style/SecSemiBold" android:textSize="@dimen/section_title_text_size" android:textColor="@color/section_color" android:layout_gravity="center_vertical" android:id="@id/section_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale" android:layout_marginStart="@dimen/section_padding" android:layout_marginEnd="@dimen/section_title_margin_end" />
+    <com.samsung.app.honeyspace.edge.edgecommon.ui.TabStrip android:layout_gravity="center_vertical" android:id="@id/tab" android:layout_width="match_parent" android:layout_height="@dimen/section_height" android:includeFontPadding="false" android:layout_marginStart="@dimen/section_tab_padding" />
+</LinearLayout>

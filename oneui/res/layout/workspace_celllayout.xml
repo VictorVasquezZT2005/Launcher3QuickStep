@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.workspace.presentation.WorkspaceCellLayoutContainer android:gravity="center" android:orientation="vertical" android:tag="layout/workspace_celllayout_0" android:focusable="false" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.honeypots.workspace.presentation.WorkspaceCellLayout android:id="@id/wsCellLayout" android:tag="binding_1" android:focusable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.honeyspace.ui.honeypots.workspace.presentation.WorkspaceCellLayoutContainer>

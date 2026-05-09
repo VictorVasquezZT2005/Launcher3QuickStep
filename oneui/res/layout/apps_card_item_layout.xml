@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:tag="layout/apps_card_item_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/tray" android:tag="binding_1" android:background="@drawable/search_recoil_background_rounded" android:paddingTop="@dimen/card_item_apps_tray_top_padding" android:paddingBottom="@dimen/card_item_apps_tray_bottom_padding" android:focusable="true" android:layout_width="@dimen/card_item_apps_tray_minimum_width" android:layout_height="wrap_content" android:minHeight="@dimen/card_item_apps_tray_minimum_height" android:paddingHorizontal="@dimen/card_item_apps_tray_horizontal_padding">
+        <FrameLayout android:id="@id/icon_frame" android:layout_width="@dimen/card_item_apps_icon_size" android:layout_height="@dimen/card_item_apps_icon_size">
+            <com.honeyspace.search.ui.honeypot.presentation.content.AppIconView android:layout_gravity="center_horizontal" android:id="@id/icon" android:layout_width="@dimen/card_item_apps_icon_size" android:layout_height="@dimen/card_item_apps_icon_size" android:scaleType="fitXY" />
+        </FrameLayout>
+        <com.honeyspace.search.ui.honeypot.presentation.content.AppLabelTextView android:ellipsize="end" android:gravity="center|bottom" android:id="@id/label" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_item_apps_icon_and_label_spacing" android:maxLines="1" android:singleLine="true" android:hyphenationFrequency="none" app:contrastColor="@color/highlight_color" style="@style/SearchCardAppNameTitle" />
+    </LinearLayout>
+</RelativeLayout>

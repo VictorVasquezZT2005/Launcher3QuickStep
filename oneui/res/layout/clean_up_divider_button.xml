@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/clean_up_button_container" android:tag="layout/clean_up_divider_button_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/clean_up_button_background_blur" android:tag="binding_1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="8.0dp">
+        <com.google.android.material.oneui.dividerbuttonlayout.DividerButtonLayout android:theme="@style/Theme.AppCompat.DayNight" android:id="@id/clean_up_divider_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="8.0dp" />
+    </FrameLayout>
+</FrameLayout>

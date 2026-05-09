@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/about_page_content" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/about_page_blank_top_view_top_margin" />
+    <LinearLayout android:orientation="vertical" android:id="@id/chunk_background" android:background="@color/about_page_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ToolbarStyle" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="?android:actionBarSize" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/about_page_body" android:background="@color/about_page_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:id="@id/blank_top_view" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="@dimen/about_page_blank_top_view_top_margin" />
+            <LinearLayout android:orientation="vertical" android:id="@id/about_page_main_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:paddingStart="@dimen/about_page_body_padding" android:paddingEnd="@dimen/about_page_body_padding">
+                        <TextView android:textAppearance="@style/AboutPageAppName" android:textSize="@dimen/about_page_app_name_size" android:textColor="@color/app_name_text_color" android:layout_gravity="center" android:id="@id/about_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/about_page_oneUiHome_text_bottom_margin" android:text="@string/app_name" android:textAlignment="center" />
+                        <TextView android:textAppearance="@style/AboutPageVersionUp" android:textSize="@dimen/about_page_version_text_size" android:textColor="@color/app_version_text_color" android:gravity="center" android:id="@id/about_page_version_text" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                        <TextView android:textAppearance="@style/AboutPageVersionUp" android:textSize="@dimen/about_page_version_text_size" android:textColor="@color/app_version_text_color" android:gravity="center" android:id="@id/about_page_body_help_text" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/about_page_text_bottom_margin" />
+                        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ProgressBar android:layout_gravity="center" android:id="@id/progreess_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/about_page_button_height" />
+                            <androidx.appcompat.widget.AppCompatButton android:textAppearance="@style/AboutPageUpdateButton" android:textSize="@dimen/about_page_button_text_size" android:textColor="@color/about_page_retry_update_btn_text_color" android:layout_gravity="center" android:id="@id/redirect_button" android:background="@drawable/about_page_retry_update_btn_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/about_page_apply_button_height" android:minHeight="@dimen/about_page_button_height" />
+                            <androidx.appcompat.widget.AppCompatButton android:textAppearance="@style/AboutPageUpdateButton" android:textSize="@dimen/about_page_button_text_size" android:textColor="@color/about_page_retry_update_btn_text_color" android:layout_gravity="center" android:id="@id/retry_button" android:background="@drawable/about_page_retry_update_btn_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/about_page_apply_button_height" android:minHeight="@dimen/about_page_button_height" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <View android:id="@id/blank_mid_view" android:layout_width="match_parent" android:layout_height="0.0dp" />
+            <LinearLayout android:gravity="center|bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:textAppearance="@style/AboutPageUpdateButton" android:textSize="@dimen/about_page_button_text_size" android:textColor="@color/about_page_open_source_license_text_color" android:ellipsize="end" android:id="@id/about_page_licence_button" android:background="@drawable/about_page_license_btn_background" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/about_page_apply_button_height" android:minHeight="@dimen/about_page_button_height" android:text="@string/about_licence" android:singleLine="true" android:stateListAnimator="?seslSmallTouchAnimator" />
+                <View android:id="@id/blank_bot_view" android:layout_width="match_parent" android:layout_height="0.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/content_bottom_panel" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

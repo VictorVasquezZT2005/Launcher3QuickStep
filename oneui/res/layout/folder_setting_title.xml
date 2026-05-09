@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/folder_title_layout" android:tag="layout/folder_setting_title_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/folder_name_hint" android:textDirection="locale" style="@style/SubHeaderStyle" />
+    <com.honeyspace.ui.honeypots.foldersetting.presentation.FolderTitleEditText android:textAppearance="@style/SecSemiBold" android:textSize="16.0sp" android:textColor="@color/folder_setting_button_text_color" android:textColorHint="@color/folder_title_edit_text_hint_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:background="@drawable/setting_background_item_round_corner_all" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginBottom="20.0dp" android:text="@string/folder_name_hint" android:hint="@string/folder_name_hint" android:lines="1" android:maxLength="30" android:inputType="textCapSentences" android:imeOptions="actionDone|flagNoExtractUi" android:fontFamily="sec" android:textDirection="locale" android:paddingStart="18.0dp" android:paddingEnd="18.0dp" />
+</LinearLayout>

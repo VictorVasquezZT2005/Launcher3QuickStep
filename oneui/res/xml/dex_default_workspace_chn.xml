@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <home>
+        <favorite screen="0" x="1" y="15" launcher:className="com.samsung.android.gallery.app.activity.GalleryActivity" launcher:packageName="com.sec.android.gallery3d" />
+        <favorite screen="0" x="2" y="15" launcher:className="com.samsung.android.app.calendar.activity.MainActivity" launcher:packageName="com.samsung.android.calendar" />
+        <favorite screen="0" x="3" y="15" launcher:className="com.sec.android.app.myfiles.ui.MainActivity" launcher:packageName="com.sec.android.app.myfiles" />
+        <favorite screen="0" x="4" y="15" launcher:className="com.android.settings.Settings" launcher:packageName="com.android.settings" />
+        <favorite screen="0" x="5" y="15" launcher:className="com.samsung.android.app.notes.memolist.MemoListActivity" launcher:packageName="com.samsung.android.app.notes" />
+        <favorite screen="0" x="6" y="15" launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" launcher:packageName="com.sec.android.app.samsungapps" />
+    </home>
+    <hotseat launcher:refPackageName="">
+        <favorite launcher:className="com.samsung.android.dialer.DialtactsActivity" launcher:packageName="com.samsung.android.dialer" launcher:screen="0" />
+        <favorite screen="1" launcher:className="com.android.mms.ui.ConversationComposer" launcher:packageName="com.samsung.android.messaging" />
+        <favorite className="com.sec.android.app.sbrowser.SBrowserMainActivity" packageName="com.sec.android.app.sbrowser" screen="2" />
+    </hotseat>
+</favorites>

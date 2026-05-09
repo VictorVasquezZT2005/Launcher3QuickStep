@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appOrder
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <folder screen="0" title="Google">
+        <favorite className="com.google.android.googlequicksearchbox.SearchActivity" packageName="com.google.android.googlequicksearchbox" screen="0" />
+        <favorite className="com.google.android.apps.chrome.Main" packageName="com.android.chrome" screen="1" />
+        <favorite className="com.google.android.gm.ConversationListActivityGmail" packageName="com.google.android.gm" screen="2" />
+        <favorite className="com.google.android.maps.MapsActivity" packageName="com.google.android.apps.maps" screen="3" />
+        <favorite className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" packageName="com.google.android.youtube" screen="4" />
+        <favorite className="com.google.android.apps.docs.app.NewMainProxyActivity" packageName="com.google.android.apps.docs" screen="5" />
+        <favorite className="com.google.android.videos.GoogleTvEntryPoint" packageName="com.google.android.videos" screen="6" />
+        <favorite className="com.google.android.apps.tachyon.MainActivity" packageName="com.google.android.apps.tachyon" screen="7" />
+        <favorite className="com.google.android.apps.photos.home.HomeActivity" packageName="com.google.android.apps.photos" screen="8" />
+    </folder>
+    <folder screen="0" title="Microsoft">
+        <favorite className="com.microsoft.office.officesuite.OfficeSuiteActivity" packageName="com.microsoft.office.officehubrow" screen="0" />
+        <favorite className="com.microsoft.skydrive.MainActivity" packageName="com.microsoft.skydrive" screen="1" />
+        <favorite className="com.microsoft.office.outlook.MainActivity" packageName="com.microsoft.office.outlook" screen="2" />
+    </folder>
+    <folder postPosition="true" screen="0" title="Samsung">
+        <favorite className="com.samsung.android.arzone.ARZoneLauncher" packageName="com.samsung.android.arzone" screen="0" />
+        <favorite className="com.samsung.android.bixby.assistanthome.AssistantHomeLauncherActivity" packageName="com.samsung.android.bixby.agent" screen="1" />
+        <favorite className="com.android.mms.ui.ConversationComposer" packageName="com.samsung.android.messaging" screen="2" />
+        <favorite className="com.sec.android.app.myfiles.external.ui.MainActivity" packageName="com.sec.android.app.myfiles" screen="3" />
+        <favorite className="com.samsung.android.app.shealth.home.HomeMainActivity" packageName="com.sec.android.app.shealth" screen="4" />
+        <favorite className="com.samsung.android.tvplus.MainActivity" packageName="com.samsung.android.tvplus" screen="5" />
+        <favorite className="com.samsung.android.oneconnect.ui.SCMainActivity" packageName="com.samsung.android.oneconnect" screen="6" />
+    </folder>
+    <favorite className="com.sec.android.app.popupcalculator.Calculator" packageName="com.sec.android.app.popupcalculator" screen="0" />
+    <favorite className="com.samsung.android.app.calendar.activity.MainActivity" packageName="com.samsung.android.calendar" screen="0" />
+    <favorite className="com.sec.android.app.camera.Camera" packageName="com.sec.android.app.camera" screen="0" />
+    <favorite className="com.sec.android.app.clockpackage.ClockPackage" packageName="com.sec.android.app.clockpackage" screen="0" />
+    <favorite className="com.samsung.android.contacts.contactslist.PeopleActivity" packageName="com.samsung.android.app.contacts" screen="0" />
+    <favorite className="com.samsung.android.gallery.app.activity.GalleryActivity" packageName="com.sec.android.gallery3d" screen="0" />
+    <favorite className="com.samsung.android.game.gamehome.activity.StartActivity" packageName="com.samsung.android.game.gamehome" screen="0" />
+    <favorite className="com.samsung.android.dialer.DialtactsActivity" packageName="com.samsung.android.dialer" screen="0" />
+    <favorite className="com.sec.android.app.sbrowser.SBrowserMainActivity" packageName="com.sec.android.app.sbrowser" screen="0" />
+    <favorite className="com.samsung.android.app.tips.TipsMainActivity" hidden="1" packageName="com.samsung.android.app.tips" screen="0" />
+    <favorite className="com.samsung.vvm.vvmapp.VVMApplication" packageName="com.samsung.vvm" screen="0" />
+    <favorite className="com.google.android.apps.youtube.music.activities.MusicActivity" hidden="TSShidden" packageName="com.google.android.apps.youtube.music" screen="0" />
+    <favorite className="com.google.android.googlequicksearchbox.VoiceSearchActivity" hidden="true" packageName="com.google.android.googlequicksearchbox" screen="0" />
+</appOrder>

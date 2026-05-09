@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d spás oibre deisce a chur leis</item>
+        <item quantity="two">Ní féidir níos mó ná %d spás oibre deisce a chur leis.</item>
+        <item quantity="few">Ní féidir níos mó ná %d spás oibre deisce a chur leis.</item>
+        <item quantity="many">Ní féidir níos mó ná %d spás oibre deisce a chur leis.</item>
+        <item quantity="other">Ní féidir níos mó ná %d spás oibre deisce a chur leis.</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d ghiuirléid chruachta a chur leis.</item>
+        <item quantity="two">Ní féidir níos mó ná %d ghiuirléid chruachta a chur leis.</item>
+        <item quantity="few">Ní féidir níos mó ná %d ghiuirléid chruachta a chur leis.</item>
+        <item quantity="many">Ní féidir níos mó ná %d ngiuirléid chruachta a chur leis.</item>
+        <item quantity="other">Ní féidir níos mó ná %d giuirléid chruachta a chur leis.</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d fheidhmchlár a choinneáil ar oscailt.</item>
+        <item quantity="two">Ní féidir níos mó ná %d fheidhmchlár a choinneáil ar oscailt.</item>
+        <item quantity="few">Ní féidir níos mó ná %d fheidhmchlár a choinneáil ar oscailt.</item>
+        <item quantity="many">Ní féidir níos mó ná %d bhfeidhmchlár a choinneáil ar oscailt.</item>
+        <item quantity="other">Ní féidir níos mó ná %d feidhmchlár a choinneáil ar oscailt.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uair an chloig fágtha inniu</item>
+        <item quantity="two">%d uair an chloig fágtha inniu</item>
+        <item quantity="few">%d uair an chloig fágtha inniu</item>
+        <item quantity="many">%d n-uair an chloig fágtha inniu</item>
+        <item quantity="other">%d uair an chloig fágtha inniu</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóiméad fágtha inniu</item>
+        <item quantity="two">%d nóiméad fágtha inniu</item>
+        <item quantity="few">%d nóiméad fágtha inniu</item>
+        <item quantity="many">%d nóiméad fágtha inniu</item>
+        <item quantity="other">%d nóiméad fágtha inniu</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár gníomhach</item>
+        <item quantity="two">%d fheidhmchlár ghníomhacha</item>
+        <item quantity="few">%d fheidhmchlár ghníomhacha</item>
+        <item quantity="many">%d bhfeidhmchlár ghníomhacha</item>
+        <item quantity="other">%d feidhmchlár gníomhach</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá %d mhír gníomhach sa chúlra</item>
+        <item quantity="two">Tá %d mhír gníomhach sa chúlra</item>
+        <item quantity="few">Tá %d mhír gníomhach sa chúlra</item>
+        <item quantity="many">Tá %d mír gníomhach sa chúlra</item>
+        <item quantity="other">Tá %d mír gníomhach sa chúlra</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d cholún</item>
+        <item quantity="two">%d cholún</item>
+        <item quantity="few">%d cholún</item>
+        <item quantity="many">%d gcolún</item>
+        <item quantity="other">%d colún</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ró</item>
+        <item quantity="two">%d ró</item>
+        <item quantity="few">%d ró</item>
+        <item quantity="many">%d ró</item>
+        <item quantity="other">%d ró</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d fhógra %2$s eile</item>
+        <item quantity="two">%1$d fhógra %2$s eile</item>
+        <item quantity="few">%1$d fhógra %2$s eile</item>
+        <item quantity="many">%1$d bhfógra %2$s eile</item>
+        <item quantity="other">%1$d fógra %2$s eile</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Suas le %d fheidhmchlár</item>
+        <item quantity="two">Suas le %d fheidhmchlár</item>
+        <item quantity="few">Suas le %d fheidhmchlár</item>
+        <item quantity="many">Suas le %d bhfeidhmchlár</item>
+        <item quantity="other">Suas le %d feidhmchlár</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d phainéal a roghnú.</item>
+        <item quantity="two">Ní féidir níos mó ná %d phainéal a roghnú.</item>
+        <item quantity="few">Ní féidir níos mó ná %d phainéal a roghnú.</item>
+        <item quantity="many">Ní féidir níos mó ná %d bpainéal a roghnú.</item>
+        <item quantity="other">Ní féidir níos mó ná %d painéal a roghnú.</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá fágtha</item>
+        <item quantity="two">%d lá fágtha</item>
+        <item quantity="few">%d lá fágtha</item>
+        <item quantity="many">%d lá fágtha</item>
+        <item quantity="other">%d lá fágtha</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I gceann %d lae</item>
+        <item quantity="two">I gceann %d lá</item>
+        <item quantity="few">I gceann %d lá</item>
+        <item quantity="many">I gceann %d lá</item>
+        <item quantity="other">I gceann %d lá</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s, agus %3$d eile</item>
+        <item quantity="two">%1$s, %2$s, agus %3$d eile</item>
+        <item quantity="few">%1$s, %2$s, agus %3$d eile</item>
+        <item quantity="many">%1$s, %2$s, agus %3$d eile</item>
+        <item quantity="other">%1$s, %2$s, agus %3$d eile</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéantar gach %d lá</item>
+        <item quantity="two">Athdhéantar gach %d lá</item>
+        <item quantity="few">Athdhéantar gach %d lá</item>
+        <item quantity="many">Athdhéantar gach %d lá</item>
+        <item quantity="other">Athdhéantar gach %d lá</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéantar gach %d uair an chloig</item>
+        <item quantity="two">Athdhéantar gach %d uair an chloig</item>
+        <item quantity="few">Athdhéantar gach %d uair an chloig</item>
+        <item quantity="many">Athdhéantar gach %d n-uair an chloig</item>
+        <item quantity="other">Athdhéantar gach %d uair an chloig</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéantar gach %d nóiméad</item>
+        <item quantity="two">Athdhéantar gach %d nóiméad</item>
+        <item quantity="few">Athdhéantar gach %d nóiméad</item>
+        <item quantity="many">Athdhéantar gach %d nóiméad</item>
+        <item quantity="other">Athdhéantar gach %d nóiméad</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéantar gach %d mhí</item>
+        <item quantity="two">Athdhéantar gach %d mhí</item>
+        <item quantity="few">Athdhéantar gach %d mhí</item>
+        <item quantity="many">Athdhéantar gach %d mí</item>
+        <item quantity="other">Athdhéantar gach %d mí</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéantar gach %d seachtain</item>
+        <item quantity="two">Athdhéantar gach %d sheachtain</item>
+        <item quantity="few">Athdhéantar gach %d seachtaine</item>
+        <item quantity="many">Athdhéantar gach %d seachtaine</item>
+        <item quantity="other">Athdhéantar gach %d seachtain</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéantar gach %d bhliain</item>
+        <item quantity="two">Athdhéantar gach %d bhliain</item>
+        <item quantity="few">Athdhéantar gach %d bliana</item>
+        <item quantity="many">Athdhéantar gach %d mbliana</item>
+        <item quantity="other">Athdhéantar gach %d bliain</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d roghnaithe</item>
+        <item quantity="two">%d roghnaithe</item>
+        <item quantity="few">%d roghnaithe</item>
+        <item quantity="many">%d roghnaithe</item>
+        <item quantity="other">%d roghnaithe</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Am codlata: %d uair an chloig</item>
+        <item quantity="two">Am codlata: %d uair an chloig</item>
+        <item quantity="few">Am codlata: %d uair an chloig</item>
+        <item quantity="many">Am codlata: %d n-uair an chloig</item>
+        <item quantity="other">Am codlata: %d uair an chloig</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Am codlata: %d nóiméad</item>
+        <item quantity="two">Am codlata: %d nóiméad</item>
+        <item quantity="few">Am codlata: %d nóiméad</item>
+        <item quantity="many">Am codlata: %d nóiméad</item>
+        <item quantity="other">Am codlata: %d nóiméad</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d fheidhmchlár coinnithe ar oscailt lena mhearlainseáil.</item>
+        <item quantity="two">%d fheidhmchlár coinnithe ar oscailt lena mearlainseáil.</item>
+        <item quantity="few">%d fheidhmchlár coinnithe ar oscailt lena mearlainseáil.</item>
+        <item quantity="many">%d bhfeidhmchlár coinnithe ar oscailt lena mearlainseáil.</item>
+        <item quantity="other">%d feidhmchlár coinnithe ar oscailt lena mearlainseáil.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">Níl fógraí ann</item>
+        <item quantity="one">%d fhógra</item>
+        <item quantity="other">%d fógra</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d cholún</item>
+        <item quantity="two">%d cholún</item>
+        <item quantity="few">%d cholún</item>
+        <item quantity="many">%d gcolún</item>
+        <item quantity="other">%d colún</item>
+    </plurals>
+</resources>

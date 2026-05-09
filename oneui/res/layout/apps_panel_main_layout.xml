@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.app.honeyspace.edge.edgecommon.RoundedCornerLayout android:id="@id/apps_panel_main_root" android:tag="layout/apps_panel_main_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:TabStrip="http://schemas.android.com/apk/res-auto" xmlns:RoundedCornerLayout="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/menu" android:tag="binding_1" android:paddingTop="@dimen/edge_panel_menu_button_margin_top" android:layout_width="match_parent" android:layout_height="@dimen/edge_panel_menu_button_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:backgroundTint="@color/add_icon_tint_color">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/all_apps" android:tag="binding_2" android:background="@drawable/button_ripple_in_menu_button" android:layout_width="@dimen/edge_panel_all_apps_ripple_size" android:layout_height="@dimen/edge_panel_all_apps_ripple_size" android:contentDescription="@string/all_apps" android:tooltipText="@string/all_apps">
+                <ImageView android:layout_gravity="center" android:id="@id/all_apps_img" android:layout_width="@dimen/edge_panel_all_apps_button_image_width" android:layout_height="@dimen/edge_panel_all_apps_button_image_width" android:src="@drawable/edge_apps_btn_allapps_mtrl" android:tint="@color/edge_panel_btn_color" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/setting_apps" android:tag="binding_3" android:background="@drawable/button_ripple_in_menu_button" android:layout_width="@dimen/edge_panel_all_apps_ripple_size" android:layout_height="@dimen/edge_panel_all_apps_ripple_size" android:contentDescription="@string/edit" android:tooltipText="@string/edit">
+                <ImageView android:layout_gravity="center" android:id="@id/setting_apps_img" android:layout_width="@dimen/edge_panel_all_apps_button_image_width" android:layout_height="@dimen/edge_panel_all_apps_button_image_width" android:src="@drawable/edge_apps_btn_edit_mtrl" android:tint="@color/edge_panel_btn_color" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/applist_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/menu">
+        <com.samsung.app.honeyspace.edge.appsedge.ui.panel.presentation.AppsEdgeScrollView android:id="@id/applist_scroll" android:tag="binding_4" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/scroll_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:id="@id/panel_top_margin" android:tag="binding_5" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/edge_panel_margin_top" />
+                <com.samsung.app.honeyspace.edge.appsedge.ui.panel.presentation.AppsEdgeRecyclerView android:orientation="horizontal" android:id="@id/recent_layout" android:tag="binding_6" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:layoutDirection="ltr" />
+                <com.samsung.app.honeyspace.edge.edgecommon.ui.TabStrip android:id="@id/panel_divider" android:tag="binding_7" android:layout_width="match_parent" android:layout_height="5.0dp" />
+                <com.samsung.app.honeyspace.edge.appsedge.ui.panel.presentation.AppsEdgeRecyclerView android:orientation="horizontal" android:id="@id/favorite_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:layoutDirection="ltr" android:nestedScrollingEnabled="false" />
+            </LinearLayout>
+        </com.samsung.app.honeyspace.edge.appsedge.ui.panel.presentation.AppsEdgeScrollView>
+    </LinearLayout>
+    <View android:id="@id/drag_scroll_up" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/edge_panel_scroll_area_top_height" android:layout_alignParentTop="true" />
+    <View android:id="@id/drag_scroll_down" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/edge_panel_scroll_area_bottom_height" android:layout_below="@id/applist_container" />
+</com.samsung.app.honeyspace.edge.edgecommon.RoundedCornerLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/common_list_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/result_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingVertical="@dimen/common_list_card_inner_vertical_padding">
+        <com.samsung.android.sdk.commandview.widget.ContrastTextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/command_card_main_text_color" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:contrastColor="@color/command_search_contrast_text" />
+        <com.samsung.android.sdk.commandview.widget.ContrastTextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@color/result_view_secondary_text_color" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" app:contrastColor="@color/command_search_contrast_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/switch_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <View android:id="@id/sec_vertical_divider" android:background="@color/command_switch_vertical_divider_color" android:layout_width="@dimen/sesl_switch_divider_height" android:layout_height="22.0dp" />
+        <androidx.appcompat.widget.SwitchCompat android:disabledAlpha="0.5" android:id="@id/action_switch" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="@dimen/sec_inline_switch_padding_start" app:showText="false" />
+    </LinearLayout>
+</LinearLayout>

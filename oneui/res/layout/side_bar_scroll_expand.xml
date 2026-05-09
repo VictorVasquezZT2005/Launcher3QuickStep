@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.widgetlist.presentation.ListExpandContainer android:gravity="center_vertical" android:orientation="vertical" android:id="@id/list_expand_container" android:tag="layout/side_bar_scroll_expand_0" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/list_expand_scroll" android:tag="binding_1" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/list_expand" layout="@layout/list_expand" />
+    </androidx.core.widget.NestedScrollView>
+</com.honeyspace.ui.honeypots.widgetlist.presentation.ListExpandContainer>

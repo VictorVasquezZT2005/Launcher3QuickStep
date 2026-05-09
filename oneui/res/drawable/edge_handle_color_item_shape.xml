@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval" android:useLevel="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/setting_handle_color_icon_item_size" android:width="@dimen/setting_handle_color_icon_item_size" />
+    <solid android:color="@android:color/transparent" />
+    <stroke android:width="2.0px" android:color="@color/edge_handler_color_item_stroke_color" />
+</shape>

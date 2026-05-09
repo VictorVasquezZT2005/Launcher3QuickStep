@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/global_option_item" android:background="@drawable/quick_option_global_option_recoil" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" android:stateListAnimator="@drawable/quick_option_recoil_animator"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/quick_option_global_option_item_margin_horizontal_dp">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/global_option_icon" android:layout_width="@dimen/quick_option_global_option_icon_size_dp" android:layout_height="@dimen/quick_option_global_option_icon_size_dp" app:tint="@color/quick_option_global_option_fg_color" />
+        <TextView android:textSize="@dimen/quick_option_global_text_size_dp" android:textColor="@color/quick_option_global_option_fg_color" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/global_option_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quick_option_global_text_margin_top_dp" android:lines="1" android:fontFamily="sec" android:textDirection="locale" android:textFontWeight="400" />
+    </LinearLayout>
+</FrameLayout>

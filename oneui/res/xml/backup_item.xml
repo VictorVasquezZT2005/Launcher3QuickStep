@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backup_items>
+    <backup_item category="HOME" client_impl_class="com.sec.android.app.launcher.bnr.SCloudBnrMain" contents_id="mjLs8omiuH" name="HomescreenBackup" quick_backup="true" />
+    <backup_item category="HOME" client_impl_class="com.sec.android.app.launcher.bnr.SCloudBnrFront" contents_id="ky2XiuDbvp" name="FrontHome" quick_backup="true" />
+</backup_items>

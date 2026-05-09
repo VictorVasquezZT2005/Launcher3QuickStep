@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">"Can't add more than %d stacked widgets."</item>
+        <item quantity="one">"Can't add more than %d stacked widget."</item>
+        <item quantity="two">"Can't add more than %d stacked widgets."</item>
+        <item quantity="few">"Can't add more than %d stacked widgets."</item>
+        <item quantity="many">"Can't add more than %d stacked widgets."</item>
+        <item quantity="other">"Can't add more than %d stacked widgets."</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">%d hours left today</item>
+        <item quantity="one">%d hour left today</item>
+        <item quantity="two">%d hours left today</item>
+        <item quantity="few">%d hours left today</item>
+        <item quantity="many">%d hours left today</item>
+        <item quantity="other">%d hours left today</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">%d minutes left today</item>
+        <item quantity="one">%d minute left today</item>
+        <item quantity="two">%d minutes left today</item>
+        <item quantity="few">%d minutes left today</item>
+        <item quantity="many">%d minutes left today</item>
+        <item quantity="other">%d minutes left today</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">%d active in background</item>
+        <item quantity="one">%d active in background</item>
+        <item quantity="two">%d active in background</item>
+        <item quantity="few">%d active in background</item>
+        <item quantity="many">%d active in background</item>
+        <item quantity="other">%d active in background</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">%d items active in background</item>
+        <item quantity="one">%d item active in background</item>
+        <item quantity="two">%d items active in background</item>
+        <item quantity="few">%d items active in background</item>
+        <item quantity="many">%d items active in background</item>
+        <item quantity="other">%d items active in background</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">%1$d more %2$s notifications</item>
+        <item quantity="one">%1$d more %2$s notification</item>
+        <item quantity="two">%1$d more %2$s notifications</item>
+        <item quantity="few">%1$d more %2$s notifications</item>
+        <item quantity="many">%1$d more %2$s notifications</item>
+        <item quantity="other">%1$d more %2$s notifications</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">Up to %d apps</item>
+        <item quantity="one">Up to %d app</item>
+        <item quantity="two">Up to %d apps</item>
+        <item quantity="few">Up to %d apps</item>
+        <item quantity="many">Up to %d apps</item>
+        <item quantity="other">Up to %d apps</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="two">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">Sleep time: %d hours</item>
+        <item quantity="one">Sleep time: %d hour</item>
+        <item quantity="two">Sleep time: %d hours</item>
+        <item quantity="few">Sleep time: %d hours</item>
+        <item quantity="many">Sleep time: %d hours</item>
+        <item quantity="other">Sleep time: %d hours</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">Sleep time: %d minutes</item>
+        <item quantity="one">Sleep time: %d minute</item>
+        <item quantity="two">Sleep time: %d minutes</item>
+        <item quantity="few">Sleep time: %d minutes</item>
+        <item quantity="many">Sleep time: %d minutes</item>
+        <item quantity="other">Sleep time: %d minutes</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">%d apps kept open for quick launching.</item>
+        <item quantity="one">%d app kept open for quick launching.</item>
+        <item quantity="two">%d apps kept open for quick launching.</item>
+        <item quantity="few">%d apps kept open for quick launching.</item>
+        <item quantity="many">%d apps kept open for quick launching.</item>
+        <item quantity="other">%d apps kept open for quick launching.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.quickstep.SuggestedAppsSwitchPreferenceCompat android:title="@string/recents_settings_suggested_apps" android:key="pref_overview_recommended_apps" />
+    <PreferenceCategory android:key="pref_category_recents_options_menu_contactus">
+        <Preference android:title="@string/recents_settings_contact_us" android:key="pref_contact_us" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.dexpanel.common.ui.DispatchEventLayout android:id="@id/notification_root_view" android:tag="layout/notification_main_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.honeypots.dexpanel.common.ui.PanelBlurBackground android:id="@id/blur_layout" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:clipToOutline="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/main" android:tag="binding_2" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constrainedHeight="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <FrameLayout android:background="@drawable/notification_list_bg" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:clipToOutline="false">
+                <androidx.recyclerview.widget.RecyclerView android:scrollbarSize="4.0dp" android:scrollbarThumbVertical="@drawable/notification_scrollbar" android:scrollbarStyle="outsideOverlay" android:id="@id/notification_list" android:tag="binding_3" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="-2.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            </FrameLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_notifications" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/no_notifications_text_size" android:textColor="@color/white" android:gravity="center" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_notifications" android:fontFamily="sec" android:textFontWeight="400" />
+            </LinearLayout>
+            <include android:id="@id/notification_shelf" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/notification_shelf_area" />
+        </LinearLayout>
+    </com.honeyspace.ui.honeypots.dexpanel.common.ui.PanelBlurBackground>
+</com.honeyspace.ui.honeypots.dexpanel.common.ui.DispatchEventLayout>

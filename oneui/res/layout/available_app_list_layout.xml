@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/available_app_list_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.app.honeyspace.edge.appsedge.ui.setting.presentation.AvailableListContainer android:id="@id/available_list_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:tag="binding_1" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:divider="@null" android:layoutDirection="locale" />
+        <ProgressBar android:id="@id/progressBar" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+        <TextView android:textAppearance="@style/SecRegular" android:textSize="17.0sp" android:textColor="@color/app_label_text_color" android:gravity="center_horizontal" android:id="@id/no_result_text_view" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_results_found" android:layout_centerInParent="true" />
+    </com.samsung.app.honeyspace.edge.appsedge.ui.setting.presentation.AvailableListContainer>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.folder.presentation.open.OpenFolderDragOutGuide android:textSize="@dimen/drag_guide_text_size" android:textColor="@color/drag_guide_text_color" android:gravity="center" android:id="@id/drag_out_guide" android:tag="layout/drag_out_guide_0" android:background="@drawable/folder_drag_out_guide_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:fontFamily="sec" android:textFontWeight="400"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

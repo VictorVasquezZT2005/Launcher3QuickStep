@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_00" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_01" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_02" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_03" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_04" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_05" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_06" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_07" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_08" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_09" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_10" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_mute_sound_11" />
+</animation-list>

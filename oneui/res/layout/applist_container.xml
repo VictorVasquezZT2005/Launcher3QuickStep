@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.applist.presentation.ApplistContainer android:layout_gravity="left" android:orientation="vertical" android:id="@id/applist_container" android:tag="layout/applist_container_0" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.honeypots.applist.presentation.ApplistFastRecyclerView android:id="@id/applist_fast_recycler_view" android:tag="binding_1" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:layout_gravity="right|bottom" android:id="@id/apps_knox_icon" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/apps_knox_icon_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_knox" android:scaleType="fitEnd" />
+    </FrameLayout>
+    <include android:layout_gravity="center|bottom" android:id="@id/applist_page_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/page_indicator" />
+    <include android:id="@id/apps_change_page_mode_button" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/apps_change_page_mode_button" />
+</com.honeyspace.ui.honeypots.applist.presentation.ApplistContainer>

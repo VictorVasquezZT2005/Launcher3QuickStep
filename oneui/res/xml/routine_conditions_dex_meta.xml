@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conditions>
+    <condition category="connected_devices" icon="@drawable/routines_ic_samsung_dex" label="@string/samsung_dex" tag="samsung_dex_condition">
+        <configuration targetUi="\@template/TOGGLE" />
+    </condition>
+</conditions>

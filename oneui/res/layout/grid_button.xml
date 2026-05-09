@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:tag="layout/grid_button_0" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/screen_grid_button_text_size" android:textColor="@color/screen_grid_icon_label_text_color" android:gravity="center" android:id="@id/grid_button_text" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

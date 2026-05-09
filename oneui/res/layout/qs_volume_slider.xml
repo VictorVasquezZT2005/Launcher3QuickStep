@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.dexpanel.quicksettings.presentation.VolumeSliderView android:layout_gravity="center" android:id="@id/volume_slider" android:tag="layout/qs_volume_slider_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@string/qs_volume_title" android:importantForAccessibility="no"
+  xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/qs_volume_progress_corner_radius" app:cardElevation="0.0dp">
+            <FrameLayout android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.honeyspace.ui.honeypots.dexpanel.volume.presentation.ToggleSeekBar android:id="@id/slider" android:tag="binding_3" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:progressDrawable="@drawable/qs_volume_progress_drawable" android:thumb="@drawable/qs_volume_thumb" android:paddingStart="0.0dp" android:paddingEnd="0.0dp" android:splitTrack="false" />
+                <com.honeyspace.ui.honeypots.dexpanel.volume.presentation.QPVolumeIcon android:layout_gravity="start|center" android:id="@id/volume_icon" android:tag="binding_4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" style="@style/VolumeIcon" />
+                <ImageView android:layout_gravity="end|center" android:id="@id/volume_detail" android:tag="binding_5" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/panel_ic_more" android:scaleType="center" android:contentDescription="@string/options_menu" android:alpha="0.7" android:tooltipText="@string/options_menu" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</com.honeyspace.ui.honeypots.dexpanel.quicksettings.presentation.VolumeSliderView>

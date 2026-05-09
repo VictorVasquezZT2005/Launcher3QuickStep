@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_progress" android:title="" android:showAsAction="always" app:actionLayout="@layout/action_bar_layout" />
+    <item android:icon="@drawable/tw_ic_ab_more_mtrl" android:id="@id/more_option" android:title="@string/dex_dialog_button_settings" android:showAsAction="always" />
+</menu>

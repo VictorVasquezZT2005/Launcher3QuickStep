@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:bottom="@dimen/result_view_phone_item_icon_padding" />
+    <padding android:left="@dimen/result_view_phone_item_icon_padding" />
+    <padding android:top="@dimen/result_view_phone_item_icon_padding" />
+    <padding android:right="@dimen/result_view_phone_item_icon_padding" />
+    <solid android:color="@color/result_view_primary_icon_layered_background_color" />
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.app.honeyspace.edge.edgepanel.ui.panel.presentation.EdgeTrigger android:id="@id/trigger" android:tag="layout/edge_trigger_0" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/edge_panels_tool_tip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/default_trigger" android:tag="binding_1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    <ImageView android:id="@id/default_trigger_stroke" android:tag="binding_2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+</com.samsung.app.honeyspace.edge.edgepanel.ui.panel.presentation.EdgeTrigger>

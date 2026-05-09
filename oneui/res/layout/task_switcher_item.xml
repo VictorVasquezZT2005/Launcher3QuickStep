@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/task_switcher_item_layout" android:tag="layout/task_switcher_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/task_switcher_focus_border_layout" android:tag="binding_1" android:background="@drawable/focus_border" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/task_switcher_thumbnail" android:tag="binding_2" android:background="@drawable/thumbnail_rounded_corner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:cropToPadding="true" android:elevation="@dimen/task_thumbnail_elevation" android:clipToOutline="true" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/task_switcher_icon" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/task_switcher_icon_elevation" />
+    <TextView android:textColor="@color/task_switcher_app_label_color" android:layout_gravity="center_horizontal" android:id="@id/task_switcher_app_label" android:tag="binding_4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TaskSwitcherItemTitleTextStyle" />
+    <TextView android:textColor="@color/task_switcher_description_color" android:layout_gravity="center_horizontal" android:id="@id/task_switcher_description" android:tag="binding_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TaskSwitcherItemTitleTextStyle" />
+</FrameLayout>

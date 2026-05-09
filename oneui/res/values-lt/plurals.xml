@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pridėti daugiau nei %d darbalaukio darbo srities.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pridėti daugiau nei %d darbalaukio darbo sričių.</item>
+        <item quantity="many">Negalima pridėti daugiau nei %d darbalaukio darbo sričių.</item>
+        <item quantity="other">Negalima pridėti daugiau nei %d darbalaukio darbo sričių.</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pridėti daugiau nei %d dėklo valdiklio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pridėti daugiau nei %d dėklo valdiklių.</item>
+        <item quantity="many">Negalima pridėti daugiau nei %d dėklo valdiklių.</item>
+        <item quantity="other">Negalima pridėti daugiau nei %d dėklo valdiklių.</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima atidaryti daugiau nei %d programos.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima atidaryti daugiau nei %d programų.</item>
+        <item quantity="many">Negalima atidaryti daugiau nei %d programų.</item>
+        <item quantity="other">Negalima atidaryti daugiau nei %d programų.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien liko %d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien liko %d val.</item>
+        <item quantity="many">Šiandien liko %d val.</item>
+        <item quantity="other">Šiandien liko %d val.</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Šiandien liko %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Šiandien liko %d min.</item>
+        <item quantity="many">Šiandien liko %d min.</item>
+        <item quantity="other">Šiandien liko %d min.</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aktyvi programa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aktyvios programos</item>
+        <item quantity="many">%d aktyvių programų</item>
+        <item quantity="other">%d aktyvių programų</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fone aktyvus %d elementas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Fone aktyvūs %d elementai</item>
+        <item quantity="many">Fone aktyvūs %d elementų</item>
+        <item quantity="other">Fone aktyvūs %d elementų</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stulpelis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d stulpeliai</item>
+        <item quantity="many">%d stulpelių</item>
+        <item quantity="other">%d stulpelių</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d eilutė</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d eilutės</item>
+        <item quantity="many">%d eilučių</item>
+        <item quantity="other">%d eilučių</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima įvesti daugiau nei %d simbolio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d simbolio.</item>
+        <item quantity="other">Negalima įvesti daugiau nei %d simbolių.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dar %1$d %2$s pranešimas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dar %1$d %2$s pranešimai</item>
+        <item quantity="many">Dar %1$d %2$s pranešimų</item>
+        <item quantity="other">Dar %1$d %2$s pranešimų</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iki %d programos</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Iki %d programų</item>
+        <item quantity="many">Iki %d programų</item>
+        <item quantity="other">Iki %d programų</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima pasirinkti daugiau nei %d skydelio.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima pasirinkti daugiau nei %d skydelius.</item>
+        <item quantity="many">Negalima pasirinkti daugiau nei %d skydelių.</item>
+        <item quantity="other">Negalima pasirinkti daugiau nei %d skydelių.</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Liko %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Liko %d d.</item>
+        <item quantity="many">Liko %d d.</item>
+        <item quantity="other">Liko %d d.</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Po %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Po %d d.</item>
+        <item quantity="many">Po %d d.</item>
+        <item quantity="other">Po %d d.</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s ir dar %3$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s, %2$s ir dar %3$d</item>
+        <item quantity="many">%1$s, %2$s ir dar %3$d</item>
+        <item quantity="other">%1$s, %2$s ir dar %3$d</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kartojama kas %d d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kartojama kas %d d.</item>
+        <item quantity="many">Kartojama kas %d d.</item>
+        <item quantity="other">Kartojama kas %d d.</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kartojama kas %d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kartojama kas %d val.</item>
+        <item quantity="many">Kartojama kas %d val.</item>
+        <item quantity="other">Kartojama kas %d val.</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kartojama kas %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kartojama kas %d min.</item>
+        <item quantity="many">Kartojama kas %d min.</item>
+        <item quantity="other">Kartojama kas %d min.</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kartojama kas %d mėn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kartojama kas %d mėn.</item>
+        <item quantity="many">Kartojama kas %d mėn.</item>
+        <item quantity="other">Kartojama kas %d mėn.</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kartojama kas %d sav.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kartojama kas %d sav.</item>
+        <item quantity="many">Kartojama kas %d sav.</item>
+        <item quantity="other">Kartojama kas %d sav.</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kartojama kas %d m.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Kartojama kas %d m.</item>
+        <item quantity="many">Kartojama kas %d m.</item>
+        <item quantity="other">Kartojama kas %d m.</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Parinkta: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Parinkta: %d</item>
+        <item quantity="many">Parinkta: %d</item>
+        <item quantity="other">Parinkta: %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Miegojimo laikas: %d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Miegojimo laikas: %d val.</item>
+        <item quantity="many">Miegojimo laikas: %d val.</item>
+        <item quantity="other">Miegojimo laikas: %d val.</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Miegojimo laikas: %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Miegojimo laikas: %d min.</item>
+        <item quantity="many">Miegojimo laikas: %d min.</item>
+        <item quantity="other">Miegojimo laikas: %d min.</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d programa laikoma atidaryta, kad ją būtų galima greitai paleisti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d programos laikomos atidarytos, kad jas būtų galima greitai paleisti.</item>
+        <item quantity="many">%d programų laikomos atidarytos, kad jas būtų galima greitai paleisti.</item>
+        <item quantity="other">%d programų laikomos atidarytos, kad jas būtų galima greitai paleisti.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">Pranešimų nėra</item>
+        <item quantity="one">%d pranešimas</item>
+        <item quantity="other">%d pranešimų</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stulpelis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d stulpeliai</item>
+        <item quantity="many">%d stulpelių</item>
+        <item quantity="other">%d stulpelių</item>
+    </plurals>
+</resources>

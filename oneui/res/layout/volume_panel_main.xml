@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/volume_panel_single_view" android:tag="layout/volume_panel_main_0" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/volume_panel_view_base" android:tag="binding_1" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.honeyspace.ui.honeypots.dexpanel.common.ui.PanelBlurBackground android:id="@id/volume_panel_view" android:tag="binding_2" android:layout_width="@dimen/volume_panel_view_background_width" android:layout_height="@dimen/volume_panel_view_background_height" android:clipToOutline="true">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/volume_panel_row_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </com.honeyspace.ui.honeypots.dexpanel.common.ui.PanelBlurBackground>
+        <include android:id="@id/volume_panel_dual_view" layout="@layout/volume_panel_dual_view" />
+    </FrameLayout>
+</LinearLayout>

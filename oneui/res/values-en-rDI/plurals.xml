@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">PLURAL_ZERO_TASKMGR_BODY_CANT_ADD_MORE_THAN_PD_DESKTOP_WORKSPACES %d</item>
+        <item quantity="one">PLURAL_ONE_TASKMGR_BODY_CANT_ADD_MORE_THAN_PD_DESKTOP_WORKSPACES %d</item>
+        <item quantity="two">PLURAL_TWO_TASKMGR_BODY_CANT_ADD_MORE_THAN_PD_DESKTOP_WORKSPACES %d</item>
+        <item quantity="few">PLURAL_FEW_TASKMGR_BODY_CANT_ADD_MORE_THAN_PD_DESKTOP_WORKSPACES %d</item>
+        <item quantity="many">PLURAL_MANY_TASKMGR_BODY_CANT_ADD_MORE_THAN_PD_DESKTOP_WORKSPACES %d</item>
+        <item quantity="other">PLURAL_OTHER_TASKMGR_BODY_CANT_ADD_MORE_THAN_PD_DESKTOP_WORKSPACES %d</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">PLURAL_ZERO_HS_BODY_CANT_ADD_MORE_THAN_PD_STACKED_WIDGETS %d</item>
+        <item quantity="one">PLURAL_ONE_HS_BODY_CANT_ADD_MORE_THAN_PD_STACKED_WIDGETS %d</item>
+        <item quantity="two">PLURAL_TWO_HS_BODY_CANT_ADD_MORE_THAN_PD_STACKED_WIDGETS %d</item>
+        <item quantity="few">PLURAL_FEW_HS_BODY_CANT_ADD_MORE_THAN_PD_STACKED_WIDGETS %d</item>
+        <item quantity="many">PLURAL_MANY_HS_BODY_CANT_ADD_MORE_THAN_PD_STACKED_WIDGETS %d</item>
+        <item quantity="other">PLURAL_OTHER_HS_BODY_CANT_ADD_MORE_THAN_PD_STACKED_WIDGETS %d</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">PLURAL_ZERO_TASKMGR_BODY_CANT_KEEP_OPEN_MORE_THAN_PD_APPS %d</item>
+        <item quantity="one">PLURAL_ONE_TASKMGR_BODY_CANT_KEEP_OPEN_MORE_THAN_PD_APPS %d</item>
+        <item quantity="two">PLURAL_TWO_TASKMGR_BODY_CANT_KEEP_OPEN_MORE_THAN_PD_APPS %d</item>
+        <item quantity="few">PLURAL_FEW_TASKMGR_BODY_CANT_KEEP_OPEN_MORE_THAN_PD_APPS %d</item>
+        <item quantity="many">PLURAL_MANY_TASKMGR_BODY_CANT_KEEP_OPEN_MORE_THAN_PD_APPS %d</item>
+        <item quantity="other">PLURAL_OTHER_TASKMGR_BODY_CANT_KEEP_OPEN_MORE_THAN_PD_APPS %d</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">PLURAL_ZERO_DWB_BUTTON_PD_HOURS_LEFT_TODAY_30 %d</item>
+        <item quantity="one">PLURAL_ONE_DWB_BUTTON_PD_HOURS_LEFT_TODAY_30 %d</item>
+        <item quantity="two">PLURAL_TWO_DWB_BUTTON_PD_HOURS_LEFT_TODAY_30 %d</item>
+        <item quantity="few">PLURAL_FEW_DWB_BUTTON_PD_HOURS_LEFT_TODAY_30 %d</item>
+        <item quantity="many">PLURAL_MANY_DWB_BUTTON_PD_HOURS_LEFT_TODAY_30 %d</item>
+        <item quantity="other">PLURAL_OTHER_DWB_BUTTON_PD_HOURS_LEFT_TODAY_30 %d</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">PLURAL_ZERO_DWB_BUTTON_PD_MINUTES_LEFT_TODAY_30 %d</item>
+        <item quantity="one">PLURAL_ONE_DWB_BUTTON_PD_MINUTES_LEFT_TODAY_30 %d</item>
+        <item quantity="two">PLURAL_TWO_DWB_BUTTON_PD_MINUTES_LEFT_TODAY_30 %d</item>
+        <item quantity="few">PLURAL_FEW_DWB_BUTTON_PD_MINUTES_LEFT_TODAY_30 %d</item>
+        <item quantity="many">PLURAL_MANY_DWB_BUTTON_PD_MINUTES_LEFT_TODAY_30 %d</item>
+        <item quantity="other">PLURAL_OTHER_DWB_BUTTON_PD_MINUTES_LEFT_TODAY_30 %d</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">PLURAL_ZERO_TASKMGR_OPT_PD_ACTIVE_APPS_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_TASKMGR_OPT_PD_ACTIVE_APPS_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_TASKMGR_OPT_PD_ACTIVE_APPS_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_TASKMGR_OPT_PD_ACTIVE_APPS_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_TASKMGR_OPT_PD_ACTIVE_APPS_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_TASKMGR_OPT_PD_ACTIVE_APPS_ABB %d</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">PLURAL_ZERO_TASKMGR_TBOPT_PD_ITEMS_ACTIVE_IN_BACKGROUND %d</item>
+        <item quantity="one">PLURAL_ONE_TASKMGR_TBOPT_PD_ITEMS_ACTIVE_IN_BACKGROUND %d</item>
+        <item quantity="two">PLURAL_TWO_TASKMGR_TBOPT_PD_ITEMS_ACTIVE_IN_BACKGROUND %d</item>
+        <item quantity="few">PLURAL_FEW_TASKMGR_TBOPT_PD_ITEMS_ACTIVE_IN_BACKGROUND %d</item>
+        <item quantity="many">PLURAL_MANY_TASKMGR_TBOPT_PD_ITEMS_ACTIVE_IN_BACKGROUND %d</item>
+        <item quantity="other">PLURAL_OTHER_TASKMGR_TBOPT_PD_ITEMS_ACTIVE_IN_BACKGROUND %d</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">PLURAL_ZERO_ACCS_TBOPT_PD_COLUMNS %d</item>
+        <item quantity="one">PLURAL_ONE_ACCS_TBOPT_PD_COLUMNS %d</item>
+        <item quantity="two">PLURAL_TWO_ACCS_TBOPT_PD_COLUMNS %d</item>
+        <item quantity="few">PLURAL_FEW_ACCS_TBOPT_PD_COLUMNS %d</item>
+        <item quantity="many">PLURAL_MANY_ACCS_TBOPT_PD_COLUMNS %d</item>
+        <item quantity="other">PLURAL_OTHER_ACCS_TBOPT_PD_COLUMNS %d</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">PLURAL_ZERO_ACCS_TBOPT_PD_ROWS %d</item>
+        <item quantity="one">PLURAL_ONE_ACCS_TBOPT_PD_ROWS %d</item>
+        <item quantity="two">PLURAL_TWO_ACCS_TBOPT_PD_ROWS %d</item>
+        <item quantity="few">PLURAL_FEW_ACCS_TBOPT_PD_ROWS %d</item>
+        <item quantity="many">PLURAL_MANY_ACCS_TBOPT_PD_ROWS %d</item>
+        <item quantity="other">PLURAL_OTHER_ACCS_TBOPT_PD_ROWS %d</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">PLURAL_ZERO_SFOLDER_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_SFOLDER_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_SFOLDER_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_SFOLDER_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_SFOLDER_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="other">PLURAL_OTHER_SFOLDER_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">PLURAL_ZERO_QP_OPT_P1SD_MORE_P2SS_NOTIFICATIONS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_QP_OPT_P1SD_MORE_P2SS_NOTIFICATIONS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_QP_OPT_P1SD_MORE_P2SS_NOTIFICATIONS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_QP_OPT_P1SD_MORE_P2SS_NOTIFICATIONS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_QP_OPT_P1SD_MORE_P2SS_NOTIFICATIONS %1$d %2$s</item>
+        <item quantity="other">PLURAL_OTHER_QP_OPT_P1SD_MORE_P2SS_NOTIFICATIONS %1$d %2$s</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">PLURAL_ZERO_HS_OPT_UP_TO_PD_APPS %d</item>
+        <item quantity="one">PLURAL_ONE_HS_OPT_UP_TO_PD_APPS %d</item>
+        <item quantity="two">PLURAL_TWO_HS_OPT_UP_TO_PD_APPS %d</item>
+        <item quantity="few">PLURAL_FEW_HS_OPT_UP_TO_PD_APPS %d</item>
+        <item quantity="many">PLURAL_MANY_HS_OPT_UP_TO_PD_APPS %d</item>
+        <item quantity="other">PLURAL_OTHER_HS_OPT_UP_TO_PD_APPS %d</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">PLURAL_ZERO_ES_TPOP_CANT_SELECT_MORE_THAN_PD_PANELS %d</item>
+        <item quantity="one">PLURAL_ONE_ES_TPOP_CANT_SELECT_MORE_THAN_PD_PANELS %d</item>
+        <item quantity="two">PLURAL_TWO_ES_TPOP_CANT_SELECT_MORE_THAN_PD_PANELS %d</item>
+        <item quantity="few">PLURAL_FEW_ES_TPOP_CANT_SELECT_MORE_THAN_PD_PANELS %d</item>
+        <item quantity="many">PLURAL_MANY_ES_TPOP_CANT_SELECT_MORE_THAN_PD_PANELS %d</item>
+        <item quantity="other">PLURAL_OTHER_ES_TPOP_CANT_SELECT_MORE_THAN_PD_PANELS %d</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">PLURAL_ZERO_SAPPS_OPT_PD_DAYS_LEFT_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_SAPPS_OPT_PD_DAYS_LEFT_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_SAPPS_OPT_PD_DAYS_LEFT_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_SAPPS_OPT_PD_DAYS_LEFT_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_SAPPS_OPT_PD_DAYS_LEFT_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_SAPPS_OPT_PD_DAYS_LEFT_ABB %d</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">PLURAL_ZERO_WLT_OPT_IN_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_WLT_OPT_IN_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_WLT_OPT_IN_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_WLT_OPT_IN_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_WLT_OPT_IN_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_WLT_OPT_IN_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">PLURAL_ZERO_WT_STATUS_P1SS_P2SS_AND_P3SD_OTHERS_ABB %1$s %2$s %3$d</item>
+        <item quantity="one">PLURAL_ONE_WT_STATUS_P1SS_P2SS_AND_P3SD_OTHERS_ABB %1$s %2$s %3$d</item>
+        <item quantity="two">PLURAL_TWO_WT_STATUS_P1SS_P2SS_AND_P3SD_OTHERS_ABB %1$s %2$s %3$d</item>
+        <item quantity="few">PLURAL_FEW_WT_STATUS_P1SS_P2SS_AND_P3SD_OTHERS_ABB %1$s %2$s %3$d</item>
+        <item quantity="many">PLURAL_MANY_WT_STATUS_P1SS_P2SS_AND_P3SD_OTHERS_ABB %1$s %2$s %3$d</item>
+        <item quantity="other">PLURAL_OTHER_WT_STATUS_P1SS_P2SS_AND_P3SD_OTHERS_ABB %1$s %2$s %3$d</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">PLURAL_ZERO_SF_OPT_REPEATS_EVERY_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_SF_OPT_REPEATS_EVERY_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_SF_OPT_REPEATS_EVERY_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_SF_OPT_REPEATS_EVERY_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_SF_OPT_REPEATS_EVERY_PD_DAYS %d</item>
+        <item quantity="other">PLURAL_OTHER_SF_OPT_REPEATS_EVERY_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">PLURAL_ZERO_SF_OPT_REPEATS_EVERY_PD_HOURS_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_SF_OPT_REPEATS_EVERY_PD_HOURS_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_SF_OPT_REPEATS_EVERY_PD_HOURS_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_SF_OPT_REPEATS_EVERY_PD_HOURS_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_SF_OPT_REPEATS_EVERY_PD_HOURS_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_SF_OPT_REPEATS_EVERY_PD_HOURS_ABB %d</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">PLURAL_ZERO_SF_OPT_REPEATS_EVERY_PD_MINUTES_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_SF_OPT_REPEATS_EVERY_PD_MINUTES_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_SF_OPT_REPEATS_EVERY_PD_MINUTES_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_SF_OPT_REPEATS_EVERY_PD_MINUTES_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_SF_OPT_REPEATS_EVERY_PD_MINUTES_ABB %d</item>
+        <item quantity="other">PLURAL_OTHER_SF_OPT_REPEATS_EVERY_PD_MINUTES_ABB %d</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">PLURAL_ZERO_SF_OPT_REPEATS_EVERY_PD_MONTHS %d</item>
+        <item quantity="one">PLURAL_ONE_SF_OPT_REPEATS_EVERY_PD_MONTHS %d</item>
+        <item quantity="two">PLURAL_TWO_SF_OPT_REPEATS_EVERY_PD_MONTHS %d</item>
+        <item quantity="few">PLURAL_FEW_SF_OPT_REPEATS_EVERY_PD_MONTHS %d</item>
+        <item quantity="many">PLURAL_MANY_SF_OPT_REPEATS_EVERY_PD_MONTHS %d</item>
+        <item quantity="other">PLURAL_OTHER_SF_OPT_REPEATS_EVERY_PD_MONTHS %d</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">PLURAL_ZERO_SF_OPT_REPEATS_EVERY_PD_WEEKS %d</item>
+        <item quantity="one">PLURAL_ONE_SF_OPT_REPEATS_EVERY_PD_WEEKS %d</item>
+        <item quantity="two">PLURAL_TWO_SF_OPT_REPEATS_EVERY_PD_WEEKS %d</item>
+        <item quantity="few">PLURAL_FEW_SF_OPT_REPEATS_EVERY_PD_WEEKS %d</item>
+        <item quantity="many">PLURAL_MANY_SF_OPT_REPEATS_EVERY_PD_WEEKS %d</item>
+        <item quantity="other">PLURAL_OTHER_SF_OPT_REPEATS_EVERY_PD_WEEKS %d</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">PLURAL_ZERO_SF_OPT_REPEATS_EVERY_PD_YEARS %d</item>
+        <item quantity="one">PLURAL_ONE_SF_OPT_REPEATS_EVERY_PD_YEARS %d</item>
+        <item quantity="two">PLURAL_TWO_SF_OPT_REPEATS_EVERY_PD_YEARS %d</item>
+        <item quantity="few">PLURAL_FEW_SF_OPT_REPEATS_EVERY_PD_YEARS %d</item>
+        <item quantity="many">PLURAL_MANY_SF_OPT_REPEATS_EVERY_PD_YEARS %d</item>
+        <item quantity="other">PLURAL_OTHER_SF_OPT_REPEATS_EVERY_PD_YEARS %d</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">PLURAL_ZERO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="other">PLURAL_OTHER_IDLE_HEADER_PD_SELECTED %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+        <item quantity="other">PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_HOURS %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">PLURAL_ZERO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+        <item quantity="other">PLURAL_OTHER_CLOCK_OPT_SLEEP_TIME_C_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">PLURAL_ZERO_TASKMGR_TPOP_PD_APPS_KEPT_OPEN_FOR_QUICK_LAUNCHING %d</item>
+        <item quantity="one">PLURAL_ONE_TASKMGR_TPOP_PD_APPS_KEPT_OPEN_FOR_QUICK_LAUNCHING %d</item>
+        <item quantity="two">PLURAL_TWO_TASKMGR_TPOP_PD_APPS_KEPT_OPEN_FOR_QUICK_LAUNCHING %d</item>
+        <item quantity="few">PLURAL_FEW_TASKMGR_TPOP_PD_APPS_KEPT_OPEN_FOR_QUICK_LAUNCHING %d</item>
+        <item quantity="many">PLURAL_MANY_TASKMGR_TPOP_PD_APPS_KEPT_OPEN_FOR_QUICK_LAUNCHING %d</item>
+        <item quantity="other">PLURAL_OTHER_TASKMGR_TPOP_PD_APPS_KEPT_OPEN_FOR_QUICK_LAUNCHING %d</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">DREAM_QP_NPBODY_NO_NOTIFICATIONS</item>
+        <item quantity="one">PLURAL_ONE_QP_STATUS_PD_NOTIFICATIONS %d</item>
+        <item quantity="other">PLURAL_OTHER_QP_STATUS_PD_NOTIFICATIONS %d</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">PLURAL_ZERO_HS_OPT_PD_COLUMNS %d</item>
+        <item quantity="one">PLURAL_ONE_HS_OPT_PD_COLUMNS %d</item>
+        <item quantity="two">PLURAL_TWO_HS_OPT_PD_COLUMNS %d</item>
+        <item quantity="few">PLURAL_FEW_HS_OPT_PD_COLUMNS %d</item>
+        <item quantity="many">PLURAL_MANY_HS_OPT_PD_COLUMNS %d</item>
+        <item quantity="other">PLURAL_OTHER_HS_OPT_PD_COLUMNS %d</item>
+    </plurals>
+</resources>

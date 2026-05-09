@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <home>
+        <appwidget launcher:className="com.sec.android.widgetapp.easymodecontactswidget.SeniorFavoriteWidgetProviderLarge" launcher:packageName="com.sec.android.widgetapp.easymodecontactswidget" launcher:screen="0" launcher:spanX="4" launcher:spanY="4" launcher:x="0" launcher:y="0" />
+        <appwidget launcher:className="com.sec.android.daemonapp.appwidget.WeatherAppWidget" launcher:packageName="com.sec.android.daemonapp" launcher:screen="1" launcher:spanX="4" launcher:spanY="1" launcher:x="0" launcher:y="0" />
+        <appwidget launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider" launcher:packageName="com.google.android.googlequicksearchbox" launcher:screen="1" launcher:spanX="4" launcher:spanY="1" launcher:x="0" launcher:y="2" />
+        <favorite launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" launcher:packageName="com.sec.android.app.sbrowser" launcher:screen="1" launcher:x="0" launcher:y="3" />
+        <favorite launcher:className="com.samsung.android.gallery.app.activity.GalleryActivity" launcher:packageName="com.sec.android.gallery3d" launcher:screen="1" launcher:x="1" launcher:y="3" />
+        <favorite launcher:className="com.android.vending.AssetBrowserActivity" launcher:packageName="com.android.vending" launcher:screen="1" launcher:x="2" launcher:y="3" />
+        <favorite launcher:className="com.samsung.android.app.calendar.activity.MainActivity" launcher:packageName="com.samsung.android.calendar" launcher:screen="1" launcher:x="3" launcher:y="3" />
+        <favorite launcher:className="com.samsung.android.app.shealth.home.HomeMainActivity" launcher:packageName="com.sec.android.app.shealth" launcher:screen="2" launcher:x="0" launcher:y="2" />
+        <favorite launcher:className="com.android.settings.Settings" launcher:packageName="com.android.settings" launcher:screen="2" launcher:x="0" launcher:y="3" />
+        <favorite launcher:className="com.samsung.android.app.notes.memolist.MemoListActivity" launcher:packageName="com.samsung.android.app.notes" launcher:screen="2" launcher:x="1" launcher:y="3" />
+        <appwidget launcher:className="com.sec.android.app.magnifier.MagnifierAppWidget" launcher:packageName="com.sec.android.app.magnifier" launcher:screen="2" launcher:spanX="2" launcher:spanY="1" launcher:x="2" launcher:y="3" />
+    </home>
+    <hotseat>
+        <favorite launcher:className="com.samsung.android.dialer.DialtactsActivity" launcher:packageName="com.samsung.android.dialer" launcher:screen="0" />
+        <favorite launcher:className="com.android.mms.ui.ConversationComposer" launcher:packageName="com.samsung.android.messaging" launcher:screen="1" />
+        <favorite launcher:className="com.sec.android.app.camera.Camera" launcher:packageName="com.sec.android.app.camera" launcher:screen="2" />
+    </hotseat>
+</favorites>

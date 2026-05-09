@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetTop="@dimen/quick_option_global_option_ripple_top_padding" android:insetBottom="@dimen/quick_option_global_option_ripple_bottom_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/quick_option_global_option_ripple_color"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:id="@android:id/mask">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/quick_option_global_option_ripple_radius" />
+                <solid android:color="?android:colorAccent" />
+            </shape>
+        </item>
+    </androidx.appcompat.graphics.drawable.SeslRecoilDrawable>
+</inset>

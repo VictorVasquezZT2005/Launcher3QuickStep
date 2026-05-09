@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:drawable="@drawable/easy_mode_widget_setting_seek_bar_drawable_normal" />
+    <item android:state_enabled="false" android:drawable="@drawable/easy_mode_widget_setting_seek_bar_drawable_disabled" />
+</selector>

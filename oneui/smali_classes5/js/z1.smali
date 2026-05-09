@@ -1,0 +1,193 @@
+.class public final Ljs/z1;
+.super Ljs/j1;
+.source "SourceFile"
+
+
+# static fields
+.field public static final c:Ljs/z1;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    new-instance v0, Ljs/z1;
+
+    sget-object v1, Lkotlin/UInt;->Companion:Lkotlin/UInt$Companion;
+
+    const-string v2, "<this>"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    sget-object v1, Ljs/a2;->a:Ljs/a2;
+
+    invoke-direct {v0, v1}, Ljs/j1;-><init>(Lfs/a;)V
+
+    sput-object v0, Ljs/z1;->c:Ljs/z1;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final d(Ljava/lang/Object;)I
+    .locals 0
+
+    check-cast p1, Lkotlin/UIntArray;
+
+    invoke-virtual {p1}, Lkotlin/UIntArray;->unbox-impl()[I
+
+    move-result-object p0
+
+    const-string p1, "$this$collectionSize"
+
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-static {p0}, Lkotlin/UIntArray;->getSize-impl([I)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final f(Lis/a;ILjava/lang/Object;)V
+    .locals 1
+
+    check-cast p3, Ljs/y1;
+
+    const-string v0, "decoder"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "builder"
+
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Ljs/j1;->b:Ljs/i1;
+
+    invoke-interface {p1, p0, p2}, Lis/a;->E(Ljs/i1;I)Lis/c;
+
+    move-result-object p0
+
+    invoke-interface {p0}, Lis/c;->x()I
+
+    move-result p0
+
+    invoke-static {p0}, Lkotlin/UInt;->constructor-impl(I)I
+
+    move-result p0
+
+    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {p3}, Ljs/h1;->c(Ljs/h1;)V
+
+    iget-object p1, p3, Ljs/y1;->a:[I
+
+    iget p2, p3, Ljs/y1;->b:I
+
+    add-int/lit8 v0, p2, 0x1
+
+    iput v0, p3, Ljs/y1;->b:I
+
+    invoke-static {p1, p2, p0}, Lkotlin/UIntArray;->set-VXSXFK8([III)V
+
+    return-void
+.end method
+
+.method public final g(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    check-cast p1, Lkotlin/UIntArray;
+
+    invoke-virtual {p1}, Lkotlin/UIntArray;->unbox-impl()[I
+
+    move-result-object p0
+
+    const-string p1, "$this$toBuilder"
+
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance p1, Ljs/y1;
+
+    const-string v0, "bufferWithData"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p1}, Ljava/lang/Object;-><init>()V
+
+    iput-object p0, p1, Ljs/y1;->a:[I
+
+    invoke-static {p0}, Lkotlin/UIntArray;->getSize-impl([I)I
+
+    move-result p0
+
+    iput p0, p1, Ljs/y1;->b:I
+
+    const/16 p0, 0xa
+
+    invoke-virtual {p1, p0}, Ljs/y1;->b(I)V
+
+    return-object p1
+.end method
+
+.method public final j()Ljava/lang/Object;
+    .locals 0
+
+    const/4 p0, 0x0
+
+    invoke-static {p0}, Lkotlin/UIntArray;->constructor-impl(I)[I
+
+    move-result-object p0
+
+    invoke-static {p0}, Lkotlin/UIntArray;->box-impl([I)Lkotlin/UIntArray;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final k(Lis/b;Ljava/lang/Object;I)V
+    .locals 3
+
+    check-cast p2, Lkotlin/UIntArray;
+
+    invoke-virtual {p2}, Lkotlin/UIntArray;->unbox-impl()[I
+
+    move-result-object p2
+
+    const-string v0, "encoder"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "content"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v0, 0x0
+
+    :goto_0
+    if-ge v0, p3, :cond_0
+
+    iget-object v1, p0, Ljs/j1;->b:Ljs/i1;
+
+    move-object v2, p1
+
+    check-cast v2, Lls/t;
+
+    invoke-virtual {v2, v1, v0}, Lls/t;->u(Ljs/i1;I)Lis/d;
+
+    move-result-object v1
+
+    invoke-static {p2, v0}, Lkotlin/UIntArray;->get-pVg5ArA([II)I
+
+    move-result v2
+
+    invoke-interface {v1, v2}, Lis/d;->k(I)V
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method

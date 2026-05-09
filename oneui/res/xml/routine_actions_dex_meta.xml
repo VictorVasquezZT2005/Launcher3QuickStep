@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action category="connected_devices" component="com.sec.android.app.launcher/.secondary_launcher.RoutineExternalDexOnOffActionHandler" icon="@drawable/routines_ic_samsung_dex" label="@string/routine_external_dex_dialog_title" tag="samsung_external_dex_action">
+        <configuration targetUi="\@template/TOGGLE" />
+    </action>
+    <action category="connected_devices" component="com.sec.android.app.launcher/.secondary_launcher.RoutineInternalDexOnOffActionHandler" icon="@drawable/routines_ic_samsung_dex" label="@string/routine_internal_dex_dialog_title" tag="samsung_internal_dex_action">
+        <configuration targetUi="\@template/TOGGLE" />
+    </action>
+    <action category="display_setting" component="com.sec.android.app.launcher/.edge.EdgePanelRoutineActionHandler" description="@string/settings_edge_panels" icon="@drawable/ic_routines_ic_edge_panels" label="@string/settings_edge_panels" tag="edge_panel_routine_v3">
+        <configuration targetUi="com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.routine.EdgePanelRoutineSetting" />
+    </action>
+</actions>

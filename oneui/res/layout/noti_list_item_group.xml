@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/notification_container" android:tag="layout/noti_list_item_group_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contextClickable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/noti_group_title_and_collapse_btn" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/noti_group_collapse_btn" android:layout_alignParentStart="true">
+            <TextView android:textSize="@dimen/grouped_notification_title_text_size" android:textColor="@color/notification_shelf_settings_clear_btn_color" android:layout_gravity="center_vertical" android:id="@id/noti_group_title" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/SecRegular" />
+            <TextView android:textColor="@color/notification_shelf_settings_clear_btn_color" android:layout_gravity="center_vertical" android:id="@id/noti_group_header_text" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:alpha="0.8" style="@style/SecRegular" />
+        </LinearLayout>
+        <ImageButton android:id="@id/noti_group_collapse_btn" android:tag="binding_4" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_collapse_group" android:contentDescription="@string/collapse_button_content_description" android:layout_alignParentEnd="true" android:tooltipText="@string/collapse_button_content_description" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/notification_group_list" android:tag="binding_5" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

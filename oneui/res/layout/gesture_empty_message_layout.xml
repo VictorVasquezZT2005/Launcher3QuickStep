@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/gesture_empty_message_text_size" android:textColor="@color/empty_message_text_color" android:layout_gravity="center" android:tag="layout/gesture_empty_message_layout_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gesture_empty_message_text" android:alpha="0.0" android:textAlignment="center"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

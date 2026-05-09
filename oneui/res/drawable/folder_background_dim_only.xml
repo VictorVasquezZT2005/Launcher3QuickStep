@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/folder_background">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/folder_bg_radius_popup" />
+            <solid android:color="@color/popup_folder_dim_only_background_color" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,8 @@
+.class public interface abstract Lcom/google/protobuf/x0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract findValueByNumber(I)Lcom/google/protobuf/w0;
+.end method

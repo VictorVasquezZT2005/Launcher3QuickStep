@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/icon_container" android:layout_width="@dimen/setting_handle_color_icon_item_size" android:layout_height="@dimen/setting_handle_color_icon_item_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/color_icon" android:layout_width="@dimen/setting_handle_color_icon_item_size" android:layout_height="@dimen/setting_handle_color_icon_item_size" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/color_select_icon" android:visibility="invisible" android:layout_width="@dimen/setting_handle_color_selected_icon_size" android:layout_height="@dimen/setting_handle_color_selected_icon_size" android:src="@drawable/ic_done_selected" android:layout_centerInParent="true" app:tint="@color/edge_handler_color_item_selected_color" />
+    <ImageView android:id="@id/color_out_ring" android:background="@drawable/edge_handle_color_item_shape" android:layout_width="@dimen/setting_handle_color_icon_item_size" android:layout_height="@dimen/setting_handle_color_icon_item_size" android:layout_centerInParent="true" />
+</RelativeLayout>

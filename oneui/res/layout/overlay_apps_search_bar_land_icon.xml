@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.overlayapps.presentation.OverlayAppsSearchIconLand android:gravity="end|center" android:layout_gravity="end|center" android:id="@id/overlay_apps_search_bar_land" android:tag="layout/overlay_apps_search_bar_land_icon_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/overlay_apps_search_icon_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+        <ImageButton android:layout_gravity="center" android:id="@id/overlay_apps_search_icon" android:tag="binding_1" android:background="@drawable/overlay_apps_search_bar_icon_focus_background" android:layout_width="@dimen/overlay_apps_search_icon_btn_bg_width_land" android:layout_height="@dimen/overlay_apps_search_icon_btn_bg_width_land" android:src="@drawable/tw_ic_ab_search_mtrl" android:tint="@color/overlay_apps_search_land_icon_tint_color" android:contentDescription="@string/search_bar" style="?android:actionButtonStyle" />
+    </FrameLayout>
+</com.honeyspace.ui.honeypots.overlayapps.presentation.OverlayAppsSearchIconLand>

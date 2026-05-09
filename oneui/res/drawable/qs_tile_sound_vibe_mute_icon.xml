@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/soundmode_vibe_mute_00" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_vibe_mute_01" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_vibe_mute_02" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_vibe_mute_03" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_vibe_mute_04" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_vibe_mute_05" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_vibe_mute_06" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_vibe_mute_07" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_vibe_mute_08" />
+</animation-list>

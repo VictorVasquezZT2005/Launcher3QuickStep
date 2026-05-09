@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AboutPageNoDividerTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorPrimary">@color/home_settings_primary_dark_color</item>
+        <item name="android:statusBarColor">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">@android:color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="AboutSettingTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/sec_widget_round_and_bgcolor</item>
+        <item name="android:navigationBarColor">@color/sec_widget_round_and_bgcolor</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <style name="ActionBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+    </style>
+    <style name="ActionBarTitleText" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textAppearance">@style/SecRegular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/actionbar_title_text_color</item>
+    </style>
+    <style name="AppActionBar" parent="@style/Theme.AppCompat">
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+    </style>
+    <style name="AppsEdgeSettingsTheme" parent="@style/Theme.Design.NoActionBar">
+        <item name="android:windowBackground">@color/apps_edge_settings_background_color</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/apps_edge_settings_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/apps_edge_settings_status_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/blank_splash_bg</item>
+    </style>
+    <style name="CollapsingToolbarLayoutStyle" parent="@style/Widget.Design.CollapsingToolbar" />
+    <style name="CollapsingToolbarTheme" parent="@style/Widget.Design.CollapsingToolbar" />
+    <style name="ConnectivityActivityTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/opentheme_quick_button_detail_background_color</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/opentheme_quick_button_detail_background_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/blank_icon</item>
+    </style>
+    <style name="EdgeSettingsMainActionBarStyle" parent="@style/Theme.AppCompat">
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+    </style>
+    <style name="HomeModeSettingTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorPrimary">@color/home_mode_settings_primary_dark_color</item>
+        <item name="android:statusBarColor">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">@android:color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="PreferenceThemeOverlay">
+        <item name="checkBoxPreferenceStyle">@style/Preference.CheckBoxPreference</item>
+        <item name="dialogPreferenceStyle">@style/Preference.DialogPreference</item>
+        <item name="dropdownPreferenceStyle">@style/Preference.DropDown</item>
+        <item name="editTextPreferenceStyle">@style/Preference.DialogPreference.EditTextPreference</item>
+        <item name="preferenceCategoryStyle">@style/Preference.Category</item>
+        <item name="preferenceFragmentCompatStyle">@style/PreferenceFragment</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList</item>
+        <item name="preferenceFragmentStyle">@style/PreferenceFragment</item>
+        <item name="preferenceScreenStyle">@style/Preference.PreferenceScreen</item>
+        <item name="preferenceStyle">@style/Preference</item>
+        <item name="seekBarPreferenceStyle">@style/Preference.SeekBarPreference</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.SwitchPreferenceCompat</item>
+        <item name="switchPreferenceStyle">@style/Preference.SwitchPreferenceCompat</item>
+    </style>
+    <style name="RobotoRegular">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#fafafa</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="SearchDexTheme" parent="@style/Theme.AppCompat.DayNight" />
+    <style name="SettingsTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/home_settings_white_theme_default_bg_color</item>
+        <item name="android:navigationBarColor">@color/home_settings_white_theme_default_bg_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/sec_ic_blank</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.AppCompat.DayNight.PickerDialog.DatePicker" parent="@style/Theme.AppCompat.PickerDialog.DatePicker" />
+    <style name="Theme.AppCompat.DayNight.PickerDialog.TimePicker" parent="@style/Theme.AppCompat.PickerDialog.TimePicker" />
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog" />
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge" />
+    <style name="Theme.Settings.NoActionBar" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/sec_widget_round_and_bgcolor</item>
+        <item name="android:navigationBarColor">@color/sec_widget_round_and_bgcolor</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/blank_splash_bg</item>
+    </style>
+    <style name="ToolbarPreferenceTheme" parent="@style/Theme.AppCompat.DayNight">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/sec_widget_round_and_bgcolor</item>
+        <item name="android:navigationBarColor">@color/sec_widget_round_and_bgcolor</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ToolbarStyle" parent="@style/Theme.AppCompat" />
+    <style name="ToolbarTheme" parent="@style/Theme.AppCompat.DayNight" />
+    <style name="TransparentDexTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:excludeFromRecents">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:noHistory">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="background">@null</item>
+    </style>
+    <style name="TransparentTheme" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Widget.MaterialComponents.BottomAppBar.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomAppBar" />
+    <style name="Widget.MaterialComponents.NavigationRailView.PrimarySurface" parent="@style/Widget.MaterialComponents.NavigationRailView" />
+</resources>

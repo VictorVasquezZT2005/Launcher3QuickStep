@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.stackedwidget.presentation.StackedWidgetContainer android:id="@id/stacked_widget_container" android:tag="layout/stacked_widget_container_0" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.honeypots.stackedwidget.presentation.StackedWidgetFastRecyclerView android:id="@id/stacked_widget_content" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include android:layout_gravity="bottom" android:id="@id/stacked_widget_page_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:translationY="0.0dp" layout="@layout/page_indicator" />
+</com.honeyspace.ui.honeypots.stackedwidget.presentation.StackedWidgetContainer>

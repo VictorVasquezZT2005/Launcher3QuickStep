@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/app_picker_frame_padding" android:color="@color/app_picker_window_stroke_color" />
+    <solid android:color="@color/app_picker_window_blur_bg_color" />
+    <corners android:radius="20.0dp" />
+</shape>

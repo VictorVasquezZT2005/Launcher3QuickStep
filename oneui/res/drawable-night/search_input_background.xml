@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/search_view_background_radius" />
+            <solid android:color="@color/finder_search_bar_background_color" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/search_view_background_radius" />
+            <stroke android:width="@dimen/search_bar_border" android:color="@color/finder_search_bar_background_border_color" />
+        </shape>
+    </item>
+</layer-list>

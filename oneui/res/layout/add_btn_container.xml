@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/add_button_container" android:tag="layout/add_btn_container_0" android:background="@drawable/add_btn_container_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton android:textSize="15.0dp" android:textColor="#fafafa" android:gravity="center" android:layout_gravity="center" android:id="@id/add_button" android:background="@drawable/add_btn_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/add_btn_height" android:minWidth="@dimen/add_btn_min_width" android:text="@string/add" android:fontFamily="sec" android:textAlignment="center" android:paddingHorizontal="@dimen/add_btn_padding" android:lineHeight="15.0dp" android:textFontWeight="600" />
+</FrameLayout>

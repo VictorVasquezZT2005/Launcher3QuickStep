@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/stacked_widget_delete_button_size" android:width="@dimen/stacked_widget_delete_button_size" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fafafa" android:pathData="M10,0.5C15.2467,0.5 19.5,4.7533 19.5,10C19.5,15.2467 15.2467,19.5 10,19.5C4.7533,19.5 0.5,15.2467 0.5,10C0.5,4.7533 4.7533,0.5 10,0.5Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    <path android:fillColor="#000000" android:pathData="M10,0C15.5228,0 20,4.4772 20,10C20,15.5228 15.5228,20 10,20C4.4772,20 0,15.5228 0,10C0,4.4772 4.4772,0 10,0ZM10,0.5C4.7533,0.5 0.5,4.7533 0.5,10C0.5,15.2467 4.7533,19.5 10,19.5C15.2467,19.5 19.5,15.2467 19.5,10C19.5,4.7533 15.2467,0.5 10,0.5Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.3" android:fillType="nonZero" />
+    <path android:fillColor="#dc2217" android:pathData="M9.2219,9.25l-5.2204,0l-0.0015,1.5l5.2219,0l1.5509,0l5.2241,0l0.0031,-1.5l-5.2272,0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

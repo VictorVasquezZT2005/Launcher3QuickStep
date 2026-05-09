@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="add_widget_blur_radius">300</integer>
+    <integer name="ai_card_header_text_max_line">2</integer>
+    <integer name="animation_duration">200</integer>
+    <integer name="animation_start_offset">100</integer>
+    <integer name="app_bar_elevation_anim_duration">0</integer>
+    <item type="integer" name="between_default_task_and_layout_bound" format="float">0.179</item>
+    <item type="integer" name="between_desk_container_and_desk_container" format="float">0.06</item>
+    <integer name="blur_radius">200</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <item type="integer" name="center_desk_horizontal_padding" format="float">0.0869</item>
+    <integer name="center_desk_row_max_count">3</integer>
+    <integer name="center_desk_task_max_count_in_row">2</integer>
+    <item type="integer" name="center_desk_task_view_horizontal_gap" format="float">0.0244</item>
+    <item type="integer" name="center_desk_task_view_min_height" format="float">0.1513</item>
+    <item type="integer" name="center_desk_task_view_min_width" format="float">0.2038</item>
+    <item type="integer" name="center_desk_task_view_vertical_gap" format="float">0.0242</item>
+    <item type="integer" name="center_minus_one_task_icon_scale_fold_cover" format="float">0.936</item>
+    <item type="integer" name="center_minus_one_task_icon_scale_fold_main" format="float">0.923</item>
+    <item type="integer" name="center_minus_one_task_icon_scale_phone" format="float">0.709</item>
+    <item type="integer" name="center_minus_one_task_icon_scale_tablet" format="float">0.923</item>
+    <item type="integer" name="center_minus_one_task_view_scale_fold_cover" format="float">1.053</item>
+    <item type="integer" name="center_minus_one_task_view_scale_fold_main" format="float">1.088</item>
+    <item type="integer" name="center_minus_one_task_view_scale_phone" format="float">1.05</item>
+    <item type="integer" name="center_minus_one_task_view_scale_tablet" format="float">1.088</item>
+    <item type="integer" name="center_plus_one_task_icon_scale_fold_cover" format="float">0.851</item>
+    <item type="integer" name="center_plus_one_task_icon_scale_fold_main" format="float">0.846</item>
+    <item type="integer" name="center_plus_one_task_icon_scale_phone" format="float">0.709</item>
+    <item type="integer" name="center_plus_one_task_icon_scale_tablet" format="float">0.846</item>
+    <item type="integer" name="center_plus_one_task_view_scale_fold_cover" format="float">0.91</item>
+    <item type="integer" name="center_plus_one_task_view_scale_fold_main" format="float">0.924</item>
+    <item type="integer" name="center_plus_one_task_view_scale_phone" format="float">0.9</item>
+    <item type="integer" name="center_plus_one_task_view_scale_tablet" format="float">0.924</item>
+    <item type="integer" name="center_plus_two_task_icon_scale_fold_cover" format="float">0.766</item>
+    <item type="integer" name="center_plus_two_task_icon_scale_fold_main" format="float">0.653</item>
+    <item type="integer" name="center_plus_two_task_icon_scale_phone" format="float">0.547</item>
+    <item type="integer" name="center_plus_two_task_icon_scale_tablet" format="float">0.653</item>
+    <item type="integer" name="center_plus_two_task_view_scale_fold_cover" format="float">0.839</item>
+    <item type="integer" name="center_plus_two_task_view_scale_fold_main" format="float">0.857</item>
+    <item type="integer" name="center_plus_two_task_view_scale_phone" format="float">0.8</item>
+    <item type="integer" name="center_plus_two_task_view_scale_tablet" format="float">0.857</item>
+    <item type="integer" name="circular_effect_slim_common" format="float">0.125</item>
+    <item type="integer" name="circular_effect_vertical_fold_cover" format="float">0.364</item>
+    <item type="integer" name="circular_effect_vertical_fold_main" format="float">0.25</item>
+    <item type="integer" name="circular_effect_vertical_phone" format="float">0.25</item>
+    <item type="integer" name="circular_effect_vertical_tablet" format="float">0.185</item>
+    <integer name="column_count_for_directory_card">2</integer>
+    <integer name="column_count_for_list_card">1</integer>
+    <integer name="config_PageEditBgDarken">25</integer>
+    <integer name="config_PageEditBgDarkenDimOnly">30</integer>
+    <integer name="config_PageEditBgDarken_rt">80</integer>
+    <integer name="config_appsBgDarken">25</integer>
+    <integer name="config_appsBgDarkenDimOnly">65</integer>
+    <integer name="config_appsFolderBgDarken">25</integer>
+    <integer name="config_folderBgDarkenDimOnly">80</integer>
+    <integer name="config_homeFolderBgDarken">20</integer>
+    <integer name="config_pageSnapAnimationDuration">750</integer>
+    <integer name="config_recentBgDarkenDimOnly">65</integer>
+    <integer name="config_stackedWidgetEditBgDarken">25</integer>
+    <integer name="config_widgetListBgDarken">25</integer>
+    <integer name="connectivity_dialog_window_blur_radius">300</integer>
+    <item type="integer" name="curve_effect_list_fold_cover" format="float">0.132</item>
+    <item type="integer" name="curve_effect_list_fold_main" format="float">0.132</item>
+    <item type="integer" name="curve_effect_list_phone" format="float">0.135</item>
+    <item type="integer" name="curve_effect_list_tablet" format="float">0.135</item>
+    <integer name="custom_search_text_max_length">100</integer>
+    <integer name="default_count_for_list_card">3</integer>
+    <item type="integer" name="default_one" format="float">1.0</item>
+    <item type="integer" name="default_task_end_blank_spacing_for_first_column" format="float">0.07</item>
+    <item type="integer" name="default_zero" format="float">0.0</item>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="desk_column_count">2</integer>
+    <item type="integer" name="desk_container_view_height_ratio" format="float">0.82</item>
+    <item type="integer" name="desk_container_view_horizontal_padding" format="float">0.088</item>
+    <item type="integer" name="desk_container_view_spacing_top" format="float">0.143</item>
+    <item type="integer" name="desk_container_view_vertical_padding" format="float">0.0077</item>
+    <item type="integer" name="desk_container_view_width_ratio" format="float">0.92</item>
+    <integer name="desk_rename_dialog_max_length">50</integer>
+    <integer name="desk_row_count">3</integer>
+    <item type="integer" name="desk_task_view_horizontal_gap" format="float">0.041</item>
+    <item type="integer" name="desk_task_view_vertical_gap" format="float">0.023</item>
+    <integer name="docked_taskbar_blur_radius">150</integer>
+    <integer name="docked_taskbar_small_blur_radius">52</integer>
+    <item type="integer" name="dwb_height_grid_common" format="float">0.122</item>
+    <item type="integer" name="dwb_height_list_common" format="float">0.106</item>
+    <item type="integer" name="dwb_height_slim_common" format="float">0.3</item>
+    <item type="integer" name="dwb_height_stack_common" format="float">0.106</item>
+    <item type="integer" name="dwb_height_tilt_stack_common" format="float">0.106</item>
+    <item type="integer" name="dwb_height_vertical_common" format="float">0.3</item>
+    <item type="integer" name="dynamic_desk_task_view_gap" format="float">0.023</item>
+    <item type="integer" name="dynamic_desk_task_view_min" format="float">0.153</item>
+    <integer name="easy_mode_widget_text_max_lines">2</integer>
+    <item type="integer" name="empty_message_height" format="float">0.837</item>
+    <item type="integer" name="empty_message_top_margin" format="float">0.92</item>
+    <item type="integer" name="empty_message_width" format="float">1.0</item>
+    <integer name="expansion_button_duration">1200</integer>
+    <integer name="expansion_button_fade_anim_duration">150</integer>
+    <integer name="expansion_button_rotate_anim_duration">300</integer>
+    <integer name="floating_task_bar_critical_height">60</integer>
+    <integer name="floating_task_bar_window_height">360</integer>
+    <integer name="gts_cell_version">2</integer>
+    <item type="integer" name="hand_off_container_guideline_end_percent" format="float">0.961</item>
+    <item type="integer" name="hand_off_container_guideline_end_percent_fold_cover" format="float">0.962</item>
+    <item type="integer" name="hand_off_container_guideline_end_percent_fold_main" format="float">0.769</item>
+    <item type="integer" name="hand_off_container_guideline_end_percent_tablet" format="float">0.75</item>
+    <item type="integer" name="hand_off_container_guideline_start_percent" format="float">0.039</item>
+    <item type="integer" name="hand_off_container_guideline_start_percent_fold_cover" format="float">0.038</item>
+    <item type="integer" name="hand_off_container_guideline_start_percent_fold_main" format="float">0.231</item>
+    <item type="integer" name="hand_off_container_guideline_start_percent_tablet" format="float">0.25</item>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="homescreen_multi_select_panel_blur_radius">150</integer>
+    <integer name="homescreen_multi_select_panel_captured_blur_radius">53</integer>
+    <integer name="inbox_text_line">1</integer>
+    <integer name="m3_badge_max_number">999</integer>
+    <integer name="m3_btn_anim_delay_ms">100</integer>
+    <integer name="m3_btn_anim_duration_ms">100</integer>
+    <integer name="m3_chip_anim_duration">100</integer>
+    <integer name="m3_sys_motion_duration_extra_long1">700</integer>
+    <integer name="m3_sys_motion_duration_extra_long2">800</integer>
+    <integer name="m3_sys_motion_duration_extra_long3">900</integer>
+    <integer name="m3_sys_motion_duration_extra_long4">1000</integer>
+    <integer name="m3_sys_motion_duration_long1">450</integer>
+    <integer name="m3_sys_motion_duration_long2">500</integer>
+    <integer name="m3_sys_motion_duration_long3">550</integer>
+    <integer name="m3_sys_motion_duration_long4">600</integer>
+    <integer name="m3_sys_motion_duration_medium1">250</integer>
+    <integer name="m3_sys_motion_duration_medium2">300</integer>
+    <integer name="m3_sys_motion_duration_medium3">350</integer>
+    <integer name="m3_sys_motion_duration_medium4">400</integer>
+    <integer name="m3_sys_motion_duration_short1">50</integer>
+    <integer name="m3_sys_motion_duration_short2">100</integer>
+    <integer name="m3_sys_motion_duration_short3">150</integer>
+    <integer name="m3_sys_motion_duration_short4">200</integer>
+    <integer name="m3_sys_motion_path">0</integer>
+    <integer name="m3_sys_shape_corner_full_corner_family">0</integer>
+    <integer name="material_motion_duration_long_1">300</integer>
+    <integer name="material_motion_duration_long_2">350</integer>
+    <integer name="material_motion_duration_medium_1">200</integer>
+    <integer name="material_motion_duration_medium_2">250</integer>
+    <integer name="material_motion_duration_short_1">75</integer>
+    <integer name="material_motion_duration_short_2">150</integer>
+    <integer name="material_motion_path">0</integer>
+    <integer name="max_blur_radius">250</integer>
+    <item type="integer" name="mini_mode_scale_grid_fold_cover" format="float">0.5</item>
+    <item type="integer" name="mini_mode_scale_grid_fold_main" format="float">0.5</item>
+    <item type="integer" name="mini_mode_scale_grid_phone" format="float">0.5</item>
+    <item type="integer" name="mini_mode_scale_grid_tablet" format="float">0.5</item>
+    <item type="integer" name="mini_mode_scale_list_fold_cover" format="float">0.5</item>
+    <item type="integer" name="mini_mode_scale_list_fold_main" format="float">0.5</item>
+    <item type="integer" name="mini_mode_scale_list_phone" format="float">0.5</item>
+    <item type="integer" name="mini_mode_scale_list_tablet" format="float">0.5</item>
+    <item type="integer" name="mini_mode_top_margin" format="float">0.2</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_grid_fold_cover" format="float">0.315</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_grid_fold_main" format="float">0.31</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_grid_phone" format="float">0.32</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_grid_tablet" format="float">0.3</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_list_fold_cover" format="float">0.3</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_list_fold_main" format="float">0.25</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_list_phone" format="float">0.3</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_list_tablet" format="float">0.27</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_stack_fold_cover" format="float">0.3</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_stack_fold_main" format="float">0.3</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_stack_phone" format="float">0.33</item>
+    <item type="integer" name="mini_mode_top_margin_ratio_stack_tablet" format="float">0.27</item>
+    <integer name="mtrl_btn_anim_delay_ms">100</integer>
+    <integer name="mtrl_btn_anim_duration_ms">100</integer>
+    <integer name="mtrl_calendar_header_orientation">1</integer>
+    <integer name="mtrl_calendar_selection_text_lines">1</integer>
+    <integer name="mtrl_calendar_year_selector_span">3</integer>
+    <integer name="mtrl_card_anim_delay_ms">75</integer>
+    <integer name="mtrl_card_anim_duration_ms">120</integer>
+    <integer name="mtrl_chip_anim_duration">100</integer>
+    <integer name="mtrl_switch_thumb_post_morphing_duration">@integer/m3_sys_motion_duration_short3</integer>
+    <integer name="mtrl_switch_thumb_pre_morphing_duration">@integer/m3_sys_motion_duration_short2</integer>
+    <integer name="mtrl_switch_thumb_pressed_duration">@integer/m3_sys_motion_duration_short2</integer>
+    <integer name="mtrl_switch_thumb_viewport_center_coordinate">16</integer>
+    <integer name="mtrl_switch_thumb_viewport_size">32</integer>
+    <integer name="mtrl_switch_track_viewport_height">32</integer>
+    <integer name="mtrl_switch_track_viewport_width">52</integer>
+    <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
+    <integer name="mtrl_view_invisible">1</integer>
+    <integer name="notification_panel_width">600</integer>
+    <item type="integer" name="page_side_margin_grid_fold_cover" format="float">0.09</item>
+    <item type="integer" name="page_side_margin_grid_fold_main" format="float">0.09</item>
+    <item type="integer" name="page_side_margin_grid_phone" format="float">0.09</item>
+    <item type="integer" name="page_side_margin_grid_tablet" format="float">0.158</item>
+    <item type="integer" name="page_spacing_grid_fold_cover" format="float">0.04</item>
+    <item type="integer" name="page_spacing_grid_fold_main" format="float">0.04</item>
+    <item type="integer" name="page_spacing_grid_phone" format="float">0.04</item>
+    <item type="integer" name="page_spacing_grid_tablet" format="float">0.055</item>
+    <item type="integer" name="page_spacing_list_fold_cover" format="float">0.064</item>
+    <item type="integer" name="page_spacing_list_fold_main" format="float">0.03</item>
+    <item type="integer" name="page_spacing_list_phone" format="float">0.056</item>
+    <item type="integer" name="page_spacing_list_tablet" format="float">0.03</item>
+    <item type="integer" name="page_spacing_slim_fold_cover" format="float">0.018</item>
+    <item type="integer" name="page_spacing_slim_fold_main" format="float">0.024</item>
+    <item type="integer" name="page_spacing_slim_phone" format="float">0.018</item>
+    <item type="integer" name="page_spacing_slim_tablet" format="float">0.01</item>
+    <item type="integer" name="page_spacing_vertical_fold_cover" format="float">0.017</item>
+    <item type="integer" name="page_spacing_vertical_fold_main" format="float">0.015</item>
+    <item type="integer" name="page_spacing_vertical_phone" format="float">0.026</item>
+    <item type="integer" name="page_spacing_vertical_tablet" format="float">0.01</item>
+    <integer name="panel_window_blur_radius">95</integer>
+    <integer name="plugin_honeyboard_contacts_preview_count">2</integer>
+    <integer name="plugin_honeyboard_contacts_preview_count_land">4</integer>
+    <integer name="plugin_honeyboard_contacts_span_size">1</integer>
+    <integer name="plugin_honeyboard_contacts_span_size_land">2</integer>
+    <integer name="plugin_honeyboard_gallery_preview_count">8</integer>
+    <integer name="plugin_honeyboard_gallery_preview_count_land">7</integer>
+    <integer name="plugin_honeyboard_gallery_span_size">4</integer>
+    <integer name="plugin_honeyboard_gallery_span_size_land">7</integer>
+    <integer name="plugin_honeyboard_melon_preview_count">2</integer>
+    <integer name="plugin_honeyboard_melon_preview_count_land">4</integer>
+    <integer name="plugin_honeyboard_melon_span_size">1</integer>
+    <integer name="plugin_honeyboard_melon_span_size_land">2</integer>
+    <integer name="plugin_honeyboard_netflix_preview_count">3</integer>
+    <integer name="plugin_honeyboard_netflix_preview_count_land">6</integer>
+    <integer name="plugin_honeyboard_netflix_span_size">3</integer>
+    <integer name="plugin_honeyboard_netflix_span_size_land">6</integer>
+    <integer name="pop_over_activity_height">731</integer>
+    <integer name="pop_over_activity_width">360</integer>
+    <integer name="popup_fade_in_alpha_duration">150</integer>
+    <integer name="popup_fade_in_scale_duration">250</integer>
+    <integer name="popup_fade_out_alpha_duration">150</integer>
+    <integer name="popup_fade_out_scale_duration">250</integer>
+    <integer name="popup_folder_bg_blur_radius">200</integer>
+    <integer name="preferences_detail_pane_weight">1</integer>
+    <integer name="preferences_header_pane_weight">0</integer>
+    <integer name="relative_link_back_transparency">23</integer>
+    <integer name="result_thumbnail1_2_grid_span_count">3</integer>
+    <integer name="result_thumbnail5_grid_span_count">2</integer>
+    <item type="integer" name="row_gap_fold_cover" format="float">0.05</item>
+    <item type="integer" name="row_gap_fold_main" format="float">0.055</item>
+    <item type="integer" name="row_gap_phone" format="float">0.06</item>
+    <item type="integer" name="row_gap_tablet" format="float">0.075</item>
+    <item type="integer" name="scene_start_vertical_fold_cover" format="float">0.364</item>
+    <item type="integer" name="scene_start_vertical_fold_main" format="float">0.243</item>
+    <item type="integer" name="scene_start_vertical_phone" format="float">0.367</item>
+    <item type="integer" name="scene_start_vertical_tablet" format="float">0.35</item>
+    <integer name="sesl_chip_default_anim_duration">450</integer>
+    <integer name="sesl_config_activityDefaultDur">220</integer>
+    <integer name="sesl_config_activityShortDur">150</integer>
+    <integer name="sesl_config_tooltipAnimTime">150</integer>
+    <integer name="sesl_date_picker_abnormal_start_end_date_background_alpha">38</integer>
+    <integer name="sesl_date_picker_spinner_long_month_text_size">19</integer>
+    <integer name="sesl_date_picker_spinner_number_text_size">22</integer>
+    <integer name="sesl_date_picker_spinner_number_text_size_with_unit">19</integer>
+    <integer name="sesl_day_number_disabled_alpha_dark">51</integer>
+    <integer name="sesl_day_number_disabled_alpha_light">26</integer>
+    <integer name="sesl_day_number_theme_disabled_alpha">102</integer>
+    <integer name="sesl_dialog_disabled_anim_duration">100</integer>
+    <integer name="sesl_dialog_enter_anim_duration">100</integer>
+    <integer name="sesl_dialog_exit_anim_duration">100</integer>
+    <integer name="sesl_recoil_effect_press_duration">100</integer>
+    <integer name="sesl_recoil_effect_release_duration">350</integer>
+    <integer name="sesl_spinning_date_picker_spinner_view_weight">47</integer>
+    <item type="integer" name="sesl_spinning_date_time_picker_empty_view_left_weight" format="float">7.5</item>
+    <integer name="sesl_spinning_date_time_picker_margin_view_left_weight">4</integer>
+    <integer name="sesl_spinning_datepicker_time_ampm_weight">13</integer>
+    <integer name="sesl_spinning_datepicker_time_hr_min_container_weight">30</integer>
+    <integer name="sesl_spinning_datepicker_time_hr_weight">14</integer>
+    <integer name="sesl_spinning_datepicker_time_margin_right_weight">6</integer>
+    <integer name="sesl_spinning_datepicker_time_min_weight">14</integer>
+    <item type="integer" name="sesl_spinning_datepicker_time_padding_left" format="float">11.5</item>
+    <item type="integer" name="sesl_spinning_datepicker_time_padding_right" format="float">11.5</item>
+    <integer name="sesl_tablayout_over_screen_width_dp">480</integer>
+    <integer name="show_password_duration">200</integer>
+    <item type="integer" name="side_icon_ratio_grid_fold_cover" format="float">0.5</item>
+    <item type="integer" name="side_icon_ratio_grid_fold_main" format="float">0.5</item>
+    <item type="integer" name="side_icon_ratio_grid_phone" format="float">0.5</item>
+    <item type="integer" name="side_icon_ratio_grid_tablet" format="float">0.63</item>
+    <item type="integer" name="side_icon_ratio_list_fold_cover" format="float">0.5</item>
+    <item type="integer" name="side_icon_ratio_list_fold_main" format="float">0.5</item>
+    <item type="integer" name="side_icon_ratio_list_phone" format="float">0.5</item>
+    <item type="integer" name="side_icon_ratio_list_tablet" format="float">0.5</item>
+    <item type="integer" name="side_icon_ratio_tilt_stack_fold_cover" format="float">0.6</item>
+    <item type="integer" name="side_icon_ratio_tilt_stack_fold_main" format="float">0.57</item>
+    <item type="integer" name="side_icon_ratio_tilt_stack_phone" format="float">0.5</item>
+    <item type="integer" name="side_icon_ratio_tilt_stack_tablet" format="float">0.7</item>
+    <item type="integer" name="stacked_widget_indicator_alpha" format="float">1.0</item>
+    <item type="integer" name="stacked_widget_scroll_bg_alpha" format="float">0.5</item>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="suggested_apps_default_grid_x">4</integer>
+    <integer name="suggested_apps_default_grid_y">1</integer>
+    <integer name="suggested_apps_grid_x_fold_main">6</integer>
+    <integer name="suggested_apps_grid_y_fold_main">1</integer>
+    <item type="integer" name="swipe_threshold_common" format="float">0.5</item>
+    <item type="integer" name="swipe_threshold_slim_fold_cover" format="float">0.42</item>
+    <item type="integer" name="swipe_threshold_slim_fold_main" format="float">0.42</item>
+    <item type="integer" name="swipe_threshold_slim_phone" format="float">0.42</item>
+    <item type="integer" name="swipe_threshold_slim_tablet" format="float">0.42</item>
+    <item type="integer" name="swipe_threshold_vertical_fold_cover" format="float">0.285</item>
+    <item type="integer" name="swipe_threshold_vertical_fold_main" format="float">0.19</item>
+    <item type="integer" name="swipe_threshold_vertical_phone" format="float">0.33</item>
+    <item type="integer" name="swipe_threshold_vertical_tablet" format="float">0.21</item>
+    <item type="integer" name="task_icon_ratio_grid_fold_cover" format="float">0.65</item>
+    <item type="integer" name="task_icon_ratio_grid_fold_main" format="float">0.75</item>
+    <item type="integer" name="task_icon_ratio_grid_phone" format="float">0.63</item>
+    <item type="integer" name="task_icon_ratio_grid_tablet" format="float">0.907</item>
+    <item type="integer" name="task_icon_ratio_list_fold_cover" format="float">0.808</item>
+    <item type="integer" name="task_icon_ratio_list_fold_main" format="float">0.9</item>
+    <item type="integer" name="task_icon_ratio_list_phone" format="float">0.88</item>
+    <item type="integer" name="task_icon_ratio_list_tablet" format="float">0.87</item>
+    <item type="integer" name="task_icon_ratio_slim_fold_cover" format="float">0.53</item>
+    <item type="integer" name="task_icon_ratio_slim_fold_main" format="float">0.55</item>
+    <item type="integer" name="task_icon_ratio_slim_phone" format="float">0.44</item>
+    <item type="integer" name="task_icon_ratio_slim_tablet" format="float">0.6</item>
+    <item type="integer" name="task_icon_ratio_stack_fold_cover" format="float">0.5</item>
+    <item type="integer" name="task_icon_ratio_stack_fold_main" format="float">0.6</item>
+    <item type="integer" name="task_icon_ratio_stack_phone" format="float">0.44</item>
+    <item type="integer" name="task_icon_ratio_stack_tablet" format="float">0.6</item>
+    <item type="integer" name="task_icon_ratio_tilt_stack_fold_cover" format="float">0.817</item>
+    <item type="integer" name="task_icon_ratio_tilt_stack_fold_main" format="float">0.938</item>
+    <item type="integer" name="task_icon_ratio_tilt_stack_phone" format="float">0.86</item>
+    <item type="integer" name="task_icon_ratio_tilt_stack_tablet" format="float">0.9</item>
+    <item type="integer" name="task_icon_ratio_vertical_fold_cover" format="float">0.48</item>
+    <item type="integer" name="task_icon_ratio_vertical_fold_main" format="float">0.58</item>
+    <item type="integer" name="task_icon_ratio_vertical_phone" format="float">0.44</item>
+    <item type="integer" name="task_icon_ratio_vertical_tablet" format="float">0.63</item>
+    <item type="integer" name="task_icon_start_margin_ratio_grid" format="float">0.045</item>
+    <item type="integer" name="task_icon_start_margin_ratio_stack_fold_cover" format="float">0.13</item>
+    <item type="integer" name="task_icon_start_margin_ratio_stack_fold_main" format="float">0.065</item>
+    <item type="integer" name="task_icon_start_margin_ratio_stack_phone" format="float">0.1</item>
+    <item type="integer" name="task_icon_start_margin_ratio_stack_tablet" format="float">0.05</item>
+    <item type="integer" name="task_icon_start_margin_ratio_tilt_stack_fold_cover" format="float">0.065</item>
+    <item type="integer" name="task_icon_start_margin_ratio_tilt_stack_fold_main" format="float">0.042</item>
+    <item type="integer" name="task_icon_start_margin_ratio_tilt_stack_phone" format="float">0.06</item>
+    <item type="integer" name="task_icon_start_margin_ratio_tilt_stack_tablet" format="float">0.03</item>
+    <item type="integer" name="task_icon_top_margin_ratio_tilt_stack_center" format="float">0.011</item>
+    <item type="integer" name="task_icon_top_margin_ratio_tilt_stack_minusone" format="float">0.009</item>
+    <item type="integer" name="task_icon_top_margin_ratio_tilt_stack_plusone" format="float">0.007</item>
+    <item type="integer" name="task_menu_alpha" format="float">1.0</item>
+    <item type="integer" name="task_menu_dimmed_alpha" format="float">0.4</item>
+    <item type="integer" name="task_scene_scale_grid_fold_cover" format="float">0.3</item>
+    <item type="integer" name="task_scene_scale_grid_fold_main" format="float">0.284</item>
+    <item type="integer" name="task_scene_scale_grid_phone" format="float">0.29</item>
+    <item type="integer" name="task_scene_scale_grid_tablet" format="float">0.29</item>
+    <item type="integer" name="task_scene_scale_list_fold_cover" format="float">0.6</item>
+    <item type="integer" name="task_scene_scale_list_fold_main" format="float">0.46</item>
+    <item type="integer" name="task_scene_scale_list_phone" format="float">0.6</item>
+    <item type="integer" name="task_scene_scale_list_tablet" format="float">0.63</item>
+    <item type="integer" name="task_scene_scale_stack_fold_cover" format="float">0.65</item>
+    <item type="integer" name="task_scene_scale_stack_fold_main" format="float">0.6</item>
+    <item type="integer" name="task_scene_scale_stack_phone" format="float">0.65</item>
+    <item type="integer" name="task_scene_scale_stack_tablet" format="float">0.67</item>
+    <item type="integer" name="task_scene_scale_tilt_stack_fold_cover" format="float">0.609</item>
+    <item type="integer" name="task_scene_scale_tilt_stack_fold_main" format="float">0.502</item>
+    <item type="integer" name="task_scene_scale_tilt_stack_phone" format="float">0.631</item>
+    <item type="integer" name="task_scene_scale_tilt_stack_tablet" format="float">0.65</item>
+    <item type="integer" name="task_scene_scale_tilt_stack_wide_fold_cover" format="float">0.5144</item>
+    <item type="integer" name="task_scene_scale_tilt_stack_wide_fold_main" format="float">0.5468</item>
+    <item type="integer" name="task_scene_scale_x_slim_fold_cover" format="float">0.92</item>
+    <item type="integer" name="task_scene_scale_x_slim_fold_main" format="float">0.75</item>
+    <item type="integer" name="task_scene_scale_x_slim_phone" format="float">0.9</item>
+    <item type="integer" name="task_scene_scale_x_slim_tablet" format="float">0.73</item>
+    <item type="integer" name="task_scene_scale_x_vertical_fold_cover" format="float">0.57</item>
+    <item type="integer" name="task_scene_scale_x_vertical_fold_main" format="float">0.39</item>
+    <item type="integer" name="task_scene_scale_x_vertical_phone" format="float">0.542</item>
+    <item type="integer" name="task_scene_scale_x_vertical_tablet" format="float">0.43</item>
+    <item type="integer" name="task_scene_scale_y_slim_fold_cover" format="float">0.077</item>
+    <item type="integer" name="task_scene_scale_y_slim_fold_main" format="float">0.09</item>
+    <item type="integer" name="task_scene_scale_y_slim_phone" format="float">0.077</item>
+    <item type="integer" name="task_scene_scale_y_slim_tablet" format="float">0.06</item>
+    <item type="integer" name="task_scene_scale_y_vertical_fold_cover" format="float">0.18</item>
+    <item type="integer" name="task_scene_scale_y_vertical_fold_main" format="float">0.27</item>
+    <item type="integer" name="task_scene_scale_y_vertical_phone" format="float">0.206</item>
+    <item type="integer" name="task_scene_scale_y_vertical_tablet" format="float">0.2</item>
+    <item type="integer" name="task_scene_suggested_apps_gap_grid_fold_cover" format="float">0.04</item>
+    <item type="integer" name="task_scene_suggested_apps_gap_grid_fold_main" format="float">0.029</item>
+    <item type="integer" name="task_scene_suggested_apps_gap_grid_phone" format="float">0.025</item>
+    <item type="integer" name="task_scene_suggested_apps_gap_grid_tablet" format="float">0.0</item>
+    <item type="integer" name="task_scene_suggested_apps_gap_list_fold_cover" format="float">0.04</item>
+    <item type="integer" name="task_scene_suggested_apps_gap_list_fold_main" format="float">0.029</item>
+    <item type="integer" name="task_scene_suggested_apps_gap_list_phone" format="float">0.025</item>
+    <item type="integer" name="task_scene_suggested_apps_gap_list_tablet" format="float">0.022</item>
+    <item type="integer" name="task_scene_top_grid_fold_cover" format="float">0.11</item>
+    <item type="integer" name="task_scene_top_grid_fold_main" format="float">0.125</item>
+    <item type="integer" name="task_scene_top_grid_phone" format="float">0.11</item>
+    <item type="integer" name="task_scene_top_grid_tablet" format="float">0.135</item>
+    <item type="integer" name="task_scene_top_list_fold_cover" format="float">0.148</item>
+    <item type="integer" name="task_scene_top_list_fold_main" format="float">0.2</item>
+    <item type="integer" name="task_scene_top_list_phone" format="float">0.145</item>
+    <item type="integer" name="task_scene_top_list_tablet" format="float">0.15</item>
+    <item type="integer" name="task_scene_top_slim_fold_cover" format="float">0.7</item>
+    <item type="integer" name="task_scene_top_slim_fold_main" format="float">0.726</item>
+    <item type="integer" name="task_scene_top_slim_phone" format="float">0.677</item>
+    <item type="integer" name="task_scene_top_slim_tablet" format="float">0.67</item>
+    <item type="integer" name="task_scene_top_stack_fold_cover" format="float">0.13</item>
+    <item type="integer" name="task_scene_top_stack_fold_main" format="float">0.17</item>
+    <item type="integer" name="task_scene_top_stack_phone" format="float">0.125</item>
+    <item type="integer" name="task_scene_top_stack_tablet" format="float">0.13</item>
+    <item type="integer" name="task_scene_top_tilt_stack_fold_cover" format="float">0.116</item>
+    <item type="integer" name="task_scene_top_tilt_stack_fold_main" format="float">0.173</item>
+    <item type="integer" name="task_scene_top_tilt_stack_phone" format="float">0.114</item>
+    <item type="integer" name="task_scene_top_tilt_stack_tablet" format="float">0.13</item>
+    <item type="integer" name="task_scene_top_tilt_stack_wide_fold_cover" format="float">0.1811</item>
+    <item type="integer" name="task_scene_top_tilt_stack_wide_fold_main" format="float">0.211</item>
+    <item type="integer" name="task_scene_top_vertical_fold_cover" format="float">0.635</item>
+    <item type="integer" name="task_scene_top_vertical_fold_main" format="float">0.476</item>
+    <item type="integer" name="task_scene_top_vertical_phone" format="float">0.593</item>
+    <item type="integer" name="task_scene_top_vertical_tablet" format="float">0.55</item>
+    <integer name="text_shadow_dy">0</integer>
+    <integer name="text_shadow_radius">2</integer>
+    <item type="integer" name="ux_center_to_plus_one_gap_tilt_stack_fold_cover" format="float">52.0</item>
+    <item type="integer" name="ux_center_to_plus_one_gap_tilt_stack_fold_main" format="float">132.0</item>
+    <item type="integer" name="ux_center_to_plus_one_gap_tilt_stack_phone" format="float">52.0</item>
+    <item type="integer" name="ux_center_to_plus_one_gap_tilt_stack_tablet" format="float">110.0</item>
+    <item type="integer" name="ux_minus_one_center_gap_tilt_stack_fold_cover" format="float">16.0</item>
+    <item type="integer" name="ux_minus_one_center_gap_tilt_stack_fold_main" format="float">24.0</item>
+    <item type="integer" name="ux_minus_one_center_gap_tilt_stack_phone" format="float">16.0</item>
+    <item type="integer" name="ux_minus_one_center_gap_tilt_stack_tablet" format="float">26.0</item>
+    <item type="integer" name="ux_plus_one_plus_two_gap_tilt_stack_fold_cover" format="float">42.0</item>
+    <item type="integer" name="ux_plus_one_plus_two_gap_tilt_stack_fold_main" format="float">106.0</item>
+    <item type="integer" name="ux_plus_one_plus_two_gap_tilt_stack_phone" format="float">48.0</item>
+    <item type="integer" name="ux_plus_one_plus_two_gap_tilt_stack_tablet" format="float">100.0</item>
+    <item type="integer" name="ux_width_for_gap_tilt_stack_fold_cover" format="float">368.0</item>
+    <item type="integer" name="ux_width_for_gap_tilt_stack_fold_main" format="float">707.0</item>
+    <item type="integer" name="ux_width_for_gap_tilt_stack_phone" format="float">360.0</item>
+    <item type="integer" name="ux_width_for_gap_tilt_stack_tablet" format="float">800.0</item>
+    <item type="integer" name="vertical_list_app_label_shadow_dx" format="float">2.0</item>
+    <item type="integer" name="vertical_list_app_label_shadow_dy" format="float">2.0</item>
+    <item type="integer" name="vertical_list_app_label_shadow_radius" format="float">2.0</item>
+    <item type="integer" name="wallpaper_view_blur_curve" format="float">10.0</item>
+    <item type="integer" name="wallpaper_view_blur_folder_max_y" format="float">232.0</item>
+    <item type="integer" name="wallpaper_view_blur_max_x" format="float">255.0</item>
+    <item type="integer" name="wallpaper_view_blur_max_y" format="float">232.0</item>
+    <item type="integer" name="wallpaper_view_blur_max_y_captured_blur" format="float">192.0</item>
+    <item type="integer" name="wallpaper_view_blur_min_x" format="float">15.0</item>
+    <item type="integer" name="wallpaper_view_blur_min_y" format="float">53.5</item>
+    <item type="integer" name="wallpaper_view_blur_normal_max_y" format="float">232.0</item>
+    <item type="integer" name="wallpaper_view_blur_saturation" format="float">0.25</item>
+</resources>

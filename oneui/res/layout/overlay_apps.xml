@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.overlayapps.presentation.OverlayAppsContainer android:id="@id/container" android:tag="layout/overlay_apps_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/blur_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <View android:id="@id/dim_view" android:background="@color/all_apps_dim_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.honeyspace.ui.honeypots.overlayapps.presentation.OverlayAppsContainerView android:id="@id/overlay_apps_list" android:tag="binding_1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/all_apps" android:importantForAccessibility="no" android:elevation="@dimen/overlay_apps_container_elevation">
+        <View android:id="@id/inner_blur_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:clipToOutline="true" />
+        <View android:id="@id/inner_stroke_view" android:tag="binding_2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <include android:id="@id/overlay_apps_search_bar_container" layout="@layout/overlay_apps_search_bar" />
+        <include android:id="@id/overlay_apps_search_icon_button_land_container" layout="@layout/overlay_apps_search_bar_land_icon" />
+        <TextView android:textAppearance="@style/SecRegular" android:textSize="19.0sp" android:textColor="@color/overlay_apps_search_no_result_color" android:gravity="center" android:layout_gravity="center" android:id="@id/no_result_text_view" android:tag="binding_3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_results_found" android:layout_centerInParent="true" />
+    </com.honeyspace.ui.honeypots.overlayapps.presentation.OverlayAppsContainerView>
+    <include android:id="@id/overlay_apps_sip_search_bar_container" layout="@layout/overlay_apps_sip_search_bar" />
+</com.honeyspace.ui.honeypots.overlayapps.presentation.OverlayAppsContainer>

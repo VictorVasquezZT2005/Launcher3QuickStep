@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <color name="primary">#adc6ff</color>
+    <color name="on_primary">#002e69</color>
+    <color name="primary_container">#4b8eff</color>
+    <color name="on_primary_container">#00285c</color>
+    
+    <color name="secondary">#bcc7de</color>
+    <color name="on_secondary">#263143</color>
+    <color name="secondary_container">#3e495d</color>
+    <color name="on_secondary_container">#aeb9d0</color>
+    
+    <color name="tertiary">#c3c0ff</color>
+    <color name="on_tertiary">#272377</color>
+    <color name="tertiary_container">#8987df</color>
+    <color name="on_tertiary_container">#201b70</color>
+    
+    <color name="background">#0b1326</color>
+    <color name="on_background">#dae2fd</color>
+    
+    <color name="surface">#0b1326</color>
+    <color name="on_surface">#dae2fd</color>
+    <color name="surface_variant">#2d3449</color>
+    <color name="on_surface_variant">#c1c6d7</color>
+    
+    <color name="surface_container">#171f33</color>
+    <color name="surface_container_high">#222a3d</color>
+    <color name="surface_container_highest">#2d3449</color>
+    <color name="surface_bright">#31394d</color>
+    
+    <color name="outline">#8b90a0</color>
+    <color name="outline_variant">#414755</color>
+    
+    <color name="glass_white_10">#1AFFFFFF</color>
+    <color name="glass_white_20">#33FFFFFF</color>
+    
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="error">#FFFF5449</color>
 </resources>

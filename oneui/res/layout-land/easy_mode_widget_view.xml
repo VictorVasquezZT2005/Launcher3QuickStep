@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_background_image" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/easy_mode_widget_background" android:contentDescription="@string/easy_mode_widget_label" />
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="@dimen/easy_mode_widget_padding_left" android:paddingEnd="@dimen/easy_mode_widget_padding_right">
+        <ImageView android:id="@id/icon" android:layout_width="@dimen/easy_mode_widget_icon_size" android:layout_height="@dimen/easy_mode_widget_icon_size" android:src="@drawable/easy_mode_widget_icon" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/easy_mode_widget_text_size" android:textColor="@color/easy_mode_widget_text_color_light_theme" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/easy_mode_widget_text" android:maxLines="@integer/easy_mode_widget_text_max_lines" android:fontFamily="sec-roboto-regular" />
+    </LinearLayout>
+</FrameLayout>

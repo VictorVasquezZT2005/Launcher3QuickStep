@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.sesl.widget.OuterGlowView android:id="@id/outerGlowView" android:tag="layout/outer_glow_view_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

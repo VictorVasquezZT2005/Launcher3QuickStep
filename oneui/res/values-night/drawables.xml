@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="add_desk_button_background">@drawable/add_desk_button_src_dark</drawable>
+    <drawable name="add_desk_button_reduce_transparency_background">@drawable/add_desk_button_reduce_transparency_src_dark</drawable>
+    <drawable name="apps_sort_background">@drawable/sesl_menu_popup_background_dark</drawable>
+    <drawable name="desk_container_close_button_disabled_src_reduce_transparency">@drawable/desk_container_close_button_disabled_src_reduce_transparency_dark</drawable>
+    <drawable name="task_menu_background">@drawable/sesl_menu_popup_background_dark</drawable>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EdgeConfig>
+    <version name="2" />
+    <category_filter product="default" value="normal" />
+    <preferred_width value="550" />
+    <package_hide_edge_service value="com.samsung.android.service.peoplestripe" />
+    <package_hide_edge_service value="com.sec.factory" />
+    <package_hide_edge_service value="com.sec.android.app.hwmoduletest" />
+    <package_hide_edge_service value="android.server.cts" />
+    <package_hide_edge_service value="android.systemui.cts" />
+    <package_hide_edge_service value="android.widget.cts" />
+    <package_hide_edge_service value="android.server.wm.cts" />
+    <package_hide_edge_service value="android.display.cts" />
+    <package_hide_edge_service value="com.samsung.android.retail.screensaver" />
+    <meta_data_hide_edge_service value="com.samsung.android.edge.hide_edge_screen_handle" />
+    <replaced_component value="com.sec.android.app.SmartClipEdgeService.edge.SmartClipEdgeProvider,com.samsung.android.app.smartselect.edge.SmartClipEdgeProvider" />
+    <replaced_component value="com.sec.android.daemonapp.edge.EdgeWeatherProvider,com.sec.android.daemonapp.edge.EdgeProvider" />
+    <replaced_component value="com.samsung.android.weather.app.edge.EdgeProvider,com.sec.android.daemonapp.edge.EdgeProvider" />
+    <replaced_component value="com.samsung.android.app.reminder.remote.EdgePanelProvider,com.samsung.android.app.reminder.remote.edge.EdgeProvider" />
+    <replaced_component value="com.samsung.android.app.appsedge.edgepanel.AppsEdgePanelProvider,com.samsung.app.honeyspace.edge.appsedge.ui.panel.AppsEdgePanelProvider" />
+    <replaced_panel value="com.samsung.android.app.smartselect.edge.SmartClipEdgeProvider,com.samsung.app.honeyspace.edge.appsedge.ui.panel.AppsEdgePanelProvider" />
+    <replaced_package value="com.samsung.android.app.appsedge,com.sec.android.app.launcher" />
+</EdgeConfig>

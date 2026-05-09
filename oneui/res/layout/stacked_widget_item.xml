@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_view" android:tag="layout/stacked_widget_item_0" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:foregroundGravity="center"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.honeypots.stackedwidget.presentation.DeleteButton android:layout_gravity="center" android:id="@id/delete_btn" android:tag="binding_1" android:layout_width="@dimen/stacked_widget_delete_button_size" android:layout_height="@dimen/stacked_widget_delete_button_size" android:src="@drawable/stacked_widget_edit_item_btn_delete" android:elevation="1.0dp" />
+    <ImageView android:layout_gravity="center" android:id="@id/bg_stroke" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stacked_widget_edit_item_bg_stroke" />
+</FrameLayout>

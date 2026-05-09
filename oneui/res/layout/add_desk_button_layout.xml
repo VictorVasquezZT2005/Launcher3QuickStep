@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/containerView" android:tag="layout/add_desk_button_layout_0" android:background="@drawable/add_desk_button_bg" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iconView" android:layout_width="@dimen/add_desk_button_icon_size" android:layout_height="@dimen/add_desk_button_icon_size" android:src="@drawable/add_desk_button_icon" />
+    <TextView android:textSize="@dimen/add_desk_button_text_size" android:textColor="@color/add_desk_button_text" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/desktop" android:maxLines="1" android:layout_marginStart="@dimen/add_desk_button_icon_text_gap" />
+</LinearLayout>

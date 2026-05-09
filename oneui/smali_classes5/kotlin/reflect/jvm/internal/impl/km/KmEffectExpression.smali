@@ -1,0 +1,131 @@
+.class public final Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field private final andArguments:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private constantValue:Lkotlin/reflect/jvm/internal/impl/km/KmConstantValue;
+
+.field private flags:I
+
+.field private isInstanceType:Lkotlin/reflect/jvm/internal/impl/km/KmType;
+
+.field private final orArguments:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private parameterIndex:Ljava/lang/Integer;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
+
+    iput-object v0, p0, Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;->andArguments:Ljava/util/List;
+
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
+
+    iput-object v0, p0, Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;->orArguments:Ljava/util/List;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getAndArguments()Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object p0, p0, Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;->andArguments:Ljava/util/List;
+
+    return-object p0
+.end method
+
+.method public final getFlags$kotlin_metadata()I
+    .locals 0
+
+    iget p0, p0, Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;->flags:I
+
+    return p0
+.end method
+
+.method public final getOrArguments()Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object p0, p0, Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;->orArguments:Ljava/util/List;
+
+    return-object p0
+.end method
+
+.method public final setConstantValue(Lkotlin/reflect/jvm/internal/impl/km/KmConstantValue;)V
+    .locals 0
+
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;->constantValue:Lkotlin/reflect/jvm/internal/impl/km/KmConstantValue;
+
+    return-void
+.end method
+
+.method public final setFlags$kotlin_metadata(I)V
+    .locals 0
+
+    iput p1, p0, Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;->flags:I
+
+    return-void
+.end method
+
+.method public final setInstanceType(Lkotlin/reflect/jvm/internal/impl/km/KmType;)V
+    .locals 0
+
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;->isInstanceType:Lkotlin/reflect/jvm/internal/impl/km/KmType;
+
+    return-void
+.end method
+
+.method public final setParameterIndex(Ljava/lang/Integer;)V
+    .locals 0
+
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/impl/km/KmEffectExpression;->parameterIndex:Ljava/lang/Integer;
+
+    return-void
+.end method

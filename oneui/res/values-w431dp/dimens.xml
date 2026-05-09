@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pde_card_title_margin_start">0.0dp</dimen>
+</resources>

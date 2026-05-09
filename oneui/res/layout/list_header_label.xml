@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.widgetlist.presentation.ListHeaderLabelContainer android:gravity="center_vertical" android:layout_gravity="start|center" android:orientation="vertical" android:id="@id/header_label_container" android:tag="layout/list_header_label_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/header_label_text_size" android:ellipsize="end" android:id="@id/header_label" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:fontFamily="sec" android:textAlignment="viewStart" android:textFontWeight="400" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/header_label_sub_text_size" android:ellipsize="end" android:id="@id/header_sub" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:textAlignment="viewStart" />
+</com.honeyspace.ui.honeypots.widgetlist.presentation.ListHeaderLabelContainer>

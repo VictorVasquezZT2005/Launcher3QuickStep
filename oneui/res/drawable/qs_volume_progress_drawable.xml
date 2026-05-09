@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/qs_volume_progress_color_control_normal" />
+            <corners android:radius="@dimen/qs_volume_progress_corner_radius" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+        <transition>
+            <item>
+                <scale android:scaleWidth="100%">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="@dimen/qs_volume_progress_corner_radius" />
+                        <gradient android:startColor="@color/qs_volume_progress_color_control_activated_start" android:endColor="@color/qs_volume_progress_color_control_activated_end" />
+                    </shape>
+                </scale>
+            </item>
+            <item>
+                <scale android:scaleWidth="100%">
+                    <shape android:shape="rectangle">
+                        <corners android:radius="@dimen/qs_volume_progress_corner_radius" />
+                        <solid android:color="@color/qs_volume_progress_color_control_activated_end" />
+                    </shape>
+                </scale>
+            </item>
+        </transition>
+    </item>
+</layer-list>

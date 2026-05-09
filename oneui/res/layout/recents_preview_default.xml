@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.recents.preview.presentation.DefaultPreview android:id="@id/default_preview" android:tag="layout/recents_preview_default_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.recents.preview.presentation.PreviewBackground android:layout_gravity="center_horizontal" android:id="@id/default_preview_background" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.honeyspace.common.taskscene.TaskSceneView android:layout_gravity="center_horizontal" android:id="@id/default_preview_task_scene" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.honeyspace.ui.recents.preview.presentation.DefaultPreview>

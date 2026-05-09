@@ -1,0 +1,37 @@
+.class public abstract Ldc/g;
+.super Landroidx/databinding/ViewDataBinding;
+.source "SourceFile"
+
+
+# instance fields
+.field public final c:Landroid/widget/LinearLayout;
+
+.field public final e:Landroid/widget/TextView;
+
+.field public f:Ljava/lang/String;
+
+.field public g:Lcom/honeyspace/ui/honeypots/homescreen/viewmodel/HomeGridViewModel;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;Landroid/widget/LinearLayout;Landroid/widget/TextView;)V
+    .locals 1
+
+    const/4 v0, 0x2
+
+    invoke-direct {p0, p1, p2, v0}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
+
+    iput-object p3, p0, Ldc/g;->c:Landroid/widget/LinearLayout;
+
+    iput-object p4, p0, Ldc/g;->e:Landroid/widget/TextView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract e(Ljava/lang/String;)V
+.end method
+
+.method public abstract f(Lcom/honeyspace/ui/honeypots/homescreen/viewmodel/HomeGridViewModel;)V
+.end method

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <home>
+        <appwidget launcher:className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1" launcher:packageName="com.sec.android.daemonapp" launcher:screen="0" launcher:spanX="4" launcher:spanY="1" launcher:x="0" launcher:y="2" />
+        <appwidget launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider" launcher:packageName="com.google.android.googlequicksearchbox" launcher:screen="0" launcher:spanX="4" launcher:spanY="1" launcher:x="0" launcher:y="3" />
+        <favorite launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" launcher:packageName="com.sec.android.app.samsungapps" launcher:screen="0" launcher:x="0" launcher:y="4" />
+        <favorite launcher:className="com.samsung.android.gallery.app.activity.GalleryActivity" launcher:packageName="com.sec.android.gallery3d" launcher:screen="0" launcher:x="1" launcher:y="4" />
+        <favorite launcher:className="com.android.vending.AssetBrowserActivity" launcher:packageName="com.android.vending" launcher:screen="0" launcher:x="2" launcher:y="4" />
+        <folder launcher:screen="0" launcher:title="Google" launcher:x="3" launcher:y="4">
+            <favorite launcher:className="com.google.android.googlequicksearchbox.SearchActivity" launcher:packageName="com.google.android.googlequicksearchbox" launcher:screen="0" />
+            <favorite className="com.google.android.apps.chrome.Main" packageName="com.android.chrome" screen="1" />
+            <favorite launcher:className="com.google.android.gm.ConversationListActivityGmail" launcher:packageName="com.google.android.gm" launcher:screen="2" />
+            <favorite launcher:className="com.google.android.maps.MapsActivity" launcher:packageName="com.google.android.apps.maps" launcher:screen="3" />
+            <favorite launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" launcher:packageName="com.google.android.youtube" launcher:screen="4" />
+            <favorite launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" launcher:packageName="com.google.android.apps.docs" launcher:screen="5" />
+            <favorite launcher:className="com.google.android.apps.youtube.music.activities.MusicActivity" launcher:packageName="com.google.android.apps.youtube.music" launcher:screen="6" />
+            <favorite launcher:className="com.google.android.youtube.videos.EntryPoint" launcher:packageName="com.google.android.videos" launcher:screen="7" />
+            <favorite launcher:className="com.google.android.apps.tachyon.MainActivity" launcher:packageName="com.google.android.apps.tachyon" launcher:screen="8" />
+            <favorite launcher:className="com.google.android.apps.photos.home.HomeActivity" launcher:packageName="com.google.android.apps.photos" launcher:screen="9" />
+        </folder>
+        <favorite launcher:className="com.sec.android.app.clockpackage.ClockPackage" launcher:packageName="com.sec.android.app.clockpackage" launcher:screen="1" launcher:x="0" launcher:y="4" />
+        <favorite launcher:className="com.samsung.android.spay.ui.SpayMainActivity" launcher:packageName="com.samsung.android.spay" launcher:screen="1" launcher:x="1" launcher:y="4" />
+        <favorite launcher:className="com.samsung.android.game.gamehome.activity.StartActivity" launcher:packageName="com.samsung.android.game.gamehome" launcher:screen="1" launcher:x="2" launcher:y="4" />
+        <folder launcher:screen="1" launcher:title="Microsoft" launcher:x="3" launcher:y="4">
+            <favorite launcher:className="com.microsoft.office.officesuite.OfficeSuiteActivity" launcher:packageName="com.microsoft.office.officehubrow" launcher:screen="0" />
+            <favorite launcher:className="com.microsoft.skydrive.MainActivity" launcher:packageName="com.microsoft.skydrive" launcher:screen="1" />
+            <favorite launcher:className="com.linkedin.android.authenticator.LaunchActivity" launcher:packageName="com.linkedin.android" launcher:screen="2" />
+            <favorite launcher:className="com.microsoft.office.outlook.MainActivity" launcher:packageName="com.microsoft.office.outlook" launcher:screen="3" />
+        </folder>
+    </home>
+    <hotseat>
+        <favorite launcher:className="com.samsung.android.dialer.DialtactsActivity" launcher:packageName="com.samsung.android.dialer" launcher:screen="0" />
+        <favorite launcher:className="com.android.mms.ui.ConversationComposer" launcher:packageName="com.samsung.android.messaging" launcher:screen="1" />
+        <favorite launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" launcher:packageName="com.sec.android.app.sbrowser" launcher:screen="2" />
+        <favorite launcher:className="com.sec.android.app.camera.Camera" launcher:packageName="com.sec.android.app.camera" launcher:screen="3" />
+    </hotseat>
+</favorites>

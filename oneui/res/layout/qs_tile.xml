@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tile" android:tag="layout/qs_tile_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/icon" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foregroundGravity="center" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="160.0dp" app:cardElevation="0.0dp">
+            <com.honeyspace.ui.honeypots.dexpanel.quicksettings.presentation.IconImageView android:layout_gravity="center_horizontal" android:id="@id/icon_view" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <com.honeyspace.ui.honeypots.dexpanel.quicksettings.presentation.TileLabelView android:gravity="top" android:orientation="vertical" android:id="@id/label_group" android:tag="binding_4" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:importantForAccessibility="noHideDescendants">
+        <TextView android:textColor="@color/qs_tile_label_text_color" android:ellipsize="marquee" android:id="@id/tile_label" android:tag="binding_5" android:padding="1.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="sec" android:textAlignment="center" android:textFontWeight="500" />
+    </com.honeyspace.ui.honeypots.dexpanel.quicksettings.presentation.TileLabelView>
+</LinearLayout>

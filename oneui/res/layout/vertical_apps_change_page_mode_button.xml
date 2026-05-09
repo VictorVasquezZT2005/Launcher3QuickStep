@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/vertical_apps_change_page_mode_button_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/vertical_apps_worktab_background_blur" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/floating_workspace_tab_background_elevation" />
+    <FrameLayout android:id="@id/backgroundContainer" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/floating_workspace_tab_background_elevation" />
+    <LinearLayout android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:layout_gravity="top" android:orientation="horizontal" android:id="@id/workspace_tab_container" android:tag="binding_3" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/floating_workspace_tab_background_elevation" />
+</FrameLayout>

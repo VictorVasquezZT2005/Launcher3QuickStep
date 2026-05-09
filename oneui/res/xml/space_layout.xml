@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <workspace launcher:height="0.885" launcher:marginBottom="0.115" launcher:marginLeft="0" launcher:marginRight="0" launcher:marginTop="0" launcher:positionX="0" launcher:positionY="0" launcher:width="1" />
+    <hotseat launcher:height="0.115" launcher:marginBottom="0" launcher:marginLeft="0" launcher:marginRight="0" launcher:marginTop="0.885" launcher:positionX="0" launcher:positionY="0" launcher:width="0.9" />
+    <applist launcher:height="0.9" launcher:marginBottom="0" launcher:marginLeft="0.025" launcher:marginRight="0.025" launcher:marginTop="0.1" launcher:positionX="0" launcher:positionY="0" launcher:width="0.95" />
+    <searchbar launcher:height="0.1" launcher:marginBottom="0.9" launcher:marginLeft="0.025" launcher:marginRight="0.025" launcher:marginTop="0" launcher:positionX="0" launcher:positionY="0" launcher:width="0.95" />
+    <widgetlist launcher:height="1" launcher:marginBottom="0" launcher:marginLeft="0" launcher:marginRight="0" launcher:marginTop="0" launcher:positionX="0" launcher:positionY="0" launcher:width="1" />
+</favorites>

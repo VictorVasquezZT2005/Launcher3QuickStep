@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можете додати највише %d радни простор рачунара.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можете додати највише %d радна простора рачунара.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Можете додати највише %d радних простора рачунара.</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можете да додате највише %d стекован виџет.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можете да додате највише %d стекована виџета.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Можете да додате највише %d стекованих виџета.</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не можете да држите више од %d апликације отвореном.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Не можете да држите више од %d апликације отвореним.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Не можете да држите више од %d апликација отвореним.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/А</item>
+        <item quantity="one">Данас је преостао %d сат</item>
+        <item quantity="two">N/А</item>
+        <item quantity="few">Данас су преостала %d сата</item>
+        <item quantity="many">N/А</item>
+        <item quantity="other">Данас је преостало %d сати</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Данас је преостао %d минут</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Данас су преостала %d минута</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Данас је преостало %d минута</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d активна апликација</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d активне апликације</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d активних апликација</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ставка је активна у позадини</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ставке су активне у позадини</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ставки је активно у позадини</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колона</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d колоне</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колона</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ред</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d реда</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d редова</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можете да унесете највише %d карактер.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можете да унесете највише %d карактера.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Можете да унесете највише %d карактера.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+        <item quantity="other">%d нових обавештења</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Још %1$d обавештење за апликацију %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Још %1$d обавештења за апликацију %2$s</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Још %1$d обавештења за апликацију %2$s</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/А</item>
+        <item quantity="one">Највише %d апликација</item>
+        <item quantity="two">N/А</item>
+        <item quantity="few">Највише %d апликације</item>
+        <item quantity="many">N/А</item>
+        <item quantity="other">Највише %d апликација</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можете да изаберете највише %d панел.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можете да изаберете највише %d панела.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Можете да изаберете највише %d панела.</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Остао је %d дан</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Остала су %d дана</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Остало је %d дана</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За %d дан</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За %d дана</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">За %d дана</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">%1$s, %2$s, and %3$d others</item>
+        <item quantity="one">%1$s, %2$s, and %3$d other</item>
+        <item quantity="two">%1$s, %2$s, and %3$d others</item>
+        <item quantity="few">%1$s, %2$s, and %3$d others</item>
+        <item quantity="many">%1$s, %2$s, and %3$d others</item>
+        <item quantity="other">%1$s, %2$s, and %3$d others</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Понавља се сваког %d дана</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Понавља се свака %d дана</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Понавља се сваких %d дана</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Понавља се сваког %d сата</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Понавља се свака %d сата</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Понавља се сваких %d сати</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Понавља се сваког %d минута</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Понавља се свака %d минута</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Понавља се сваких %d минута</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Понавља се сваког %d месеца</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Понавља се свака %d месеца</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Понавља се сваких %d месеци</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Понавља се сваке %d недеље</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Понавља се сваке %d недеље</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Понавља се сваких %d недеља</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Понавља се сваке %d године</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Понавља се сваке %d године</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Понавља се сваких %d година</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Изабрано: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Изабрано: %d</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Изабрано: %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Време спавања: %d сат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Време спавања: %d сата</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Време спавања: %d сати</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Време спавања: %d минут</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Време спавања: %d минута</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Време спавања: %d минута</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Апликација (%d) је остала отворена за брзо покретање.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Апликације (%d) су остале отворене за брзо покретање.</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Апликације (%d) су остале отворене за брзо покретање.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">Нема обавештења</item>
+        <item quantity="one">%d обавештење</item>
+        <item quantity="other">%d обавештења</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d колона</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d колоне</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d колона</item>
+    </plurals>
+</resources>

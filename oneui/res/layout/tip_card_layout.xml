@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/card_layout" android:tag="layout/tip_card_layout_0" android:background="@drawable/search_card_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewpager" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="match_parent" android:layout_height="24.0dp" app:tabGravity="center" app:tabIndicatorHeight="0.0dp" app:tabMinWidth="19.0dp" app:tabSelectedTextColor="@color/tip_card_selected_dot_color" app:tabTextColor="@color/tip_card_default_stroke_dot_color" />
+</LinearLayout>

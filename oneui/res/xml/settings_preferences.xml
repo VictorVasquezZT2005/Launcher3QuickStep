@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:icon="@drawable/oneui_home" android:title="@string/home_screen_global_setting_title" android:key="top_level_homescreen_settings" app:keywords="@string/homes_screen_settings_keyword"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.homescreen.settings.AppWidgetLayoutPreference android:layout="@layout/outer_app_widget_style_settings" android:key="pref_icon_label_style_view_key" app:isPreferenceVisible="true" />
+    <PreferenceCategory android:layout="@layout/settings_one_line_list_layout" android:title="@string/iwss_app_size_home_and_apps_screens" android:key="settings_seekbar_pref_key" app:isPreferenceVisible="false">
+        <com.android.homescreen.settings.LevelSettingsSeekBarPreference android:max="2" android:key="pref_item_size_level_key" app:isPreferenceVisible="false" app:seekbar_title="@string/iwss_app_size_home_and_apps_screens" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/iwss_app_labels" android:key="pref_icon_label_key" app:isPreferenceVisible="false" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/iwss_widget_labels" android:key="pref_widget_label_key" app:isPreferenceVisible="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_category_layout_settings">
+        <Preference android:title="@string/cover_screen_mirroring" android:key="pref_cover_main_sync" app:isPreferenceVisible="false" />
+        <Preference android:title="@string/home_screen_layout" android:key="pref_home_screen_mode" />
+        <com.android.homescreen.settings.DisableHomeScreenGridPreference android:title="@string/home_screen_screengrid" android:key="pref_home_screen_grid" app:keywords="@string/home_screen_screengrid_keyword" />
+        <com.android.homescreen.settings.DisableAppScreenGridPreference android:title="@string/setting_apps_screen_grid" android:key="pref_apps_screen_grid" app:keywords="@string/setting_apps_screen_grid_keyword" />
+        <com.android.homescreen.settings.DisableDropDownPreference android:title="@string/setting_folder_grid" android:key="Folder.Grid" />
+        <SeslSwitchPreferenceScreen android:title="@string/discover_title" android:key="pref_discover_enabled" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_category_basic_settings">
+        <SeslSwitchPreferenceScreen android:title="@string/media_page_title" android:key="pref_media_page_enabled" app:keywords="@string/homes_screen_settings_add_media_page_to_homescreen_keyword" />
+        <SwitchPreferenceCompat android:title="@string/show_finder_on_home_screen" android:key="pref_finder_button" />
+        <SwitchPreferenceCompat android:title="@string/apps_button_title" android:key="pref_apps_button_setting" />
+        <SwitchPreferenceCompat android:title="@string/lock_screen_layout_title" android:key="pref_lock_screen_layout" />
+        <SwitchPreferenceCompat android:title="@string/add_icon_to_home_screen_title" android:key="pref_add_icon_to_home" />
+        <Preference android:title="@string/home_screen_settings_hide_apps_home_apps" android:key="pref_hide_apps" app:keywords="@string/homes_screen_settings_hide_apps_keyword" />
+        <Preference android:title="@string/home_screen_settings_hide_apps_home_only" android:key="pref_hide_apps_home_only" app:keywords="" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_category_additional_settings">
+        <com.android.homescreen.settings.DisableAppIconBadgePreference android:title="@string/app_icon_badges_title" android:key="pref_app_icon_badges" />
+        <SwitchPreferenceCompat android:title="@string/notification_panel_setting_title" android:key="pref_notification_panel_setting" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:title="@string/quick_access_finder_setting_title" android:key="pref_quick_access_finder_setting" android:defaultValue="true" />
+        <SwitchPreferenceCompat android:title="@string/rotate_to_landscape_mode" android:key="pref_support_landscape_mode" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="pref_category_about_home">
+        <Preference android:title="@string/about_home_screen" android:key="pref_about_page" />
+        <com.android.homescreen.settings.CustomContactUsPreference android:title="@string/option_menu_contact_up" android:key="pref_contact_us" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="" android:key="pref_list_chunking" />
+</PreferenceScreen>

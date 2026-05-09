@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="end|center" android:id="@id/search_layout" android:tag="layout/search_icon_0" android:background="@drawable/ic_search_icon_circle_white" android:focusable="true" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/search_icon" android:layout_width="@dimen/page_indicator_search_icon_size_land" android:layout_height="@dimen/page_indicator_search_icon_size_land" android:src="@drawable/page_indi_search" android:scaleType="fitXY" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/card_layout" android:tag="layout/card_pde_0" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/component" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pde_card" android:tag="binding_1" android:background="@drawable/search_pde_card_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="true">
+            <RelativeLayout android:id="@id/suggestion_container" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/pde_card_padding_horizontal" android:paddingVertical="@dimen/pde_card_padding_vertical" app:layout_constraintTop_toTopOf="parent">
+                <FrameLayout android:id="@id/suggestion_area" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:cardBackgroundColor="@android:color/transparent">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/search_recoil_background_squared" android:clipToOutline="true">
+                        <ImageView android:layout_gravity="center" android:id="@id/pde_thumbnail" android:tag="binding_3" android:background="@drawable/search_card_item_image_background_default" android:layout_width="76.0dp" android:layout_height="76.0dp" android:scaleType="centerCrop" android:layout_marginEnd="16.0dp" android:clipToOutline="true" />
+                        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                                <RelativeLayout android:id="@id/info_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/pde_card_padding_horizontal_toggle">
+                                    <RelativeLayout android:id="@id/dday_layout" android:background="@drawable/recall_date_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/pde_card_dday_layout_margin_end" android:paddingHorizontal="@dimen/pde_card_dday_layout_padding_horizontal" android:paddingVertical="@dimen/pde_card_dday_layout_padding_vertical">
+                                        <TextView android:id="@id/dday_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SearchCardDDayTitle" />
+                                    </RelativeLayout>
+                                    <LinearLayout android:orientation="vertical" android:id="@id/text_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/trash_area" android:layout_toEndOf="@id/dday_layout">
+                                        <TextView android:id="@id/isUsedCouponText" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pde_is_used_coupon" android:maxLines="1" android:singleLine="true" style="@style/SearchCardPDEIsUsedCouponTitle" />
+                                        <com.honeyspace.search.ui.honeypot.presentation.content.ContrastTextView android:id="@id/primaryText" android:tag="binding_5" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:importantForAccessibility="yes" android:textAlignment="viewStart" app:contrastColor="@color/highlight_color" style="@style/SearchCardPDEPrimaryTitle" />
+                                    </LinearLayout>
+                                    <RelativeLayout android:id="@id/trash_area" android:background="@drawable/trash_icon_bg" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_centerVertical="true" android:contentDescription="@string/pde_event_delete_button_description" android:layout_marginStart="@dimen/pde_trash_icon_margin_start" android:layout_alignParentEnd="true">
+                                        <ImageView android:id="@id/trash_icon" android:layout_width="13.399994dp" android:layout_height="13.399994dp" android:src="@drawable/trash_icon" android:scaleType="centerCrop" android:layout_centerInParent="true" android:clipToOutline="true" />
+                                    </RelativeLayout>
+                                </RelativeLayout>
+                                <androidx.recyclerview.widget.RecyclerView android:id="@id/recall_data_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pde_card_additional_margin_top" android:layout_below="@id/info_layout" />
+                            </RelativeLayout>
+                            <LinearLayout android:orientation="horizontal" android:id="@id/source_package_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/pde_card_source_icon_padding_start" android:layout_marginEnd="@dimen/pde_card_padding_horizontal_toggle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent">
+                                <ImageView android:id="@id/primary_source_package" android:tag="binding_6" android:layout_width="@dimen/pde_card_source_icon_size" android:layout_height="@dimen/pde_card_source_icon_size" />
+                                <ImageView android:id="@id/secondary_source_package" android:tag="binding_7" android:layout_width="@dimen/pde_card_source_icon_size" android:layout_height="@dimen/pde_card_source_icon_size" android:layout_marginStart="@dimen/pde_card_source_icon_gap" />
+                            </LinearLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+                </FrameLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/action_area" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pde_card_suggest_margin_bottom" android:layout_below="@id/suggestion_area">
+                    <androidx.constraintlayout.helper.widget.Flow android:orientation="horizontal" android:id="@id/flow" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/pde_card_padding_horizontal_toggle" app:flow_horizontalGap="@dimen/pde_action_chip_horizontal_gap" app:flow_verticalGap="@dimen/pde_action_chip_vertical_gap" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

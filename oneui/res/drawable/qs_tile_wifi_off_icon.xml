@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00000" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00001" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00002" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00003" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00004" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00005" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00006" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00007" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00008" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00009" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00010" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00011" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00012" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00013" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00014" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00015" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00016" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00017" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00018" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00019" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00020" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00021" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00022" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00023" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00024" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00025" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00026" />
+    <item android:duration="33" android:drawable="@drawable/wifi_off_00027" />
+</animation-list>

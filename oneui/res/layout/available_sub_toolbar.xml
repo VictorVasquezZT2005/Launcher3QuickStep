@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sub_tool_bar" android:tag="layout/available_sub_toolbar_0" android:layout_width="match_parent" android:layout_height="56.0dp" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/spinner_container" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="@style/SecRegular" android:textSize="@dimen/settings_spinner_text_size" android:textColor="@color/pair_app_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/settings_all_apps_label" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/all_apps" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatSpinner android:layout_gravity="center_vertical" android:id="@id/spinner" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/all_apps_spinner_height" />
+    </LinearLayout>
+</RelativeLayout>

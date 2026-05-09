@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.common.nowbrief.NowBriefBlurOptionSwitchBar android:layout_width="match_parent" android:layout_height="@dimen/now_brief_blur_option_switch_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/now_brief_blur_option_title_text_size" android:textColor="@color/now_brief_blur_option_text_color" android:layout_gravity="center_vertical" android:id="@id/now_brief_background_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/now_brief_blur_option_background_title" android:layout_weight="1.0" android:fontFamily="sec" android:textFontWeight="400" />
+        <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/now_brief_background_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" />
+    </LinearLayout>
+</com.honeyspace.ui.common.nowbrief.NowBriefBlurOptionSwitchBar>

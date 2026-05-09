@@ -1,0 +1,95 @@
+// Copyright 2024 Copyright 2024 The OS Migration Authors
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     https://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+edition = "2023";
+
+package honeyspace.os_migration_data_types.v1;
+
+import "honeyspace/os_migration_data_types/v1/export_failure.proto";
+
+option java_multiple_files = true;
+
+// Application distribution types for iOS apps
+enum IOSAppDistributionType {
+  // Default value.
+  IOS_APP_DISTRIBUTION_TYPE_UNSPECIFIED = 0;
+  // App distributed via the App Store.
+  IOS_APP_DISTRIBUTION_TYPE_APP_STORE = 1;
+  // App distributed via TestFlight.
+  IOS_APP_DISTRIBUTION_TYPE_TEST_FLIGHT = 2;
+  // App distributed via an alternative marketplace.
+  IOS_APP_DISTRIBUTION_TYPE_ALT_MARKETPLACE = 3;
+  // App distributed via a web link.
+  IOS_APP_DISTRIBUTION_TYPE_WEB_DISTRIBUTED = 4;
+}
+
+// iOS Application
+message IOSApp {
+  // The bundle ID of the app.
+  string bundle_id = 1;
+  // The short localized name of the app.
+  string short_localized_name = 2;
+  // The localized name of the app.
+  string localized_name = 3;
+  // The short bundle version of the app.
+  string short_bundle_version = 4;
+  // The bundle ID of the distributor of the app (nil for sideloaded apps).
+  string distributor_bundle_id = 5;
+  // The distribution type of the app.
+  IOSAppDistributionType distributor_type = 6;
+}
+
+// Android Application
+message AndroidApp {
+  // The package name of the app.
+  string package_name = 1;
+  // The package version of the app.
+  string package_version = 2;
+  // The localized name of the app.
+  string localized_name = 3;
+  // The installer of the app (nil for sideloaded apps).
+  string installer = 4;
+}
+
+// Application installation state
+enum AppInstallationState {
+  // Default value.
+  APP_INSTALLATION_STATE_UNSPECIFIED = 0;
+  // App is installed.
+  APP_INSTALLATION_STATE_INSTALLED = 1;
+  // App is pending installation.
+  APP_INSTALLATION_STATE_PENDING_INSTALL = 2;
+  // App is archived.
+  APP_INSTALLATION_STATE_ARCHIVED = 3;
+}
+
+// An app representing one on iOS or Android
+message App {
+  // The platform-specific app details.
+  oneof platform_app {
+    // Android app details.
+    AndroidApp android_app = 1;
+    // iOS app details.
+    IOSApp ios_app = 2;
+  }
+  // The installation state of the app.
+  AppInstallationState install_state = 3;
+}
+
+// Response message for getting installed apps.
+message AppsArray {
+  // The list of installed apps.
+  repeated App apps = 1;
+  ExportFailureSummary export_failure_summary = 2;
+}

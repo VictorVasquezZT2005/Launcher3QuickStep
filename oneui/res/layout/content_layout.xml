@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.search.ui.honeypot.presentation.content.animatable.EnterAnimateRecyclerView android:id="@id/card_list" android:tag="layout/content_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

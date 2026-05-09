@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.tasklist.presentation.TaskLockButton android:theme="@style/Theme.MaterialComponents.Light" android:id="@id/task_lock_button" android:tag="layout/task_lock_layout_0" android:longClickable="true" android:layout_width="@dimen/task_action_button_size_default" android:layout_height="@dimen/task_action_button_size_default" android:src="@drawable/task_lock_icon" android:backgroundTint="@color/task_lock_button_bg_color" app:borderWidth="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

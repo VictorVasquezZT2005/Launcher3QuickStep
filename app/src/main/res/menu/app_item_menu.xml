@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/action_open"
-        android:title="Abrir"
+        android:id="@+id/action_add_to_home"
+        android:title="Añadir a Inicio"
         android:icon="@drawable/open_in_new" />
     <item
-        android:id="@+id/action_unpin"
-        android:title="Dejar de fijar en la biblioteca"
+        android:id="@+id/action_uninstall"
+        android:title="Desinstalar"
         android:icon="@drawable/keep_off" />
     <item
         android:id="@+id/action_info"

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/apps_edge_help_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/initial_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/SecRegular" android:textSize="26.0sp" android:layout_gravity="center" android:id="@id/help_desc_body1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:lineSpacingExtra="4.0dp" />
+        <TextView android:textAppearance="@style/SecRegular" android:textSize="14.0dp" android:gravity="center" android:layout_gravity="center" android:id="@id/help_desc_body2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dp" />
+    </LinearLayout>
+</LinearLayout>

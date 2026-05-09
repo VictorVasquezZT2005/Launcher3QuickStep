@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.tasklist.presentation.TaskView android:orientation="vertical" android:id="@id/taskView" android:tag="layout/task_layout_0" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@drawable/focusable_view_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/task_scene" layout="@layout/task_scene_layout" />
+    <include android:id="@id/task_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/task_icon_layout" />
+    <ViewStub android:id="@id/task_lock_stub" android:tag="binding_1" android:layout="@layout/task_lock_layout" android:layout_width="@dimen/task_action_button_size_default" android:layout_height="@dimen/task_action_button_size_default" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <ViewStub android:id="@id/task_launch_aspect_ratio_stub" android:tag="binding_2" android:layout="@layout/task_launch_aspect_ratio_layout" android:layout_width="@dimen/task_action_button_size_tilt_stack_fold_main" android:layout_height="@dimen/task_action_button_size_tilt_stack_fold_main" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <include android:id="@id/digital_well_being" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/digital_well_being_layout" />
+</com.honeyspace.ui.honeypots.tasklist.presentation.TaskView>

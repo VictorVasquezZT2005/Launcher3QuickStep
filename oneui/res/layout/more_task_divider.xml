@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/more_task_divider" android:background="@color/more_task_divider_color" android:layout_width="@dimen/more_task_divider_width" android:layout_height="@dimen/more_task_divider_height" android:layout_marginHorizontal="@dimen/more_task_divider_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

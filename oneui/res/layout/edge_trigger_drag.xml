@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.app.honeyspace.edge.edgepanel.ui.panel.presentation.EdgeTriggerDrag android:id="@id/drag" android:tag="layout/edge_trigger_drag_0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/drag_container" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/up_down_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edge_handle_position_moving_cue" />
+        <ImageView android:id="@id/trigger_img" android:tag="binding_2" android:background="@drawable/edge_screen_moving_handler_bg_r" android:layout_width="@dimen/trigger_width_thin" android:layout_height="match_parent" />
+    </LinearLayout>
+</com.samsung.app.honeyspace.edge.edgepanel.ui.panel.presentation.EdgeTriggerDrag>

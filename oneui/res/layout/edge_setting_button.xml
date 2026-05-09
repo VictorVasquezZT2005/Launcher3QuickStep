@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.app.honeyspace.edge.edgepanel.ui.panel.presentation.EdgeSettingButton android:id="@id/button" android:tag="layout/edge_setting_button_0" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/edge_setting_icon_tool_tip" android:tooltipText="@string/edge_setting_icon_tool_tip" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/global_edge_setting_bg" android:tag="binding_1" android:background="@drawable/global_edge_setting_bg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/global_edge_setting_btn" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edge_btn_panelsetting_mtrl" android:tint="@color/global_setting_btn_color" android:tintMode="src_in" />
+    </FrameLayout>
+    <FrameLayout android:gravity="center" android:layout_gravity="right|top" android:id="@id/global_setting_noti_badge" android:tag="binding_2" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/new_badge_size" android:layout_height="@dimen/new_badge_size" android:elevation="@dimen/global_edge_setting_badge_elevation">
+        <ImageView android:layout_width="@dimen/new_badge_img_size" android:layout_height="@dimen/new_badge_img_size" android:src="@drawable/tw_noti_badge_mtrl" />
+    </FrameLayout>
+</com.samsung.app.honeyspace.edge.edgepanel.ui.panel.presentation.EdgeSettingButton>

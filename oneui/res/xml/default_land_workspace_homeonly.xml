@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites>
+    <home>
+        <appwidget className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1" packageName="com.sec.android.daemonapp" screen="0" spanX="2" spanY="1" x="0" y="4" />
+        <appwidget className="com.google.android.googlequicksearchbox.SearchWidgetProvider" packageName="com.google.android.googlequicksearchbox" screen="0" spanX="6" spanY="1" x="2" y="4" />
+        <favorite className="com.samsung.android.gallery.app.activity.GalleryActivity" packageName="com.sec.android.gallery3d" screen="0" x="0" y="5" />
+        <favorite className="com.samsung.android.app.calendar.activity.MainActivity" packageName="com.samsung.android.calendar" screen="0" x="1" y="5" />
+        <favorite className="com.samsung.android.game.gamehome.activity.StartActivity" packageName="com.samsung.android.game.gamehome" screen="0" x="2" y="5" />
+        <favorite className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" packageName="com.sec.android.app.samsungapps" screen="0" x="3" y="5" />
+        <favorite className="com.android.vending.AssetBrowserActivity" packageName="com.android.vending" screen="0" x="4" y="5" />
+        <favorite className="com.samsung.android.app.shealth.home.HomeMainActivity" packageName="com.sec.android.app.shealth" screen="0" x="5" y="5" />
+        <favorite className="com.sec.penup.ui.SplashActivity" packageName="com.sec.penup" screen="0" x="6" y="5" />
+        <folder screen="0" title="Google" x="7" y="5">
+            <favorite className="com.google.android.googlequicksearchbox.SearchActivity" packageName="com.google.android.googlequicksearchbox" screen="0" />
+            <favorite className="com.google.android.apps.chrome.Main" packageName="com.android.chrome" screen="1" />
+            <favorite className="com.google.android.gm.ConversationListActivityGmail" packageName="com.google.android.gm" screen="2" />
+            <favorite className="com.google.android.maps.MapsActivity" packageName="com.google.android.apps.maps" screen="3" />
+            <favorite className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" packageName="com.google.android.youtube" screen="4" />
+            <favorite className="com.google.android.apps.docs.app.NewMainProxyActivity" packageName="com.google.android.apps.docs" screen="5" />
+            <favorite className="com.google.android.apps.youtube.music.activities.MusicActivity" packageName="com.google.android.apps.youtube.music" screen="6" />
+            <favorite className="com.google.android.videos.GoogleTvEntryPoint" packageName="com.google.android.videos" screen="7" />
+            <favorite className="com.google.android.apps.tachyon.MainActivity" packageName="com.google.android.apps.tachyon" screen="8" />
+            <favorite className="com.google.android.apps.photos.home.HomeActivity" packageName="com.google.android.apps.photos" screen="9" />
+            <favorite className="com.google.android.apps.messaging.ui.ConversationListActivity" packageName="com.google.android.apps.messaging" screen="10" />
+            <favorite className="com.google.android.apps.googleassistant.AssistantActivity" packageName="com.google.android.apps.googleassistant" screen="11" />
+        </folder>
+        <folder screen="1" title="Microsoft" x="0" y="5">
+            <favorite className="com.microsoft.office.officesuite.OfficeSuiteActivity" packageName="com.microsoft.office.officehubrow" screen="0" />
+            <favorite className="com.microsoft.skydrive.MainActivity" packageName="com.microsoft.skydrive" screen="1" />
+            <favorite className="com.microsoft.office.outlook.MainActivity" packageName="com.microsoft.office.outlook" screen="2" />
+        </folder>
+        <favorite className="com.netflix.mediaclient.ui.launch.UIWebViewActivity" packageName="com.netflix.mediaclient" screen="1" x="1" y="5" />
+    </home>
+</favorites>

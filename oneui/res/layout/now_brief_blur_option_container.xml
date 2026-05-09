@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.common.nowbrief.NowBriefBlurOptionPopup android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/now_brief_blur_option_horizontal_padding" android:paddingVertical="@dimen/now_brief_blur_option_vertical_padding" android:clipToOutline="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

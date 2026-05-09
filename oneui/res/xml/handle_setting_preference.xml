@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="@string/prefs_key_edge_handle_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.DropDownPreference android:title="@string/settings_handle_position" android:key="@string/edge_handler_preference_side_position_key" />
+    <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_edge_handler_lock_handle_position" android:key="@string/edge_handler_preference_move_side_key" />
+    <androidx.preference.PreferenceCategory android:title="@string/settings_handle_style" android:key="@string/edge_handler_preference_color_category">
+        <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.ColorPreference android:key="@string/edge_handler_preference_color_key" />
+        <Preference android:layout="@layout/preference_divider" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:layout="@layout/one_line_list_layout" android:title="@string/settings_handle_transparency" android:key="@string/edge_handler_preference_transparency_category">
+        <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.SeekBarPreference android:max="100" android:key="@string/edge_handler_preference_transparency_key" app:leftTitle="@string/edge_transparency_low" app:rightTitle="@string/edge_transparency_high" app:title="@string/settings_handle_transparency" />
+        <Preference android:layout="@layout/preference_divider" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:layout="@layout/one_line_list_layout" android:title="@string/settings_handle_size" android:key="@string/edge_handler_preference_size_category">
+        <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.SeekBarPreference android:max="100" android:key="@string/edge_handler_preference_size_key" app:leftTitle="@string/settings_handle_size_small" app:rightTitle="@string/settings_handle_size_large" app:title="@string/settings_handle_size" />
+        <Preference android:layout="@layout/preference_divider" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:layout="@layout/one_line_list_layout" android:title="@string/settings_handle_width" android:key="@string/edge_handler_preference_width_category">
+        <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.LevelSeekBarPreference android:max="2" android:key="@string/edge_handler_preference_width_key" app:leftTitle="@string/settings_handle_width_thin" app:rightTitle="@string/settings_handle_width_thick" app:title="@string/settings_handle_width" />
+    </androidx.preference.PreferenceCategory>
+    <PreferenceCategory />
+    <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.InsetCategoryPreference android:key="@string/pref_key_bottom_padding" />
+</PreferenceScreen>

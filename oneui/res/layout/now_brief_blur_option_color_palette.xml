@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.common.nowbrief.NowBriefDimColorPalette android:layout_width="match_parent" android:layout_height="@dimen/now_brief_blur_option_color_palette_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/wallpaper_average" android:tag="button" android:background="@drawable/color_wallpaper_average" android:layout_width="@dimen/now_brief_blur_option_color_palette_circle_size" android:layout_height="@dimen/now_brief_blur_option_color_palette_circle_size" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/color_white_and_black" android:tag="button" android:background="@drawable/color_white_and_black" android:layout_width="@dimen/now_brief_blur_option_color_palette_circle_size" android:layout_height="@dimen/now_brief_blur_option_color_palette_circle_size" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/color_red" android:tag="button" android:background="@drawable/color_red" android:layout_width="@dimen/now_brief_blur_option_color_palette_circle_size" android:layout_height="@dimen/now_brief_blur_option_color_palette_circle_size" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/color_orange" android:tag="button" android:background="@drawable/color_orange" android:layout_width="@dimen/now_brief_blur_option_color_palette_circle_size" android:layout_height="@dimen/now_brief_blur_option_color_palette_circle_size" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/color_green" android:tag="button" android:background="@drawable/color_green" android:layout_width="@dimen/now_brief_blur_option_color_palette_circle_size" android:layout_height="@dimen/now_brief_blur_option_color_palette_circle_size" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/color_blue" android:tag="button" android:background="@drawable/color_blue" android:layout_width="@dimen/now_brief_blur_option_color_palette_circle_size" android:layout_height="@dimen/now_brief_blur_option_color_palette_circle_size" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/color_custom" android:tag="button" android:background="@drawable/color_picker" android:layout_width="@dimen/now_brief_blur_option_color_palette_circle_size" android:layout_height="@dimen/now_brief_blur_option_color_palette_circle_size" android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+</com.honeyspace.ui.common.nowbrief.NowBriefDimColorPalette>

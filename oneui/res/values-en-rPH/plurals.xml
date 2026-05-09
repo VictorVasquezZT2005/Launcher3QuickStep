@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">"Can't add more than %d desktop workspaces."</item>
+        <item quantity="one">"Can't add more than %d desktop workspace."</item>
+        <item quantity="two">"Can't add more than %d desktop workspaces."</item>
+        <item quantity="few">"Can't add more than %d desktop workspaces."</item>
+        <item quantity="many">"Can't add more than %d desktop workspaces."</item>
+        <item quantity="other">"Can't add more than %d desktop workspaces."</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">"Can't add more than %d stacked widgets."</item>
+        <item quantity="one">"Can't add more than %d stacked widget."</item>
+        <item quantity="two">"Can't add more than %d stacked widgets."</item>
+        <item quantity="few">"Can't add more than %d stacked widgets."</item>
+        <item quantity="many">"Can't add more than %d stacked widgets."</item>
+        <item quantity="other">"Can't add more than %d stacked widgets."</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">"Can't keep open more than %d apps."</item>
+        <item quantity="one">"Can't keep open more than %d app."</item>
+        <item quantity="two">"Can't keep open more than %d apps."</item>
+        <item quantity="few">"Can't keep open more than %d apps."</item>
+        <item quantity="many">"Can't keep open more than %d apps."</item>
+        <item quantity="other">"Can't keep open more than %d apps."</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">%d hours left today</item>
+        <item quantity="one">%d hour left today</item>
+        <item quantity="two">%d hours left today</item>
+        <item quantity="few">%d hours left today</item>
+        <item quantity="many">%d hours left today</item>
+        <item quantity="other">%d hours left today</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">%d minutes left today</item>
+        <item quantity="one">%d minute left today</item>
+        <item quantity="two">%d minutes left today</item>
+        <item quantity="few">%d minutes left today</item>
+        <item quantity="many">%d minutes left today</item>
+        <item quantity="other">%d minutes left today</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">%d active apps</item>
+        <item quantity="one">%d active app</item>
+        <item quantity="two">%d active apps</item>
+        <item quantity="few">%d active apps</item>
+        <item quantity="many">%d active apps</item>
+        <item quantity="other">%d active apps</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">%d items active in background</item>
+        <item quantity="one">%d item active in background</item>
+        <item quantity="two">%d items active in background</item>
+        <item quantity="few">%d items active in background</item>
+        <item quantity="many">%d items active in background</item>
+        <item quantity="other">%d items active in background</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">%d columns</item>
+        <item quantity="one">%d column</item>
+        <item quantity="two">%d columns</item>
+        <item quantity="few">%d columns</item>
+        <item quantity="many">%d columns</item>
+        <item quantity="other">%d columns</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">%d rows</item>
+        <item quantity="one">%d row</item>
+        <item quantity="two">%d rows</item>
+        <item quantity="few">%d rows</item>
+        <item quantity="many">%d rows</item>
+        <item quantity="other">%d rows</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">"Can't enter more than %d characters."</item>
+        <item quantity="one">"Can't enter more than %d character."</item>
+        <item quantity="two">"Can't enter more than %d characters."</item>
+        <item quantity="few">"Can't enter more than %d characters."</item>
+        <item quantity="many">"Can't enter more than %d characters."</item>
+        <item quantity="other">"Can't enter more than %d characters."</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">%1$d more %2$s notifications</item>
+        <item quantity="one">%1$d more %2$s notification</item>
+        <item quantity="two">%1$d more %2$s notifications</item>
+        <item quantity="few">%1$d more %2$s notifications</item>
+        <item quantity="many">%1$d more %2$s notifications</item>
+        <item quantity="other">%1$d more %2$s notifications</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">Up to %d apps</item>
+        <item quantity="one">Up to %d app</item>
+        <item quantity="two">Up to %d apps</item>
+        <item quantity="few">Up to %d apps</item>
+        <item quantity="many">Up to %d apps</item>
+        <item quantity="other">Up to %d apps</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">"Can't select more than %d panels."</item>
+        <item quantity="one">"Can't select more than %d panel."</item>
+        <item quantity="two">"Can't select more than %d panels."</item>
+        <item quantity="few">"Can't select more than %d panels."</item>
+        <item quantity="many">"Can't select more than %d panels."</item>
+        <item quantity="other">"Can't select more than %d panels."</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">%d days left</item>
+        <item quantity="one">%d day left</item>
+        <item quantity="two">%d days left</item>
+        <item quantity="few">%d days left</item>
+        <item quantity="many">%d days left</item>
+        <item quantity="other">%d days left</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">In %d days</item>
+        <item quantity="one">In %d day</item>
+        <item quantity="two">In %d days</item>
+        <item quantity="few">In %d days</item>
+        <item quantity="many">In %d days</item>
+        <item quantity="other">In %d days</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">%1$s, %2$s, and %3$d others</item>
+        <item quantity="one">%1$s, %2$s, and %3$d other</item>
+        <item quantity="two">%1$s, %2$s, and %3$d others</item>
+        <item quantity="few">%1$s, %2$s, and %3$d others</item>
+        <item quantity="many">%1$s, %2$s, and %3$d others</item>
+        <item quantity="other">%1$s, %2$s, and %3$d others</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">Repeats every %d days</item>
+        <item quantity="one">Repeats every %d day</item>
+        <item quantity="two">Repeats every %d days</item>
+        <item quantity="few">Repeats every %d days</item>
+        <item quantity="many">Repeats every %d days</item>
+        <item quantity="other">Repeats every %d days</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">Repeats every %d hours</item>
+        <item quantity="one">Repeats every %d hour</item>
+        <item quantity="two">Repeats every %d hours</item>
+        <item quantity="few">Repeats every %d hours</item>
+        <item quantity="many">Repeats every %d hours</item>
+        <item quantity="other">Repeats every %d hours</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">Repeats every %d minutes</item>
+        <item quantity="one">Repeats every %d minute</item>
+        <item quantity="two">Repeats every %d minutes</item>
+        <item quantity="few">Repeats every %d minutes</item>
+        <item quantity="many">Repeats every %d minutes</item>
+        <item quantity="other">Repeats every %d minutes</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">Repeats every %d months</item>
+        <item quantity="one">Repeats every %d month</item>
+        <item quantity="two">Repeats every %d months</item>
+        <item quantity="few">Repeats every %d months</item>
+        <item quantity="many">Repeats every %d months</item>
+        <item quantity="other">Repeats every %d months</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">Repeats every %d weeks</item>
+        <item quantity="one">Repeats every %d week</item>
+        <item quantity="two">Repeats every %d weeks</item>
+        <item quantity="few">Repeats every %d weeks</item>
+        <item quantity="many">Repeats every %d weeks</item>
+        <item quantity="other">Repeats every %d weeks</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">Repeats every %d years</item>
+        <item quantity="one">Repeats every %d year</item>
+        <item quantity="two">Repeats every %d years</item>
+        <item quantity="few">Repeats every %d years</item>
+        <item quantity="many">Repeats every %d years</item>
+        <item quantity="other">Repeats every %d years</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="two">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">Sleep time: %d hours</item>
+        <item quantity="one">Sleep time: %d hour</item>
+        <item quantity="two">Sleep time: %d hours</item>
+        <item quantity="few">Sleep time: %d hours</item>
+        <item quantity="many">Sleep time: %d hours</item>
+        <item quantity="other">Sleep time: %d hours</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">Sleep time: %d minutes</item>
+        <item quantity="one">Sleep time: %d minute</item>
+        <item quantity="two">Sleep time: %d minutes</item>
+        <item quantity="few">Sleep time: %d minutes</item>
+        <item quantity="many">Sleep time: %d minutes</item>
+        <item quantity="other">Sleep time: %d minutes</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">%d apps kept open for quick launching.</item>
+        <item quantity="one">%d app kept open for quick launching.</item>
+        <item quantity="two">%d apps kept open for quick launching.</item>
+        <item quantity="few">%d apps kept open for quick launching.</item>
+        <item quantity="many">%d apps kept open for quick launching.</item>
+        <item quantity="other">%d apps kept open for quick launching.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">No notifications</item>
+        <item quantity="one">%d notification</item>
+        <item quantity="other">%d notifications</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">%d columns</item>
+        <item quantity="one">%d column</item>
+        <item quantity="two">%d columns</item>
+        <item quantity="few">%d columns</item>
+        <item quantity="many">%d columns</item>
+        <item quantity="other">%d columns</item>
+    </plurals>
+</resources>

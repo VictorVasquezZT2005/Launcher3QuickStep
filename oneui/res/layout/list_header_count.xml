@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:ellipsize="end" android:gravity="end" android:layout_gravity="end|center" android:id="@id/header_count" android:tag="layout/list_header_count_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sec" android:textFontWeight="400"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="setting_activity_top_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.SettingsMainSwitchPreference android:persistent="true" android:key="@string/prefs_key_edge_setting" />
+    <PreferenceCategory>
+        <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.HelpImagePreference android:persistent="true" android:key="@string/pref_key_help_image" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="@string/prefs_setting_category">
+        <androidx.preference.Preference android:persistent="true" android:title="@string/settings_panels" android:key="@string/pref_key_panels" />
+        <androidx.preference.Preference android:persistent="true" android:title="@string/settings_handle" android:key="@string/pref_key_handle" />
+        <androidx.preference.DropDownPreference android:title="@string/settings_show_on" android:key="@string/pref_key_show_on" />
+        <androidx.preference.SwitchPreferenceCompat android:persistent="true" android:title="@string/settings_show_in_landscape_title" android:key="@string/pref_key_show_in_landscape" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="@string/prefs_about_page_category">
+        <Preference android:title="@string/settings_aboout_edge_panels" android:key="@string/prefs_key_about_page" />
+        <Preference android:title="@string/settings_contact_us" android:key="@string/prefs_key_contact_us" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="@string/prefs_relative_link_category">
+        <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.RelativeLinkPreference android:key="@string/prefs_relative_link" />
+    </PreferenceCategory>
+    <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.InsetCategoryPreference android:key="@string/pref_key_bottom_padding" /> //Bottom_padding_view 
+    <PreferenceCategory />
+</PreferenceScreen>

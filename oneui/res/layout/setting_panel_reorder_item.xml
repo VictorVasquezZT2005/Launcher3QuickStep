@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/setting_panel_reorder_item_0" android:focusable="true" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/settings_wide_panel_width_with_shadow" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+        <ImageView android:layout_gravity="center" android:id="@id/reorder" android:background="@drawable/edge_panel_ic_reorder" android:layout_width="@dimen/settings_wide_panel_uninstall_ripple_size" android:layout_height="@dimen/settings_wide_panel_uninstall_ripple_size" android:backgroundTint="@color/settings_panel_reorder_icon_tint_color" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/label" android:layout_width="@dimen/settings_wide_panel_width" android:layout_height="wrap_content" style="@style/PanelLabelText" />
+        <RelativeLayout android:layout_width="@dimen/settings_wide_panel_width_with_shadow" android:layout_height="@dimen/settings_wide_panel_preview_height_with_shadow" android:layout_marginTop="@dimen/settings_wide_panel_preview_top_margin_with_shadow">
+            <View android:layout_gravity="center" android:id="@id/shadow_bg" android:background="@drawable/edge_reorder_edgepanels_preview_sh_light_mtrl" android:visibility="gone" android:layout_width="@dimen/settings_wide_panel_width_with_shadow" android:layout_height="@dimen/settings_wide_panel_preview_height_with_shadow" android:scaleType="centerCrop" />
+            <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.MaskingPreview android:layout_gravity="center" android:id="@id/preview" android:background="@drawable/panel_preview_img_bg" android:layout_width="@dimen/settings_wide_panel_width" android:layout_height="@dimen/settings_wide_panel_preview_height" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+            <View android:id="@id/selected_bg" android:background="@drawable/settings_edge_panel_reorder_selected_bg" android:visibility="gone" android:layout_width="@dimen/settings_wide_panel_width" android:layout_height="@dimen/settings_wide_panel_preview_height" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

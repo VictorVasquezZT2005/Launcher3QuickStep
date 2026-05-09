@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="add_desk_button_background">@drawable/add_desk_button_src</drawable>
+    <drawable name="add_desk_button_reduce_transparency_background">@drawable/add_desk_button_reduce_transparency_src</drawable>
+    <drawable name="apps_sort_background">@drawable/sesl_menu_popup_background</drawable>
+    <drawable name="desk_container_close_button_disabled_src_reduce_transparency">@drawable/desk_container_close_button_disabled_src_reduce_transparency_light</drawable>
+    <drawable name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</drawable>
+    <drawable name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</drawable>
+    <drawable name="more_button">@drawable/recents_more_default</drawable>
+    <drawable name="more_button_desktop">@drawable/more_button_desktop_src</drawable>
+    <drawable name="more_button_desktop_reduce_transparency">@drawable/more_button_desktop_reducetrans</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="task_bar_background_dark">@color/task_bar_background_color_dark</drawable>
+    <drawable name="task_bar_background_error">@color/task_bar_background_color_error</drawable>
+    <drawable name="task_bar_background_light">@color/task_bar_background_color_light</drawable>
+    <drawable name="task_menu_background">@drawable/sesl_menu_popup_background</drawable>
+</resources>

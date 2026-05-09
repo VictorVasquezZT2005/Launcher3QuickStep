@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.recents.preview.presentation.DeskPreview android:id="@id/desk_preview" android:tag="layout/recents_preview_desk_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.recents.preview.presentation.PreviewBackground android:layout_gravity="center_horizontal" android:id="@id/desk_preview_background" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.honeyspace.ui.recents.preview.presentation.PreviewDeskSceneView android:layout_gravity="center_horizontal" android:id="@id/desk_preview_scene" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/recents_preview_desk_name_text_size" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/recents_preview_desk_name" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/recents_preview_desk_name_shadow_color" android:shadowDx="0.0" android:shadowDy="1.0" style="@style/RecentsPreviewItemTitleTextStyle" />
+</com.honeyspace.ui.recents.preview.presentation.DeskPreview>

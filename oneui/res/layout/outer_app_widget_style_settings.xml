@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/mainContainer" android:tag="layout/outer_app_widget_style_settings_0" android:layout_width="match_parent" android:layout_height="@dimen/icon_and_widget_style_preview_image_height" android:layout_marginTop="@dimen/icon_and_widget_style_preview_top_padding" android:contentDescription="@string/iwss_image_preview_description"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_view" android:layout_width="@dimen/icon_and_widget_style_preview_image_width" android:layout_height="@dimen/icon_and_widget_style_preview_image_height" />
+</LinearLayout>

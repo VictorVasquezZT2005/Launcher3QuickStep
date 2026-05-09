@@ -1,0 +1,78 @@
+.class public final synthetic Lag/i;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic c:I
+
+.field public final synthetic e:Lag/k;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lag/k;I)V
+    .locals 0
+
+    iput p2, p0, Lag/i;->c:I
+
+    iput-object p1, p0, Lag/i;->e:Lag/k;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iget v0, p0, Lag/i;->c:I
+
+    check-cast p1, Landroid/view/View;
+
+    packed-switch v0, :pswitch_data_0
+
+    const-string v0, "it"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lag/i;->e:Lag/k;
+
+    iget-object p0, p0, Lag/k;->j:Lsf/s0;
+
+    invoke-virtual {p0, p1}, Lsf/s0;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Boolean;
+
+    return-object p0
+
+    :pswitch_0
+    const-string v0, "it"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lag/i;->e:Lag/k;
+
+    iget-object p0, p0, Lag/k;->h:Lsf/s0;
+
+    invoke-virtual {p0, p1}, Lsf/s0;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/Boolean;
+
+    return-object p0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout android:layout_gravity="top" android:id="@id/setting_button_container" android:tag="layout/page_action_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" app:alignItems="center" app:justifyContent="space_between"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/dummy_for_center" android:clickable="false" layout="@layout/page_action_button" />
+    <include android:id="@id/default_page_button" android:clickable="true" layout="@layout/page_action_button" />
+    <include android:id="@id/delete_page_layout" android:clickable="true" android:tooltipText="@string/tool_tip_delete_page" layout="@layout/page_action_button" />
+</com.google.android.flexbox.FlexboxLayout>

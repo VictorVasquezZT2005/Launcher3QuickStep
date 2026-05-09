@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/sort_popup_0" android:background="@drawable/apps_sort_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:outlineProvider="background" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/inner_blur_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:clipToOutline="true">
+        <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TableRow android:gravity="center" android:id="@id/row_sort_custom_wrapper" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/sort_popup_padding" android:paddingTop="@dimen/sort_popup_vertical_padding" android:paddingRight="@dimen/sort_popup_padding" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/SecRegular" android:textSize="@dimen/sort_popup_text_size" android:textColor="@color/textColorPrimary" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/sort_custom_textview" android:paddingRight="@dimen/sort_popup_gap_between_text_and_icon" android:layout_width="wrap_content" android:layout_height="@dimen/sort_popup_text_height" android:maxWidth="@dimen/sort_popup_text_max_length" android:text="@string/sort_type_custom_grid" android:singleLine="true" android:importantForAccessibility="no" android:stateListAnimator="?seslSmallTouchAnimator" />
+                <ImageView android:id="@id/sort_custom_icon" android:layout_width="@dimen/sort_popup_icon_size" android:layout_height="@dimen/sort_popup_icon_size" android:stateListAnimator="?seslSmallTouchAnimator" />
+            </TableRow>
+            <TableRow android:gravity="center" android:id="@id/row_sort_alphabet_wrapper" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/sort_popup_padding" android:paddingRight="@dimen/sort_popup_padding" android:paddingBottom="@dimen/sort_popup_vertical_padding" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/SecRegular" android:textSize="@dimen/sort_popup_text_size" android:textColor="@color/textColorPrimary" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/sort_alphabet_textview" android:paddingRight="@dimen/sort_popup_gap_between_text_and_icon" android:layout_width="wrap_content" android:layout_height="@dimen/sort_popup_text_height" android:maxWidth="@dimen/sort_popup_text_max_length" android:text="@string/sort_type_alphabetic_grid" android:singleLine="true" android:importantForAccessibility="no" android:stateListAnimator="?seslSmallTouchAnimator" />
+                <ImageView android:id="@id/sort_alphabet_icon" android:layout_width="@dimen/sort_popup_icon_size" android:layout_height="@dimen/sort_popup_icon_size" android:stateListAnimator="?seslSmallTouchAnimator" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</RelativeLayout>

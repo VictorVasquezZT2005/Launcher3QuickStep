@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/notification_container_content" android:tag="layout/noti_list_item_hide_0" android:background="@drawable/noti_list_item_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/notification_item_margin_bottom" android:contextClickable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/app_icon" android:tag="binding_1" android:layout_width="@dimen/notification_item_app_icon_size" android:layout_height="@dimen/notification_item_app_icon_size" android:layout_centerVertical="true" android:layout_marginStart="12.0dp" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/notification_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="10.0dp" android:layout_marginEnd="3.0dp" android:layout_toEndOf="@id/app_icon" android:contextClickable="true">
+            <TextView android:textColor="@color/notification_shelf_button_text_color" android:id="@id/appName" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.Title" />
+            <TextView android:textColor="@color/notification_time_color" android:id="@id/time_or_chronometer" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_marginStart="@dimen/notification_item_time_margin_start" style="@style/TextAppearance.Time" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

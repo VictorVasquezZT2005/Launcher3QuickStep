@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/disable_rounded_corners" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dialog_container" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DialogPaddingStyle">
+            <TextView android:id="@id/delete_stacked_widget_dialog_body_text" android:layout_height="wrap_content" style="@style/PopupContentTextStyle" />
+            <LinearLayout android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="@dimen/popup_bottom_btn_height" android:layout_marginTop="@dimen/popup_button_top_margin">
+                <TextView android:id="@id/delete_stacked_widget_dialog_negative_button" android:background="@drawable/dialog_button_style" android:focusable="true" android:focusableInTouchMode="false" android:clickable="true" android:layout_height="@dimen/popup_bottom_btn_height" android:text="@string/cancel" style="@style/PopupBottomButtonStyle" />
+                <LinearLayout style="@style/PopupButtonDividerStyle" />
+                <TextView android:id="@id/delete_stacked_widget_dialog_positive_button" android:background="@drawable/dialog_button_style" android:focusable="true" android:focusableInTouchMode="false" android:clickable="true" android:layout_height="@dimen/popup_bottom_btn_height" android:text="@string/remove" style="@style/PopupBottomButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

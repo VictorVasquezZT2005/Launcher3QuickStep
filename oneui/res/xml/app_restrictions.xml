@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <restriction android:description="@string/restrictions_desc_skip_welcome_screen" android:title="@string/restrictions_title_skip_welcome_screen" android:key="skip_welcome_screen" android:defaultValue="null" android:restrictionType="string" />
+    <restriction android:description="@string/restrictions_desc_flow_pointer_is_on_dex" android:title="@string/restrictions_title_flow_pointer_is_on_dex" android:key="flow_pointer_is_on_dex" android:defaultValue="null" android:restrictionType="string" />
+    <restriction android:description="@string/restrictions_desc_flow_pointer_from_where_dex" android:title="@string/restrictions_title_flow_pointer_from_where_dex" android:key="flow_pointer_from_where_dex" android:defaultValue="null" android:restrictionType="string" />
+    <restriction android:description="@string/restrictions_desc_resolution_user_setting" android:title="@string/restrictions_title_resolution_user_setting" android:key="resolution_user_setting" android:restrictionType="bundle">
+        <restriction android:description="@string/restrictions_desc_resolution_user_setting" android:title="@string/restrictions_title_resolution_user_setting" android:key="value" android:defaultValue="null" android:restrictionType="string" />
+    </restriction>
+</restrictions>

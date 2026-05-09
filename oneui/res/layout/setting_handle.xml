@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_view" android:tag="layout/setting_handle_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/Widget.Edge.AppBarLayout">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" app:subtitle="" app:title="@string/settings_handle_title" app:toolbarId="@id/toolbar" style="@style/Widget.Edge.CollapsingToolbar">
+                <View android:layout_gravity="bottom" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:background="@android:color/transparent" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:gravity="start" android:id="@id/container_start" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.0" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="100.0">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/multi_window_description" android:background="@android:color/transparent" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/fragment_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <FrameLayout android:gravity="end" android:id="@id/container_end" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="0.0" />
+                </LinearLayout>
+                <View android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <RelativeLayout android:id="@id/handle_root_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/toolbar">
+            <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.HandleListLayout android:orientation="vertical" android:id="@id/handle_right_layout" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true">
+                <FrameLayout android:id="@id/handle_right" android:tag="drag" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/settings_handle_small_height">
+                    <ImageView android:layout_gravity="right" android:id="@id/handle_right_bg" android:tag="handle" android:layout_width="@dimen/settings_handle_trigger_width" android:layout_height="match_parent" />
+                    <ImageView android:layout_gravity="right" android:id="@id/handle_right_stroke" android:layout_width="@dimen/settings_handle_trigger_width" android:layout_height="match_parent" />
+                    <FrameLayout android:layout_gravity="right|center" android:id="@id/move_right_icon_container" android:tag="move" android:layout_width="@dimen/settings_handle_move_icon_container_width" android:layout_height="@dimen/settings_handle_move_icon_container_width">
+                        <ImageView android:layout_gravity="center" android:id="@id/move_right_icon" android:tag="handleIcon" android:background="@drawable/edge_ic_handler_stroke" android:layout_width="@dimen/settings_handle_move_icon_width" android:layout_height="@dimen/settings_handle_move_icon_width" />
+                    </FrameLayout>
+                </FrameLayout>
+            </com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.HandleListLayout>
+            <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.HandleListLayout android:orientation="vertical" android:id="@id/handle_left_layout" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true">
+                <FrameLayout android:id="@id/handle_left" android:tag="drag" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/settings_handle_small_height">
+                    <ImageView android:layout_gravity="left" android:id="@id/handle_left_bg" android:tag="handle" android:layout_width="@dimen/settings_handle_trigger_width" android:layout_height="match_parent" />
+                    <ImageView android:layout_gravity="left" android:id="@id/handle_left_stroke" android:layout_width="@dimen/settings_handle_trigger_width" android:layout_height="match_parent" />
+                    <FrameLayout android:layout_gravity="left|center" android:id="@id/move_left_icon_container" android:tag="move" android:layout_width="@dimen/settings_handle_move_icon_container_width" android:layout_height="@dimen/settings_handle_move_icon_container_width">
+                        <ImageView android:layout_gravity="center" android:id="@id/move_left_icon" android:tag="handleIcon" android:background="@drawable/edge_ic_handler_stroke" android:layout_width="@dimen/settings_handle_move_icon_width" android:layout_height="@dimen/settings_handle_move_icon_width" />
+                    </FrameLayout>
+                </FrameLayout>
+            </com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.HandleListLayout>
+        </RelativeLayout>
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/appBarLayout">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/EdgeSettingsMainActionBarStyle" android:layout_gravity="top" android:id="@id/toolbar" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:background="@android:color/transparent" app:layout_collapseMode="pin" />
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

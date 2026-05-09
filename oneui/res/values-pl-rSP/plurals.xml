@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Można dodać maksymalnie %d widget ze stosu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Można dodać maksymalnie %d widgety ze stosu.</item>
+        <item quantity="many">Można dodać maksymalnie %d widgetów ze stosu.</item>
+        <item quantity="other">Można dodać maksymalnie %d widgetu ze stosu.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pozostała dziś %d godzina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pozostały dziś %d godziny</item>
+        <item quantity="many">Pozostało dziś %d godzin</item>
+        <item quantity="other">Pozostało dziś %d godziny</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pozostała dziś %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pozostały dziś %d minuty</item>
+        <item quantity="many">Pozostało dziś %d minut</item>
+        <item quantity="other">Pozostało dziś %d minuty</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aktywna w tle</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aktywne w tle</item>
+        <item quantity="many">%d aktywnych w tle</item>
+        <item quantity="other">%d aktywnej w tle</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element aktywny w tle</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elementy aktywne w tle</item>
+        <item quantity="many">%d elementów aktywnych w tle</item>
+        <item quantity="other">%d elementu aktywnego w tle</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dodatkowe %1$d powiadomienie aplikacji %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dodatkowe %1$d powiadomienia aplikacji %2$s</item>
+        <item quantity="many">Dodatkowe %1$d powiadomień aplikacji %2$s</item>
+        <item quantity="other">Dodatkowe %1$d powiadomienia aplikacji %2$s</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Maksymalnie %d aplikacja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Maksymalnie %d aplikacje</item>
+        <item quantity="many">Maksymalnie %d aplikacji</item>
+        <item quantity="other">Maksymalnie %d aplikacji</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ôbrane</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ôbrane</item>
+        <item quantity="many">%d ôbranych</item>
+        <item quantity="other">%d ôbranych</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Czŏs spaniŏ: %d godzina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Czŏs spaniŏ: %d godziny</item>
+        <item quantity="many">Czŏs spaniŏ: %d godzin</item>
+        <item quantity="other">Czŏs spaniŏ: %d godziny</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Czŏs spaniŏ: %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Czŏs spaniŏ: %d minuty</item>
+        <item quantity="many">Czŏs spaniŏ: %d minut</item>
+        <item quantity="other">Czŏs spaniŏ: %d minuty</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mŏsz ôdewartŏ %d aplikacyjŏ, coby używać gibkigo sztartowaniŏ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mŏsz ôdewarte %d aplikacyje, coby używać gibkigo sztartowaniŏ.</item>
+        <item quantity="many">Mŏsz ôdewartych %d aplikacyjōw, coby używać gibkigo sztartowaniŏ.</item>
+        <item quantity="other">Mŏsz ôdewartych %d aplikacyjōw, coby używać gibkigo sztartowaniŏ.</item>
+    </plurals>
+</resources>

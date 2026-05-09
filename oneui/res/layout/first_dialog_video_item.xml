@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/tile_click_dialog_lottieView" android:layout_width="match_parent" android:layout_height="@dimen/tile_dialog_lottie_view_height" android:layout_marginTop="@dimen/tile_dialog_margin_top" android:layout_marginBottom="@dimen/desk_panel_margin_end" android:scaleType="centerCrop" android:layout_marginHorizontal="@dimen/tile_dialog_margin_horizontal" app:lottie_autoPlay="false" app:lottie_loop="true" />
+</FrameLayout>

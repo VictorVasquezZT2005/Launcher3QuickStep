@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/overlay_apps_search_icon_circle_focused_color" />
+            <size android:height="@dimen/overlay_apps_search_icon_btn_bg_width_land" android:width="@dimen/overlay_apps_search_icon_btn_bg_width_land" />
+        </shape>
+    </item>
+    <item android:state_focused="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/overlay_apps_search_icon_circle_background_color" />
+            <size android:height="@dimen/overlay_apps_search_icon_btn_bg_width_land" android:width="@dimen/overlay_apps_search_icon_btn_bg_width_land" />
+        </shape>
+    </item>
+</selector>

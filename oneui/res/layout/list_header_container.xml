@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/list_header_container_0" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.honeypots.widgetlist.presentation.ListHeaderContainer android:orientation="horizontal" android:id="@id/header_container" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/widget_item_height">
+        <include android:id="@id/selected" layout="@layout/selected_header_view" />
+        <include android:id="@id/icon" layout="@layout/list_header_icon" />
+        <include android:id="@id/label" layout="@layout/list_header_label" />
+        <include android:id="@id/count" layout="@layout/list_header_count" />
+    </com.honeyspace.ui.honeypots.widgetlist.presentation.ListHeaderContainer>
+    <View android:id="@id/header_contract" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginStart="@dimen/header_contract_start_margin" android:layout_marginEnd="@dimen/header_contract_end_margin" />
+</LinearLayout>

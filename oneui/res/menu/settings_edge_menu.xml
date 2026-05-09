@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/reorder" android:title="@string/settings_reorder" android:showAsAction="never" />
+    <item android:id="@id/uninstall" android:title="@string/settings_uninstall" android:showAsAction="never" />
+    <item android:id="@id/hide_on_lock_screen" android:title="@string/settings_hide_on_lock_screen" android:showAsAction="never" />
+</menu>

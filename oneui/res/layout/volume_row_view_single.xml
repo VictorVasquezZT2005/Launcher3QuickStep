@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.dexpanel.volume.presentation.VolumeRowView android:id="@id/volume_row_view" android:tag="layout/volume_row_view_single_0" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/volume_seekbar_corner_radius" app:cardElevation="0.0dp">
+        <FrameLayout android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.honeyspace.ui.honeypots.dexpanel.volume.presentation.ToggleSeekBar android:id="@id/volume_seekbar" android:tag="binding_2" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:progressDrawable="@drawable/seekbar_progress_drawable" android:thumb="@drawable/volume_seekbar_thumb" android:paddingStart="0.0dp" android:paddingEnd="0.0dp" android:splitTrack="false" />
+            <LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.honeyspace.ui.honeypots.dexpanel.volume.presentation.VolumeIcon android:id="@id/volume_button" android:tag="binding_4" android:background="@drawable/volume_icon_ripple_drawable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" style="@style/VolumeIcon" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/volume_panel_status_icon" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_auracast" android:scaleType="centerInside" android:tint="@color/volume_icon_color" android:alpha="0.85" />
+            <ImageButton android:layout_gravity="end|center" android:id="@id/volume_panel_expand_button" android:tag="binding_6" android:background="@drawable/sec_qs_ripple_drawable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/panel_ic_more" android:scaleType="center" android:tint="@color/volume_icon_color" android:contentDescription="@string/volume_button_settings" android:tooltipText="@string/volume_button_settings" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</com.honeyspace.ui.honeypots.dexpanel.volume.presentation.VolumeRowView>

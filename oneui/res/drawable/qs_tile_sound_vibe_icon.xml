@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_00" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_01" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_02" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_03" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_04" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_05" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_06" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_07" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_08" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_09" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_10" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_11" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_12" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_13" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_14" />
+    <item android:duration="33" android:drawable="@drawable/soundmode_sound_vibe_15" />
+</animation-list>

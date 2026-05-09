@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="30.0dp" android:width="30.0dp" />
+            <solid android:color="@color/settings_handler_cue_inside_color" />
+            <stroke android:width="2.0px" android:color="@color/settings_handler_cue_stroke_color" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="30.0dp" android:width="30.0dp">
+        <bitmap android:src="@drawable/edge_setting_btn_position_cue_mtrl" android:tint="@color/settings_handler_cue_color" />
+    </item>
+</layer-list>

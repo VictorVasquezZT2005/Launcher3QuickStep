@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">Nevar pievienot vairāk par %d darbvirsmas darbvietām.</item>
+        <item quantity="one">Nevar pievienot vairāk par %d darbvirsmas darbvietu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Nevar pievienot vairāk par %d darbvirsmas darbvietām.</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">Var pievienot ne vairāk kā %d logrīku kopas.</item>
+        <item quantity="one">Var pievienot ne vairāk kā %d logrīku kopu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var pievienot ne vairāk kā %d logrīku kopas.</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">Var atvērt ne vairāk kā %d programmas.</item>
+        <item quantity="one">Var atvērt ne vairāk kā %d programmu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var atvērt ne vairāk kā %d programmas.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">Šodien atlikušas: %d stundas</item>
+        <item quantity="one">Šodien atlikusi: %d stunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien atlikušas: %d stundas</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">Šodien atlikušas %d minūtes</item>
+        <item quantity="one">Šodien atlikusi %d minūte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Šodien atlikušas %d minūtes</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">%d aktīvas programmas</item>
+        <item quantity="one">%d aktīva programma</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d aktīvas programmas</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">Fonā darbojas %d objekti</item>
+        <item quantity="one">Fonā darbojas %d objekts</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Fonā darbojas %d objekti</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">%d kolonnas</item>
+        <item quantity="one">%d kolonna</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kolonnas</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">%d rindas</item>
+        <item quantity="one">%d rinda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d rindas</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d rakstzīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+        <item quantity="other">%d jauni paziņojumi</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">Vēl %1$d %2$s paziņojumi</item>
+        <item quantity="one">Vēl %1$d %2$s paziņojums</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Vēl %1$d %2$s paziņojumi</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">Varat iestatīt ne vairāk kā %d programmas</item>
+        <item quantity="one">Varat iestatīt ne vairāk kā %d programmu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Varat iestatīt ne vairāk kā %d programmas</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">Var izvēlēties ne vairāk kā %d paneļus.</item>
+        <item quantity="one">Var izvēlēties ne vairāk kā %d paneli.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Var izvēlēties ne vairāk kā %d paneļus.</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">Atlik. %d dienas</item>
+        <item quantity="one">Atlik. %d diena</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atlik. %d dienas</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">Pēc %d dienām</item>
+        <item quantity="one">Pēc %d dienas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Pēc %d dienām</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">%1$s, %2$s un vēl %3$d citi</item>
+        <item quantity="one">%1$s, %2$s un vēl %3$d cits</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s, %2$s un vēl %3$d citi</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">Atkārtojas ik pēc %d dienām</item>
+        <item quantity="one">Atkārtojas ik pēc %d dienas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atkārtojas ik pēc %d dienām</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">Atkārtojas ik pēc %d stundām</item>
+        <item quantity="one">Atkārtojas ik pēc %d stundas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atkārtojas ik pēc %d stundām</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">Atkārtojas ik pēc %d minūtēm</item>
+        <item quantity="one">Atkārtojas ik pēc %d minūtes</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atkārtojas ik pēc %d minūtēm</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">Atkārtojas ik pēc %d mēnešiem</item>
+        <item quantity="one">Atkārtojas ik pēc %d mēneša</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atkārtojas ik pēc %d mēnešiem</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">Atkārtojas ik pēc %d nedēļām</item>
+        <item quantity="one">Atkārtojas ik pēc %d nedēļas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atkārtojas ik pēc %d nedēļām</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">Atkārtojas ik pēc %d gadiem</item>
+        <item quantity="one">Atkārtojas ik pēc %d gada</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Atkārtojas ik pēc %d gadiem</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">Izvēlēti %d</item>
+        <item quantity="one">Izvēlēts %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Izvēlēti %d vienumi</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">Miega ilgums: %d stundas</item>
+        <item quantity="one">Miega ilgums: %d stunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Miega ilgums: %d stundas</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">Miega ilgums: %d minūtes</item>
+        <item quantity="one">Miega ilgums: %d minūte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Miega ilgums: %d minūtes</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">%d programmas atvērtas ātrai palaišanai.</item>
+        <item quantity="one">%d programma atvērta ātrai palaišanai.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d programmas atvērtas ātrai palaišanai.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">Nav paziņojumu</item>
+        <item quantity="one">%d paziņojums</item>
+        <item quantity="other">%d paziņojumi</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">%d kolonnas</item>
+        <item quantity="one">%d kolonna</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d kolonnas</item>
+    </plurals>
+</resources>

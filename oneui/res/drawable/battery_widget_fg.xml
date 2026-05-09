@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="216.0dp" android:width="216.0dp" android:viewportWidth="216.0" android:viewportHeight="216.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffffff" android:pathData="M127.16,78.84C132.04,78.84 136,83 136,88.14V137.71C136,142.84 132.04,147 127.16,147H88.84C83.96,147 80,142.84 80,137.71V88.14C80,83 83.96,78.84 88.84,78.84H95.56V72.65C95.56,70.08 97.65,68 100.22,68H115.78C118.36,68 120.44,70.08 120.44,72.65V78.84H127.16Z" />
+    <path android:fillColor="@drawable/$battery_widget_fg__0" android:pathData="M127.16,78.84C132.04,78.84 136,83 136,88.14V137.71C136,142.84 132.04,147 127.16,147H88.84C83.96,147 80,142.84 80,137.71V88.14C80,83 83.96,78.84 88.84,78.84H95.56V72.65C95.56,70.08 97.65,68 100.22,68H115.78C118.36,68 120.44,70.08 120.44,72.65V78.84H127.16Z" />
+</vector>

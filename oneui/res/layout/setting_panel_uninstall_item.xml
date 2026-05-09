@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/setting_panel_uninstall_item_0" android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/edge_settings_layout" android:focusable="true" android:layout_width="@dimen/settings_wide_panel_width_with_shadow" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:id="@id/uninstall" android:background="@drawable/ripple_background_oval" android:focusable="true" android:layout_width="@dimen/settings_wide_panel_uninstall_ripple_size" android:layout_height="@dimen/settings_wide_panel_uninstall_ripple_size" android:importantForAccessibility="no">
+            <ImageView android:layout_gravity="center" android:id="@id/minus_button_img" android:layout_width="@dimen/settings_wide_panel_uninstall_icon_size" android:layout_height="@dimen/settings_wide_panel_uninstall_icon_size" android:src="@drawable/edge_apps_ic_remove" />
+        </FrameLayout>
+        <TextView android:id="@id/panel_label_text" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" style="@style/PanelLabelText" />
+        <FrameLayout android:id="@id/panel_preview" android:focusable="false" android:layout_width="@dimen/settings_wide_panel_width_with_shadow" android:layout_height="@dimen/settings_wide_panel_preview_height_with_shadow" android:importantForAccessibility="no">
+            <com.samsung.app.honeyspace.edge.edgepanel.ui.setting.presentation.MaskingPreview android:layout_gravity="center" android:id="@id/panel_preview_image" android:background="@drawable/panel_preview_img_bg" android:layout_width="@dimen/settings_wide_panel_width" android:layout_height="@dimen/settings_wide_panel_preview_height" android:scaleType="centerCrop" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

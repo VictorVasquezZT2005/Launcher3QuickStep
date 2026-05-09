@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/large_folder_background">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/enforced_rounded_corner_max_radius" />
+            <solid android:color="@color/folder_background_color" />
+        </shape>
+    </item>
+</layer-list>

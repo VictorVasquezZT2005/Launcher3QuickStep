@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/window_options_menu" android:background="@color/window_panel_background_color_no_blur" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/window_panel_margin_top" android:paddingVertical="@dimen/window_options_button_padding_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/open_in_new_window" android:background="@drawable/quick_option_deep_shortcut_recoil" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:stateListAnimator="@drawable/quick_option_recoil_animator" android:paddingHorizontal="@dimen/window_options_button_padding_horizontal">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/window_options_button_padding_top">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/open_in_new_image" android:layout_width="@dimen/window_options_icon_width" android:layout_height="@dimen/window_options_icon_height" android:src="@drawable/quick_options_open_in_new_window" />
+            <TextView android:textSize="@dimen/window_options_text_size" android:textColor="@color/window_options_text_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/open_in_new_text" android:layout_width="wrap_content" android:layout_height="@dimen/window_options_text_height" android:singleLine="true" android:fontFamily="sec" android:textAlignment="viewStart" android:paddingStart="@dimen/window_options_text_padding_start" android:textFontWeight="400" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/close_btn" android:background="@drawable/quick_option_deep_shortcut_recoil" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:stateListAnimator="@drawable/quick_option_recoil_animator" android:paddingHorizontal="@dimen/window_options_button_padding_horizontal">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/window_options_button_padding_top">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/close_btn_image" android:layout_width="@dimen/window_options_icon_width" android:layout_height="@dimen/window_options_icon_height" />
+            <TextView android:textSize="@dimen/window_options_text_size" android:textColor="@color/window_options_text_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/close_btn_text" android:layout_width="wrap_content" android:layout_height="@dimen/window_options_text_height" android:singleLine="true" android:fontFamily="sec" android:textAlignment="viewStart" android:paddingStart="@dimen/window_options_text_padding_start" android:textFontWeight="400" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

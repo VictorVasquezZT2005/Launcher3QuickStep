@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.appscreen.presentation.AppscreenContainerView android:id="@id/apps_screen" android:tag="layout/appscreen_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/appscreen_search_bar_container" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/search_bar" />
+    <include android:id="@id/more_icon_button" layout="@layout/more_icon_button" />
+</com.honeyspace.ui.honeypots.appscreen.presentation.AppscreenContainerView>

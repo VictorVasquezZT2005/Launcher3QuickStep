@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.recents.preview.presentation.RecentsPreviewContainer android:gravity="center_horizontal" android:id="@id/recents_preview_container" android:tag="layout/recents_preview_container_0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.recents.preview.presentation.RecentsPreviewBlurView android:id="@id/recents_preview_blur_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.honeyspace.ui.recents.preview.presentation.RecentsPreviewRecyclerView android:id="@id/recents_preview_recycler_view" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.honeyspace.ui.recents.preview.presentation.RecentsPreviewBlurView>
+</com.honeyspace.ui.recents.preview.presentation.RecentsPreviewContainer>

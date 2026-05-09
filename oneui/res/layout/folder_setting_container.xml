@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/folder_setting_container" android:tag="layout/folder_setting_container_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="top" android:id="@id/appBarBackground" android:background="@color/folder_setting_round_and_bg_color" android:visibility="visible" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:background="@color/folder_setting_round_and_bg_color" />
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:expanded="false">
+        <View android:layout_gravity="bottom" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:background="@android:color/transparent" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/folder_setting_content" android:tag="binding_1" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:tag="binding_2" android:background="@color/folder_setting_round_and_bg_color" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        <LinearLayout android:tag="binding_3" android:layout_width="0.0dp" android:layout_height="match_parent" android:weightSum="100.0" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:id="@id/preview_folder_layout" android:tag="binding_4" android:background="@drawable/setting_preview_bg" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.honeyspace.ui.honeypots.foldersetting.presentation.FolderPreviewIcon android:layout_gravity="center" android:id="@id/preview_folder_icon" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="noHideDescendants" />
+            </LinearLayout>
+            <LinearLayout android:tag="binding_5" android:background="@color/folder_setting_round_and_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/scroll_view_container" android:tag="binding_6" android:background="@color/folder_setting_round_and_bg_color" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.honeyspace.ui.honeypots.foldersetting.presentation.FolderSettingScrollView android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb" android:scrollbarStyle="outsideOverlay" android:id="@id/folder_setting_scroll_view" android:background="@color/folder_setting_round_and_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+                    <LinearLayout android:orientation="vertical" android:id="@id/folder_setting_scroll_inner_view" android:tag="binding_7" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <include android:id="@id/folder_title" layout="@layout/folder_setting_title" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/folder_color_setting_container" android:tag="binding_8" android:background="@drawable/setting_background_item_round_corner_all" android:paddingTop="20.0dp" android:layout_width="match_parent" android:layout_height="@dimen/color_setting_container_height" android:layout_marginBottom="@dimen/scroll_inner_view_bottom_padding" android:minHeight="@dimen/seek_bar_layout_height">
+                            <include android:id="@id/color_palette" layout="@layout/folder_setting_color_palette" />
+                            <View android:background="?android:listDivider" android:layout_width="match_parent" android:layout_height="1.0dp" />
+                            <TextView android:textSize="17.0sp" android:textColor="@color/folder_setting_button_text_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="56.0dp" android:text="@string/folder_setting_opacity" android:layout_marginStart="@dimen/color_picker_margin_horizontal" style="@style/TextAppearance.RobotoRegular" />
+                            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <ImageView android:layout_gravity="center" android:id="@id/opacity_icon" android:background="@drawable/opacity_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:layout_marginStart="@dimen/color_picker_margin_horizontal" />
+                                <androidx.appcompat.widget.SeslSeekBar android:layout_gravity="center" android:id="@id/folder_setting_bg_opacity_seek_bar" android:layout_width="match_parent" android:layout_height="@dimen/seek_bar_height" android:layout_marginBottom="10.0dp" android:maxHeight="@dimen/seek_bar_height" android:max="100" android:minHeight="@dimen/seek_bar_height" android:layout_weight="1.0" android:contentDescription="@string/folder_setting_opacity" app:seslSeekBarMode="expand" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.honeyspace.ui.honeypots.foldersetting.presentation.FolderSettingScrollView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:tag="binding_9" android:background="@color/folder_setting_round_and_bg_color" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/background_cover_view" android:background="@color/folder_setting_round_and_bg_color" android:layout_width="match_parent" android:layout_height="100.0dp" android:layout_marginBottom="-100.0dp" />
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/appbar">
+        <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/folder_setting_toolbar" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:clipToOutline="false" app:background="@android:color/transparent" app:layout_collapseMode="pin" app:title="@string/string_folder_setting" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

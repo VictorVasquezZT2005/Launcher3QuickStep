@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/apps_drawable_start_search_icon_size" android:width="@dimen/apps_drawable_start_search_icon_size" android:drawable="@drawable/tw_ic_ab_search_mtrl" />
+</layer-list>

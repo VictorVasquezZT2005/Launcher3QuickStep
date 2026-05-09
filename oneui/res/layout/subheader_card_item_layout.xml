@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/info_layout" android:tag="layout/subheader_card_item_layout_0" android:background="@drawable/search_recoil_background_squared" android:paddingTop="@dimen/card_item_subheader_padding_top" android:paddingBottom="@dimen/card_item_subheader_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/card_item_subheader_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/primaryText" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" style="@style/SearchCardSubHeaderTitle" />
+</RelativeLayout>

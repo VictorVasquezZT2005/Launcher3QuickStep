@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/root_view" android:tag="layout/qs_privacy_item_container_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollview" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constrainedHeight="true">
+        <com.honeyspace.ui.honeypots.dexpanel.quicksettings.presentation.PrivacyItemLayout android:id="@id/privacy_item_area" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/icons_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </com.honeyspace.ui.honeypots.dexpanel.quicksettings.presentation.PrivacyItemLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/suggestedAppsContainer" android:tag="layout/suggestedapps_pot_view_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.honeyspace.ui.honeypots.suggestedapps.presentation.SimpleSuggestedAppsCellLayout android:id="@id/suggestedAppsCellLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" />
+</FrameLayout>

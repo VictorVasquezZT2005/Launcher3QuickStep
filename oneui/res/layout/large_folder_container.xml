@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.folder.presentation.large.LargeFolderContainer android:id="@id/large_folder_container" android:tag="layout/large_folder_container_0" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_horizontal" android:id="@id/large_folder_background_view" android:tag="binding_1" android:focusable="false" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/large_folder_icon_tray" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.honeyspace.ui.honeypots.folder.presentation.large.LargeFolderFRView android:id="@id/large_folder_fr_view" android:layout_width="match_parent" android:layout_height="match_parent" android:clipToOutline="true" />
+    </FrameLayout>
+</com.honeyspace.ui.honeypots.folder.presentation.large.LargeFolderContainer>

@@ -1,0 +1,124 @@
+.class public final Lei/i1;
+.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# instance fields
+.field public final synthetic c:Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;
+
+.field public final synthetic e:Lcom/honeyspace/sdk/source/entity/PackageOperation$ShortcutChanged;
+
+
+# direct methods
+.method public constructor <init>(Lcom/honeyspace/sdk/source/entity/PackageOperation$ShortcutChanged;Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;Lkotlin/coroutines/Continuation;)V
+    .locals 0
+
+    iput-object p2, p0, Lei/i1;->c:Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;
+
+    iput-object p1, p0, Lei/i1;->e:Lcom/honeyspace/sdk/source/entity/PackageOperation$ShortcutChanged;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    .locals 1
+
+    new-instance p1, Lei/i1;
+
+    iget-object v0, p0, Lei/i1;->c:Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;
+
+    iget-object p0, p0, Lei/i1;->e:Lcom/honeyspace/sdk/source/entity/PackageOperation$ShortcutChanged;
+
+    invoke-direct {p1, p0, v0, p2}, Lei/i1;-><init>(Lcom/honeyspace/sdk/source/entity/PackageOperation$ShortcutChanged;Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;Lkotlin/coroutines/Continuation;)V
+
+    return-object p1
+.end method
+
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lkotlinx/coroutines/CoroutineScope;
+
+    check-cast p2, Lkotlin/coroutines/Continuation;
+
+    invoke-virtual {p0, p1, p2}, Lei/i1;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+
+    move-result-object p0
+
+    check-cast p0, Lei/i1;
+
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {p0, p1}, Lei/i1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 10
+
+    invoke-static {}, Lkotlin/coroutines/intrinsics/IntrinsicsKt;->getCOROUTINE_SUSPENDED()Ljava/lang/Object;
+
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    iget-object p1, p0, Lei/i1;->c:Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;
+
+    iget-object v0, p1, Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;->H0:Landroidx/databinding/ObservableArrayList;
+
+    invoke-static {v0}, Lkotlin/collections/CollectionsKt;->toList(Ljava/lang/Iterable;)Ljava/util/List;
+
+    move-result-object v0
+
+    iget-object v1, p1, Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;->i:Lcom/honeyspace/ui/common/model/PackageEventOperator;
+
+    new-instance v2, Lei/l;
+
+    const/4 v3, 0x6
+
+    invoke-direct {v2, p1, v3}, Lei/l;-><init>(Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;I)V
+
+    new-instance v3, Lei/l;
+
+    const/4 v4, 0x7
+
+    invoke-direct {v3, p1, v4}, Lei/l;-><init>(Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;I)V
+
+    iget-object p0, p0, Lei/i1;->e:Lcom/honeyspace/sdk/source/entity/PackageOperation$ShortcutChanged;
+
+    invoke-virtual {v1, v0, p0, v2, v3}, Lcom/honeyspace/ui/common/model/PackageEventOperator;->handleShortcutChanged(Ljava/util/List;Lcom/honeyspace/sdk/source/entity/PackageOperation$ShortcutChanged;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)V
+
+    invoke-static {p1}, Landroidx/lifecycle/ViewModelKt;->getViewModelScope(Landroidx/lifecycle/ViewModel;)Lkotlinx/coroutines/CoroutineScope;
+
+    move-result-object v4
+
+    new-instance v7, Lei/h1;
+
+    const/4 v0, 0x0
+
+    invoke-direct {v7, p0, p1, v0}, Lei/h1;-><init>(Lcom/honeyspace/sdk/source/entity/PackageOperation$ShortcutChanged;Lcom/honeyspace/ui/honeypots/workspace/viewmodel/WorkspaceViewModel;Lkotlin/coroutines/Continuation;)V
+
+    const/4 v8, 0x3
+
+    const/4 v9, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    invoke-static/range {v4 .. v9}, Lkotlinx/coroutines/BuildersKt;->launch$default(Lkotlinx/coroutines/CoroutineScope;Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/CoroutineStart;Lkotlin/jvm/functions/Function2;ILjava/lang/Object;)Lkotlinx/coroutines/Job;
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa pridať viac než %d počítačový pracovný priestor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa pridať viac než %d počítačové pracovné priestory.</item>
+        <item quantity="many">Nedá sa pridať viac než %d počítačového pracovného priestoru.</item>
+        <item quantity="other">Nedá sa pridať viac než %d počítačových pracovných priestorov.</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa pridať viac než %d miniaplikácia v stohu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa pridať viac než %d miniaplikácie v stohu.</item>
+        <item quantity="many">Nedá sa pridať viac než %d miniaplikácie v stohu.</item>
+        <item quantity="other">Nedá sa pridať viac než %d miniaplikácií v stohu.</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie je možné nechať otvorenú viac než %d aplikáciu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie je možné nechať otvorené viac než %d aplikácie.</item>
+        <item quantity="many">Nie je možné nechať otvorenej viac než %d aplikácie.</item>
+        <item quantity="other">Nie je možné nechať otvorených viac než %d aplikácií.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dnes zostáva %d hodina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dnes zostávajú %d hodiny</item>
+        <item quantity="many">Dnes zostáva %d hodiny</item>
+        <item quantity="other">Dnes zostáva %d hodín</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dnes zostáva %d minúta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dnes zostávajú %d minúty</item>
+        <item quantity="many">Dnes zostáva %d minúty</item>
+        <item quantity="other">Dnes zostáva %d minút</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aktívna aplikácia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aktívne aplikácie</item>
+        <item quantity="many">%d aktívnej aplikácie</item>
+        <item quantity="other">%d aktívnych aplikácií</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d položka aktívna na pozadí</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d položky aktívne na pozadí</item>
+        <item quantity="many">%d položky aktívnej na pozadí</item>
+        <item quantity="other">%d položiek aktívnych na pozadí</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stĺpec</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d stĺpce</item>
+        <item quantity="many">%d stĺpca</item>
+        <item quantity="other">%d stĺpcov</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d riadok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d riadky</item>
+        <item quantity="many">%d riadka</item>
+        <item quantity="other">%d riadkov</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa zadať viac než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa zadať viac než %d znaky.</item>
+        <item quantity="many">Nedá sa zadať viac než %d znaku.</item>
+        <item quantity="other">Nedá sa zadať viac než %d znakov.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+        <item quantity="other">%d nových upozornení</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ďalšie oznámenie z aplikácie %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d ďalšie oznámenia z aplikácie %2$s</item>
+        <item quantity="many">%1$d ďalšieho oznámenia z aplikácie %2$s</item>
+        <item quantity="other">%1$d ďalších oznámení z aplikácie %2$s</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Najviac %d aplikácia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Najviac %d aplikácie</item>
+        <item quantity="many">Najviac %d aplikácie</item>
+        <item quantity="other">Najviac %d aplikácií</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nedá sa vybrať viac než %d panel.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nedajú sa vybrať viac než %d panely.</item>
+        <item quantity="many">Nedá sa vybrať viac než %d panela.</item>
+        <item quantity="other">Nedá sa vybrať viac než %d panelov.</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zostáva %d deň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zostávajú %d dni</item>
+        <item quantity="many">Zostáva %d dňa</item>
+        <item quantity="other">Zostáva %d dní</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">O %d deň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">O %d dni</item>
+        <item quantity="many">O %d dňa</item>
+        <item quantity="other">O %d dní</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s a %3$d ďalší</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s, %2$s a %3$d ďalší</item>
+        <item quantity="many">%1$s, %2$s a %3$d ďalšieho</item>
+        <item quantity="other">%1$s, %2$s a %3$d ďalších</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opakuje sa každý %d deň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opakuje sa každé %d dni</item>
+        <item quantity="many">Opakuje sa každého %d dňa</item>
+        <item quantity="other">Opakuje sa každých %d dní</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opakuje sa každú %d hodinu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opakuje sa každé %d hodiny</item>
+        <item quantity="many">Opakuje sa každej %d hodiny</item>
+        <item quantity="other">Opakuje sa každých %d hodín</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opakuje sa každú %d minútu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opakuje sa každé %d minúty</item>
+        <item quantity="many">Opakuje sa každej %d minúty</item>
+        <item quantity="other">Opakuje sa každých %d minút</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opakuje sa každý %d mesiac</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opakuje sa každé %d mesiace</item>
+        <item quantity="many">Opakuje sa každého %d mesiaca</item>
+        <item quantity="other">Opakuje sa každých %d mesiacov</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opakuje sa každý %d týždeň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opakuje sa každé %d týždne</item>
+        <item quantity="many">Opakuje sa každého %d týždňa</item>
+        <item quantity="other">Opakuje sa každých %d týždňov</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opakuje sa každý %d rok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opakuje sa každé %d roky</item>
+        <item quantity="many">Opakuje sa každého %d roka</item>
+        <item quantity="other">Opakuje sa každých %d rokov</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vybraté: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vybraté: %d</item>
+        <item quantity="many">Vybraté: %d</item>
+        <item quantity="other">Vybraté: %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Doba spánku: %d hodina</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Doba spánku: %d hodiny</item>
+        <item quantity="many">Doba spánku: %d hodiny</item>
+        <item quantity="other">Doba spánku: %d hodín</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Doba spánku: %d minúta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Doba spánku: %d minúty</item>
+        <item quantity="many">Doba spánku: %d minúty</item>
+        <item quantity="other">Doba spánku: %d minút</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aplikácia bola ponechaná otvorená na rýchle spustenie.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d aplikácie boli ponechané otvorené na rýchle spustenie.</item>
+        <item quantity="many">%d aplikácie bolo ponechanej otvorenej na rýchle spustenie.</item>
+        <item quantity="other">%d aplikácií bolo ponechaných otvorených na rýchle spustenie.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">Žiadne oznámenia</item>
+        <item quantity="one">%d oznámenie</item>
+        <item quantity="other">%d oznámení</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d stĺpec</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d stĺpce</item>
+        <item quantity="many">%d stĺpca</item>
+        <item quantity="other">%d stĺpcov</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.common.minusoneeditpage.MinusOneEditContent android:gravity="center" android:orientation="vertical" android:id="@id/minus_one_content" android:tag="layout/minus_one_edit_page_content_0" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:id="@id/disable_card" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textColor="@color/minus_one_disable_message_text_color" android:layout_gravity="top" android:id="@id/minus_one_disable_message" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="center|bottom" android:id="@id/setting_button" android:tag="binding_3" android:text="@string/minus_one_settings" style="@style/MinusOneSettingContainedButtonStyle" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/SecSemiBold" android:textColor="@color/minus_one_content_title_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/minus_one_content_title" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/minus_one_preview" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.honeyspace.ui.common.minusoneeditpage.MinusOneEditContent>

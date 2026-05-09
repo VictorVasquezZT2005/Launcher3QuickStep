@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/sec_widget_round_and_bgcolor" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/sec_common_list_item_padding_top" android:paddingBottom="@dimen/sec_common_list_item_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingEnd="@dimen/sec_common_list_item_padding_end">
+        <include layout="@layout/search_icon_view" />
+        <LinearLayout android:orientation="vertical" android:id="@id/result_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/sec_search_result_content_item_padding_start">
+            <com.samsung.android.sdk.commandview.widget.ContrastTextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:contrastColor="@color/command_search_contrast_text" />
+            <com.samsung.android.sdk.commandview.widget.ContrastTextView android:textAppearance="?android:textAppearanceListItemSecondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" app:contrastColor="@color/command_search_contrast_text" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

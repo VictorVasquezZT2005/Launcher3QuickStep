@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.common.quickoption.DeepShortcutView android:background="@drawable/quick_option_deep_shortcut_recoil" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/deep_shortcut_margin_bottom" android:stateListAnimator="@drawable/quick_option_recoil_animator" android:paddingHorizontal="@dimen/deep_shortcut_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/deep_shortcut_icon_size" android:layout_height="@dimen/deep_shortcut_icon_size" />
+        <TextView android:textSize="@dimen/deep_shortcut_text_size" android:textColor="@color/deep_shortcut_text_color" android:ellipsize="marquee" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/label" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sec" android:textAlignment="viewStart" android:paddingStart="@dimen/deep_shortcut_spacing_between_icon_and_text" android:textFontWeight="400" />
+    </LinearLayout>
+</com.honeyspace.ui.common.quickoption.DeepShortcutView>

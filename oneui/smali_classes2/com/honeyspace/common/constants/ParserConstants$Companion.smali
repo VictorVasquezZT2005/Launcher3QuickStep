@@ -1,0 +1,174 @@
+.class public final Lcom/honeyspace/common/constants/ParserConstants$Companion;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/honeyspace/common/constants/ParserConstants;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Companion"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000$\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008M\n\u0002\u0010\u0008\n\u0002\u0008\u0008\n\u0002\u0010\u000b\n\u0002\u0008\n\u0008\u0086\u0003\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003R\u000e\u0010\u0004\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0008\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\n\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000c\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000e\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000f\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0010\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0011\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0012\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0013\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0015\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0016\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0017\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0018\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0019\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001a\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001b\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001c\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001d\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001e\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001f\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010!\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010#\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010$\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010%\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010&\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\'\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010(\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010)\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010*\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010+\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010,\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010-\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010.\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010/\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00100\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00101\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00102\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00103\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00104\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00105\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00106\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00107\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00108\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u00109\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010:\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010;\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010<\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010=\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010>\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010?\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010@\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010A\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010B\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010C\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010D\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010E\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010F\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010G\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010H\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010I\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010J\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010K\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010L\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010M\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010N\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010O\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010P\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010Q\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010R\u001a\u00020SX\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010T\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010U\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010V\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010W\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010X\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010Y\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010Z\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u0011\u0010[\u001a\u00020\\\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008[\u0010]R\u0011\u0010^\u001a\u00020\\\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008^\u0010]R\u000e\u0010_\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010`\u001a\u00020SX\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010a\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010b\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010c\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010d\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010e\u001a\u00020\u0005X\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006f"
+    }
+    d2 = {
+        "Lcom/honeyspace/common/constants/ParserConstants$Companion;",
+        "",
+        "<init>",
+        "()V",
+        "DEFAULT_HOME_LAYOUT",
+        "",
+        "DEFAULT_DEX_HOME_LAYOUT",
+        "DEFAULT_DEX_LAND_HOME_LAYOUT",
+        "DEFAULT_FRONT_HOME_LAYOUT",
+        "DEFAULT_LAND_HOME_LAYOUT",
+        "DEFAULT_APPS_LAYOUT",
+        "DEFAULT_APPS_KNOX_LAYOUT",
+        "SPACE_LAYOUT",
+        "DEX_SPACE_LAYOUT",
+        "SEPARATOR",
+        "POST_FIX_HOME_ONLY",
+        "POST_FIX_KNOX",
+        "POST_FIX_HOME_ONLY_KNOX",
+        "POST_FIX_EASY",
+        "POST_FIX_EASY_4X4",
+        "POST_FIX_CHN",
+        "TAG_HOME",
+        "TAG_HOTSEAT",
+        "TAG_FOLDER",
+        "TAG_FAVORITE",
+        "TAG_APPWIDGET",
+        "TAG_SHORTCUT",
+        "TAG_DEEP_SHORTCUT",
+        "TAG_PAIRAPPS",
+        "TAG_STACKED_WIDGET",
+        "TAG_NOW_BRIEF",
+        "HOME_PARSER_ROOT_TAG",
+        "APPS_PARSER_ROOT_TAG",
+        "ATTR_SCREEN",
+        "ATTR_TITLE",
+        "ATTR_PACKAGE_NAME",
+        "ATTR_CLASS_NAME",
+        "ATTR_X",
+        "ATTR_Y",
+        "ATTR_UPPER_X",
+        "ATTR_UPPER_Y",
+        "ATTR_SPAN_X",
+        "ATTR_SPAN_Y",
+        "ATTR_REF_PACKAGE_NAME",
+        "ATTR_HIDDEN",
+        "ATTR_TSS_HIDDEN",
+        "ATTR_POST_POSITION",
+        "ATTR_RESERVED_POSITION",
+        "ATTR_RESERVED_RANK",
+        "ATTR_APPS_BUTTON",
+        "ATTR_ICON_PACKAGE",
+        "ATTR_ICON_RESOURCE",
+        "ATTR_ICON",
+        "ATTR_URI",
+        "ATTR_OPTIONS",
+        "ATTR_COLOR",
+        "ATTR_WIDGET_ID",
+        "ATTR_HOMEUP_EXT",
+        "ATTR_TYPE",
+        "ATTR_CUSTOM_WIDGET_EXTRA",
+        "ATTR_IGP_X",
+        "ATTR_IGP_Y",
+        "ATTR_IGP_SPAN_X",
+        "ATTR_IGP_SPAN_Y",
+        "TAG_HOME_GRID_INFO",
+        "TAG_APPS_GRID_INFO",
+        "ATTR_GRID_DEFAULT",
+        "GRID_DIMENSION_SEPARATOR",
+        "GRID_HOMEONLY_CELL",
+        "HOME_GRID_CELL",
+        "APPS_GRID_CELL",
+        "ATTR_ORIENTATION",
+        "ATTR_COMPONENTS",
+        "ATTR_DIVIDER_RATIO",
+        "ATTR_CELL_DIVIDER_RATIO",
+        "VALUE_TRUE",
+        "VALUE_FALSE",
+        "CSC_PATH",
+        "OMC_LAYOUT_FOLDER_NAME",
+        "PERSIST_SYS_OMS_SUPPORT",
+        "PERSIST_SYS_OMC_PATH",
+        "PERSIST_SYS_OMC_ETC_PATH",
+        "INVALID_VALUE",
+        "",
+        "TAG_FAVORITES",
+        "TAG_SUGGESTED",
+        "TAG_HIDDEN_COMPONENTS",
+        "TAG_ITEM",
+        "ATTR_COMPONENT",
+        "ATTR_PROFILE_ID",
+        "NEW_LINE",
+        "isSupportLayoutForPAI",
+        "",
+        "()Z",
+        "isSupportLayoutForOMC",
+        "GRID_FRONT",
+        "CONTAINER_ID_LAUNCHER_SCREEN",
+        "ATTR_RANK",
+        "ATTR_ALPHA",
+        "ATTR_SCALE",
+        "ATTR_ANGLE",
+        "ATTR_RESTORED",
+        "common_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x2,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/honeyspace/common/constants/ParserConstants$Companion;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final isSupportLayoutForOMC()Z
+    .locals 0
+
+    invoke-static {}, Lcom/honeyspace/common/constants/ParserConstants;->access$isSupportLayoutForOMC$cp()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final isSupportLayoutForPAI()Z
+    .locals 0
+
+    invoke-static {}, Lcom/honeyspace/common/constants/ParserConstants;->access$isSupportLayoutForPAI$cp()Z
+
+    move-result p0
+
+    return p0
+.end method

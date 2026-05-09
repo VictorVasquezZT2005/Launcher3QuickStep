@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:theme="@style/Theme.AppCompat.DayNight" android:gravity="center" android:orientation="vertical" android:id="@id/text_input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/desk_rename_dialog_edit_text_layout_padding_start" android:paddingEnd="@dimen/desk_rename_dialog_edit_text_layout_padding_end" app:hintEnabled="false">
+        <androidx.appcompat.widget.AppCompatEditText android:id="@id/edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/enter_desk_name" android:maxLines="1" android:maxLength="@integer/desk_rename_dialog_max_length" android:inputType="textCapSentences" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

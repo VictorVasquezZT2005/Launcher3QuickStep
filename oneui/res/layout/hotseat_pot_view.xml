@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.hotseat.presentation.HotseatContainer android:gravity="center" android:id="@id/hotseat_container" android:tag="layout/hotseat_pot_view_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.honeypots.hotseat.presentation.HotseatBackgroundView android:id="@id/hotseat_background" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/hotseat_balloon" android:layout_alignTop="@id/hotseat_balloon" android:layout_alignRight="@id/hotseat_balloon" android:layout_alignBottom="@id/hotseat_balloon" android:layout_alignParentTop="true" />
+    <com.honeyspace.ui.honeypots.hotseat.presentation.HotseatBalloon android:orientation="horizontal" android:id="@id/hotseat_balloon" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.honeyspace.ui.honeypots.hotseat.presentation.HotseatCellLayout android:id="@id/hotseat_cell_layout" android:tag="binding_2" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </com.honeyspace.ui.honeypots.hotseat.presentation.HotseatBalloon>
+</com.honeyspace.ui.honeypots.hotseat.presentation.HotseatContainer>

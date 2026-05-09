@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/third_party_access_notice_alert_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24.0dp" android:paddingTop="12.0dp" android:paddingRight="24.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/popup_attention_textsize" android:textStyle="bold" android:id="@id/third_party_permission_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginVertical="6.0dp" />
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:textSize="@dimen/popup_attention_textsize" android:textStyle="normal" android:id="@id/third_party_permission_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginVertical="6.0dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/thumbnail5_card_item_layout_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/icon_frame" android:layout_width="0.0dp" android:layout_height="0.0dp" app:layout_constraintDimensionRatio="16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/icon_place_holder" android:tag="binding_1" android:background="@drawable/search_card_item_image_background_default" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:clipToOutline="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/icon" android:background="@drawable/search_card_item_image_background_default" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:clipToOutline="true" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="0.0dp" android:layout_height="wrap_content" android:paddingVertical="@dimen/card_item_grid_padding_top_bottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icon_frame">
+        <com.honeyspace.search.ui.honeypot.presentation.content.ContrastTextView android:id="@id/primaryText" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:textAlignment="viewStart" app:contrastColor="@color/highlight_color" style="@style/SearchCardGridPrimaryTitle" />
+        <com.honeyspace.search.ui.honeypot.presentation.content.ContrastTextView android:id="@id/secondaryText" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:textAlignment="viewStart" app:contrastColor="@color/highlight_color" style="@style/SearchCardGridSecondaryTitle" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

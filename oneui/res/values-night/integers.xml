@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_appsBgDarken">55</integer>
+    <integer name="config_appsBgDarkenDimOnly">80</integer>
+    <integer name="config_appsFolderBgDarken">55</integer>
+    <integer name="config_homeFolderBgDarken">45</integer>
+    <integer name="config_recentBgDarkenDimOnly">80</integer>
+    <integer name="config_widgetListBgDarken">55</integer>
+    <integer name="relative_link_back_transparency">38</integer>
+    <item type="integer" name="search_bar_blur_curve" format="float">-5.0</item>
+    <item type="integer" name="search_bar_blur_max_x" format="float">255.0</item>
+    <item type="integer" name="search_bar_blur_max_y" format="float">201.4</item>
+    <item type="integer" name="search_bar_blur_min_x" format="float">0.0</item>
+    <item type="integer" name="search_bar_blur_min_y" format="float">10.2</item>
+    <item type="integer" name="search_bar_blur_saturation" format="float">0.35</item>
+    <item type="integer" name="stacked_widget_scroll_bg_alpha" format="float">0.3</item>
+    <item type="integer" name="wallpaper_view_blur_folder_max_y" format="float">192.5</item>
+    <item type="integer" name="wallpaper_view_blur_max_y" format="float">192.5</item>
+    <item type="integer" name="wallpaper_view_blur_max_y_captured_blur" format="float">132.0</item>
+    <item type="integer" name="wallpaper_view_blur_min_y" format="float">26.8</item>
+    <item type="integer" name="wallpaper_view_blur_normal_max_y" format="float">192.5</item>
+</resources>

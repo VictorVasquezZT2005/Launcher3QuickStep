@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/about_page_open_source_license_btn_color" />
+            <corners android:radius="@dimen/about_page_button_radius" />
+            <padding android:left="@dimen/about_page_button_left_right_min_padding" android:right="@dimen/about_page_button_left_right_min_padding" />
+        </shape>
+    </item>
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:radius="@dimen/about_page_button_radius" />
+        </shape>
+    </item>
+</ripple>

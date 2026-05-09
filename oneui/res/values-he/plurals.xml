@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להוסיף יותר מ-%d מרחב עבודה למחשבים שולחניים.</item>
+        <item quantity="two">לא ניתן להוסיף יותר מ-%d מרחבי עבודה למחשבים שולחניים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להוסיף יותר מ-%d מרחבי עבודה למחשבים שולחניים.</item>
+        <item quantity="other">לא ניתן להוסיף יותר מ-%d מרחבי עבודה למחשבים שולחניים.</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להוסיף יותר מיישומון %d בערמה.</item>
+        <item quantity="two">לא ניתן להוסיף יותר מ-%d יישומונים בערמה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להוסיף יותר מ-%d יישומונים בערמה.</item>
+        <item quantity="other">לא ניתן להוסיף יותר מ-%d יישומונים בערמה.</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להשאיר לכל היותר יישום אחד (%d) פתוח.</item>
+        <item quantity="two">ניתן להשאיר לכל היותר %d יישומים פתוחים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להשאיר לכל היותר %d יישומים פתוחים.</item>
+        <item quantity="other">ניתן להשאיר לכל היותר %d יישומים פתוחים.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נותרה שעה %d היום</item>
+        <item quantity="two">נותרו %d שעות היום</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נותרו %d שעות היום</item>
+        <item quantity="other">נותרו %d שעות היום</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">היום נותרה דקה %d</item>
+        <item quantity="two">היום נותרו %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">היום נותרו %d דקות</item>
+        <item quantity="other">היום נותרו %d דקות</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יישום אחד (%d) פעיל</item>
+        <item quantity="two">%d יישומים פעילים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים פעילים</item>
+        <item quantity="other">%d יישומים פעילים</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פריט %d פעיל ברקע</item>
+        <item quantity="two">%d פריטים פעילים ברקע</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פריטים פעילים ברקע</item>
+        <item quantity="other">%d פריטים פעילים ברקע</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d עמודה</item>
+        <item quantity="two">%d עמודות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d עמודות</item>
+        <item quantity="other">%d עמודות</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d שורה</item>
+        <item quantity="two">%d שורות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שורות</item>
+        <item quantity="other">%d שורות</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להזין יותר מ-%d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להזין יותר מ-%d תווים.</item>
+        <item quantity="other">לא ניתן להזין יותר מ-%d תווים.</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עוד התראה %1$d של %2$s</item>
+        <item quantity="two">עוד %1$d התראות %2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עוד %1$d התראות %2$s</item>
+        <item quantity="other">עוד %1$d התראות %2$s</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עד יישום אחד (%d)</item>
+        <item quantity="two">עד %d יישומים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עד %d יישומים</item>
+        <item quantity="other">עד %d יישומים</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן לבחור לכל היותר %d חלונית.</item>
+        <item quantity="two">ניתן לבחור לכל היותר %d חלוניות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן לבחור לכל היותר %d חלוניות.</item>
+        <item quantity="other">ניתן לבחור לכל היותר %d חלוניות.</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נותר יום %d</item>
+        <item quantity="two">נותרו %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נותרו %d ימים</item>
+        <item quantity="other">נותרו %d ימים</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בעוד יום %d</item>
+        <item quantity="two">בעוד %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בעוד %d ימים</item>
+        <item quantity="other">בעוד %d ימים</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s ועוד %3$d נוסף</item>
+        <item quantity="two">%1$s, %2$s ועוד %3$d נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s, %2$s ועוד %3$d נוספים</item>
+        <item quantity="other">%1$s, %2$s ועוד %3$d נוספים</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חוזר כל יום %d</item>
+        <item quantity="two">חוזר כל %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">חוזר כל %d ימים</item>
+        <item quantity="other">חוזר כל %d ימים</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חוזר כל שעה %d</item>
+        <item quantity="two">חוזר כל %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">חוזר כל %d שעות</item>
+        <item quantity="other">חוזר כל %d שעות</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חוזר כל דקה %d</item>
+        <item quantity="two">חוזר כל %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">חוזר כל %d דקות</item>
+        <item quantity="other">חוזר כל %d דקות</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חוזר כל חודש %d</item>
+        <item quantity="two">חוזר כל %d חודשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">חוזר כל %d חודשים</item>
+        <item quantity="other">חוזר כל %d חודשים</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חוזר כל שבוע %d</item>
+        <item quantity="two">חוזר כל %d שבועות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">חוזר כל %d שבועות</item>
+        <item quantity="other">חוזר כל %d שבועות</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">חוזר כל שנה %d</item>
+        <item quantity="two">חוזר כל %d שנים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">חוזר כל %d שנים</item>
+        <item quantity="other">חוזר כל %d שנים</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+        <item quantity="other">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d יישום במצב פתוח כדי לאפשר הפעלה מהירה.</item>
+        <item quantity="two">%d יישומים במצב פתוח כדי לאפשר הפעלה מהירה.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d יישומים במצב פתוח כדי לאפשר הפעלה מהירה.</item>
+        <item quantity="other">%d יישומים במצב פתוח כדי לאפשר הפעלה מהירה.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">ללא התראות</item>
+        <item quantity="one">התראה %d</item>
+        <item quantity="other">%d התראות</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עמודה אחת (%d)</item>
+        <item quantity="two">%d עמודות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d עמודות</item>
+        <item quantity="other">%d עמודות</item>
+    </plurals>
+</resources>

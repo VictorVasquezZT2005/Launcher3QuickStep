@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource-map>
+    <color>
+        <match overlay="qs_tile_icon_on_dim_tint_color">
+            <original>qs_tile_icon_on_tint_color</original>
+        </match>
+        <match overlay="qs_tile_label">
+            <original>qspanel_media_devices_divider_color</original>
+        </match>
+    </color>
+</resource-map>

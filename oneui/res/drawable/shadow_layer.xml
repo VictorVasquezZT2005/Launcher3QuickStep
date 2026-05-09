@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="49.0dp" android:width="49.0dp" android:viewportWidth="49.0" android:viewportHeight="49.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/large_folder_only_10_apps_filter_color" android:pathData="M43.26,5.445C38.766,0.919 32.03,0 24.5,0C16.97,0 10.233,0.919 5.739,5.445C2.158,9.052 0,14.95 0,24.5C0,34.05 2.158,39.949 5.74,43.556C10.234,48.081 16.97,49 24.5,49C32.029,49 38.765,48.081 43.259,43.556C46.842,39.949 49,34.05 49,24.5C49,14.95 46.842,9.052 43.26,5.445Z" android:strokeColor="@color/large_folder_only_10_apps_stroke_color" android:fillType="evenOdd" />
+</vector>

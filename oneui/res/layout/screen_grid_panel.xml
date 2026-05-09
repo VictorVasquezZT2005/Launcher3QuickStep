@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.homescreen.screengrid.ScreenGridPanel android:orientation="vertical" android:id="@id/screen_grid_panel" android:tag="layout/screen_grid_panel_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/screen_grid_title_layout" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:gravity="start|center" android:id="@id/screen_grid_title" android:text="@string/home_screen_screengrid" android:singleLine="true" style="@style/ScreenGridEditWorkspaceBar" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center|bottom" android:orientation="horizontal" android:id="@id/screen_grid_buttons" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cancel_save_button_layout" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="@dimen/screen_grid_cancel_save_button_height" android:weightSum="1.0" android:paddingVertical="@dimen/screen_grid_cancel_save_button_vertical_padding">
+        <Button android:textSize="@dimen/screen_grid_edit_app_bar_content_text_size" android:id="@id/screen_grid_cancel_button" android:tag="binding_4" android:text="@string/cancel" android:layout_weight="0.5" style="@style/ScreenGridEditWorkspaceBar" />
+        <Button android:textSize="@dimen/screen_grid_edit_app_bar_content_text_size" android:id="@id/screen_grid_save_button" android:tag="binding_5" android:text="@string/done" android:layout_weight="0.5" style="@style/ScreenGridEditWorkspaceBar" />
+    </LinearLayout>
+</com.honeyspace.ui.honeypots.homescreen.screengrid.ScreenGridPanel>

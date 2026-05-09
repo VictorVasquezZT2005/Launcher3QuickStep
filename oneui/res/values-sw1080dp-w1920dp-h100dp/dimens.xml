@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="permission_optional_text_padding_top">32.0dp</dimen>
+    <dimen name="permission_page_padding_end">24.0dp</dimen>
+    <dimen name="permission_page_padding_start">24.0dp</dimen>
+    <dimen name="welcome_page_padding_end">24.0dp</dimen>
+    <dimen name="welcome_page_padding_start">24.0dp</dimen>
+</resources>

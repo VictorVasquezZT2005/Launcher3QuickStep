@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.common.iconview.FolderIconContainer android:id="@id/folder_icon_container" android:tag="layout/folder_icon_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:IconView="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.common.iconview.FolderIconViewImpl android:id="@id/folder_icon_view" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.honeyspace.ui.common.iconview.FolderIconContainer>

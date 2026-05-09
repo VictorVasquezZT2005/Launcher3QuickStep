@@ -5,102 +5,401 @@
     android:id="@+id/launcher_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
-    android:clickable="true"
-    android:focusable="true">
+    android:background="@android:color/transparent">
 
+    <!-- Edit Mode Dim Layer (Background for edit mode) -->
     <View
-        android:id="@+id/workspace_touch_area"
+        android:id="@+id/edit_mode_dim"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/transparent"
-        android:clickable="true"
-        android:focusable="true" />
+        android:background="#B3000000"
+        android:visibility="gone"
+        android:clickable="false"
+        android:focusable="false" />
 
-    <!-- Taskbar-like Hotseat (Pinned Apps) -->
-    <LinearLayout
-        android:id="@+id/hotseat"
+    <!-- Workspace Container (Above dim layer in edit mode) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/workspace_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="80dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:paddingHorizontal="12dp"
-        android:paddingTop="8dp"
-        android:background="@drawable/bg_hotseat"
-        app:layout_constraintBottom_toBottomOf="parent">
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
 
-        <ImageView
-            android:id="@+id/btn_open_drawer"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:padding="4dp"
-            android:src="@drawable/ic_launcher_drawer"
-            android:contentDescription="Open Apps"
-            android:background="@android:color/transparent" />
+        <View
+            android:id="@+id/workspace_touch_area"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/top_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Yosemite"
+            android:textColor="@color/on_background"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/workspace_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@id/workspace_page_indicator"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <LinearLayout
-            android:id="@+id/pinned_apps_container"
+            android:id="@+id/workspace_page_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/hotseat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/hotseat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:paddingHorizontal="0dp"
+            app:layout_constraintBottom_toTopOf="@id/home_search_bar">
+
+            <LinearLayout
+                android:id="@+id/pinned_apps_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/home_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_search_bar"
+            android:backgroundTint="#992D3449"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_samsung_search"
+                app:tint="@color/on_surface_variant" />
+
+            <EditText
+                android:id="@+id/home_search_input"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:hint="Buscar..."
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="@color/on_surface"
+                android:textColorHint="#99C1C6D7"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/home_more_button"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_more_vert"
+                app:tint="@color/primary"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Edit Mode Header (Listo button only) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/edit_mode_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_done_edit"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Listo"
+            android:textColor="@color/on_primary"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            app:backgroundTint="@color/primary"
+            app:cornerRadius="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Workspace Edit Mode Bottom Bar (Aligned with Search Bar position) -->
+    <LinearLayout
+        android:id="@+id/edit_mode_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:id="@+id/btn_edit_wallpaper"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="horizontal"
+            android:background="@drawable/app_item_bg"
+            android:clickable="true"
+            android:focusable="true"
             android:gravity="center"
-            android:paddingHorizontal="4dp" />
+            android:orientation="horizontal">
 
-    </LinearLayout>
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/palette"
+                app:tint="@color/on_surface" />
 
-    <!-- Floating App Drawer (ChromeOS/Tablet style) -->
-    <androidx.cardview.widget.CardView
-        android:id="@+id/app_drawer_card"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginHorizontal="8dp"
-        app:cardCornerRadius="28dp"
-        app:cardElevation="8dp"
-        app:cardBackgroundColor="?attr/colorSurfaceContainerHigh"
-        android:visibility="gone"
-        app:layout_constraintBottom_toTopOf="@id/hotseat"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.85">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Fondos"
+                android:textColor="@color/on_surface"
+                android:textSize="12sp" />
+        </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:id="@+id/btn_edit_widgets"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_weight="1"
+            android:background="@drawable/app_item_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-            <!-- Search bar inside drawer as in the image -->
-            <EditText
-                android:id="@+id/drawer_search_bar"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_margin="16dp"
-                android:paddingHorizontal="16dp"
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/widgets"
+                app:tint="@color/on_surface" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Widgets"
+                android:textColor="@color/on_surface"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_edit_settings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/app_item_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/settings"
+                app:tint="@color/on_surface" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Ajustes"
+                android:textColor="@color/on_surface"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- App Drawer (Topmost layer) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/app_drawer_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:cardBackgroundColor="#D90B1326"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/drawer_drag_handle"
+                android:layout_width="48dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="12dp"
                 android:background="@drawable/bg_search_bar"
-                android:hint="Busca pestañas, archivos, apps y más..."
-                android:textSize="14sp"
-                android:textColor="?attr/colorOnSurface"
-                android:textColorHint="?attr/colorOnSurfaceVariant"
-                android:drawableStart="@android:drawable/ic_menu_search"
-                android:drawablePadding="8dp"
-                android:gravity="center_vertical"
-                android:focusable="true"
-                android:clickable="true" />
+                android:backgroundTint="#4DFFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/drawer_header"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:layout_constraintTop_toBottomOf="@id/drawer_drag_handle">
+                <!-- Spacing preserved, text removed -->
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/apps_list"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:paddingHorizontal="16dp"
-                android:paddingBottom="16dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginHorizontal="16dp"
                 android:clipToPadding="false"
-                tools:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                tools:spanCount="5"
-                tools:listitem="@layout/item_app" />
-        </LinearLayout>
+                android:paddingBottom="120dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/drawer_header" />
 
+            <LinearLayout
+                android:id="@+id/drawer_page_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@id/drawer_search_container"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/drawer_search_container"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_search_bar"
+                android:backgroundTint="#992D3449"
+                android:elevation="4dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="20dp"
+                app:layout_constraintBottom_toBottomOf="parent">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_samsung_search"
+                    app:tint="@color/on_surface_variant" />
+                <EditText
+                    android:id="@+id/drawer_search_bar"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:hint="Buscar..."
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"
+                    android:textColor="@color/on_surface"
+                    android:textColorHint="#99C1C6D7"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:id="@+id/drawer_more_button"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_more_vert"
+                    app:tint="@color/primary"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Drag Drop Targets (On top of everything) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/drag_drop_target_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:layout_marginTop="0dp"
+        android:visibility="invisible"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_drop_target"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:minHeight="48dp"
+                android:text="Quitar"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/error"
+                app:icon="@drawable/keep_off"
+                app:iconTint="@color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_cancel_drop_target"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:minHeight="48dp"
+                android:text="Cancelar"
+                android:textColor="@color/on_surface" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

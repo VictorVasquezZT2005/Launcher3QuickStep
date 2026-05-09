@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThemeMetaData FormatVersion="1.3" GuideVersion="2.4">
+    <AppMetaData Name="RecentsSettingMgr" PackageNameSuffix="recents" TargetApi="28" TargetPackageName="com.sec.android.app.launcher" VersionCode="1" VersionName="">
+        <Property Comment="Task_Lock_Drz_Button_Color" DefaultValue="#0381fe" DestAttribName="task_lock_button_icon_color" UID="33-6-4" ValueRef="1-A" ValueType="Color" />
+        <Property DefaultValue="#fffcfcfc" DestAttribName="hand_off_button_bg_color" Name="Hand_Off_Background_Color" UID="33-7-4" ValueRef="1-18-1" ValueType="BgColor" />
+        <Property DefaultValue="#ff397bff" DestAttribName="hand_off_button_open_text_color" Name="Hand_Off_Open_Button_Text_Color" UID="33-7-5" ValueRef="24-E" ValueType="TextColor" />
+        <Property DefaultValue="#ff000000" DestAttribName="hand_off_button_app_label_text_color" Name="Hand_Off_Title_Text_Color" UID="33-7-6" ValueRef="1-9-6" ValueType="TextColor" />
+        <Property DefaultValue="#ff8c8c8c" DestAttribName="hand_off_button_sender_name_text_color" Name="Hand_Off_Sub_Text_Color" UID="33-7-7" ValueRef="1-9-7" ValueType="TextColor" />
+        <Property DefaultValue="#fffafafa" DestAttribName="fgs_button_text_color" Name="FGS_Button_Text_Color" UID="33-7-8" ValueRef="7-1-2" ValueType="TextColor" />
+        <Property DefaultValue="#fffafaff" DestAttribName="more_icon_color" Name="More_Option_Icon_Color" UID="33-7-9" ValueRef="7-1-2" ValueType="Color" />
+        <Property DefaultValue="#33fcfcfc" DestAttribName="fgs_button_bg_color" Name="FGS_Button_Background_Color" Opacity="20" UID="33-7-10" ValueRef="7-14-1" ValueType="BgColor" />
+        <Property DefaultValue="#571c1c1c" DestAttribName="clear_all_button_bg" Name="Close_All_Button_Background_Color" Opacity="20" UID="33-7-11" ValueRef="7-14-1" ValueType="BgColor" />
+        <Property DefaultValue="#fffafafa" DestAttribName="clear_all_button_text" Name="Close_All_Button_Text_Color" UID="33-7-12" ValueRef="7-1-2" ValueType="TextColor" />
+        <Property DefaultValue="#00000000" DestAttribName="desk_header_close_button_tint" Name="App_Preview_Header_Close_Button_Tint" UID="33-8-2" ValueRef="24-E" ValueType="Color" />
+        <Property DefaultValue="#00000000" DestAttribName="desk_header_close_button_disabled_tint" Name="App_Preview_Header_Close_Button_Disabled_Tint" UID="33-8-3" ValueRef="24-E" ValueType="Color" />
+        <Property DefaultValue="#fcfcff" DestAttribName="desk_task_layout_bg_color" Name="App_Preview_Header_BG" UID="33-8-4" ValueRef="1-18-1" ValueType="Color" />
+    </AppMetaData>
+</ThemeMetaData>

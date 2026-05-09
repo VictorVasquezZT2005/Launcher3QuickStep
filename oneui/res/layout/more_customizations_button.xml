@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/settings_background_color" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <Button android:theme="@style/more_customizations_button" android:ellipsize="end" android:id="@id/more_customization" android:layout_width="@dimen/home_settings_more_customizations_width" android:layout_height="wrap_content" android:minHeight="@dimen/home_settings_more_customizations_height" android:text="@string/more_customization" android:maxLines="2" />
+    <View android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/task_switcher_bg_corner_radius" />
+    <solid android:color="@color/no_blur_bg_color" />
+    <stroke android:width="@dimen/task_switcher_bg_stroke_width" android:color="@color/task_switcher_no_blur_bg_stroke_color" />
+</shape>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш за %d працоўную прастору.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш за %d працоўныя прасторы.</item>
+        <item quantity="many">Немагчыма дадаць больш за %d працоўных прастор.</item>
+        <item quantity="other">Немагчыма дадаць больш за %d працоўных прастор.</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш за %d віджэт у стосе.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш за %d віджэты ў стосе.</item>
+        <item quantity="many">Немагчыма дадаць больш за %d віджэтаў у стосе.</item>
+        <item quantity="other">Немагчыма дадаць больш за %d віджэтаў у стосе.</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма адкрыць больш за %d праграму.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма адкрыць больш за %d праграмы.</item>
+        <item quantity="many">Немагчыма адкрыць больш за %d праграм.</item>
+        <item quantity="other">Немагчыма адкрыць больш за %d праграм.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння засталася %d гадзіна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння засталося %d гадзіны</item>
+        <item quantity="many">Сёння засталося %d гадзін</item>
+        <item quantity="other">Сёння засталося %d гадзін</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння засталася %d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння засталіся %d хвіліны</item>
+        <item quantity="many">Сёння засталося %d хвілін</item>
+        <item quantity="other">Сёння засталося %d хвілін</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d актыўная праграма</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d актыўныя праграмы</item>
+        <item quantity="many">%d актыўных праграм</item>
+        <item quantity="other">%d актыўных праграм</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d элемент актыўны ў фонавым рэжыме</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d элементы актыўныя ў фонавым рэжыме</item>
+        <item quantity="many">%d элементаў актыўныя ў фонавым рэжыме</item>
+        <item quantity="other">%d элементаў актыўныя ў фонавым рэжыме</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d слупок</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d слупкі</item>
+        <item quantity="many">%d слупкоў</item>
+        <item quantity="other">%d слупкоў</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d радок</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d радкі</item>
+        <item quantity="many">%d радкоў</item>
+        <item quantity="other">%d радкоў</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш %d сімвала.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="many">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="other">Немагчыма ўвесці больш %d сімвалаў.</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d іншае апавяшчэнне %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d іншыя апавяшчэнні %2$s</item>
+        <item quantity="many">%1$d іншых апавяшчэнняў %2$s</item>
+        <item quantity="other">%1$d іншых апавяшчэнняў %2$s</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Максімум %d праграма</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Максімум %d праграмы</item>
+        <item quantity="many">Максімум %d праграм</item>
+        <item quantity="other">Максімум %d праграм</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма выбраць больш %d панэлі.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма выбраць больш %d панэлей.</item>
+        <item quantity="many">Немагчыма выбраць больш %d панэлей.</item>
+        <item quantity="other">Немагчыма выбраць больш %d панэлей.</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Застаўся %d дз.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Засталіся %d дні</item>
+        <item quantity="many">Засталося %d дз.</item>
+        <item quantity="other">Засталося %d дз.</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Праз %d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Праз %d дні</item>
+        <item quantity="many">Праз %d дзён</item>
+        <item quantity="other">Праз %d дзён</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s і %3$d іншы</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s, %2$s і %3$d іншыя</item>
+        <item quantity="many">%1$s, %2$s і %3$d іншых</item>
+        <item quantity="other">%1$s, %2$s і %3$d іншых</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтараецца кожны %d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтараецца кожныя %d дні</item>
+        <item quantity="many">Паўтараецца кожныя %d дзён</item>
+        <item quantity="other">Паўтараецца кожныя %d дзён</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтараецца кожную %d гадзіну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтараецца кожныя %d гадзіны</item>
+        <item quantity="many">Паўтараецца кожныя %d гадзін</item>
+        <item quantity="other">Паўтараецца кожныя %d гадзін</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтараецца кожную %d хвіліну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтараецца кожныя %d хвіліны</item>
+        <item quantity="many">Паўтараецца кожныя %d хвілін</item>
+        <item quantity="other">Паўтараецца кожныя %d хвілін</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтараецца кожны %d месяц</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтараецца кожныя %d месяцы</item>
+        <item quantity="many">Паўтараецца кожныя %d месяцаў</item>
+        <item quantity="other">Паўтараецца кожныя %d месяцаў</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтараецца кожны %d тыдзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтараецца кожныя %d тыдні</item>
+        <item quantity="many">Паўтараецца кожныя %d тыдняў</item>
+        <item quantity="other">Паўтараецца кожныя %d тыдняў</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтараецца кожны %d год</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтараецца кожныя %d гады</item>
+        <item quantity="many">Паўтараецца кожныя %d гадоў</item>
+        <item quantity="other">Паўтараецца кожныя %d гадоў</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрана: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрана: %d</item>
+        <item quantity="many">Выбрана: %d</item>
+        <item quantity="other">Выбрана: %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d гадзіна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d гадзіны</item>
+        <item quantity="many">Час сну: %d гадзін</item>
+        <item quantity="other">Час сну: %d гадзін</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Час сну: %d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Час сну: %d хвіліны</item>
+        <item quantity="many">Час сну: %d хвілін</item>
+        <item quantity="other">Час сну: %d хвілін</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d праграма застаецца адкрытай для хуткага запуску.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d праграмы застаюцца адкрытымі для хуткага запуску.</item>
+        <item quantity="many">%d праграм застаецца адкрытымі для хуткага запуску.</item>
+        <item quantity="other">%d праграм застаецца адкрытымі для хуткага запуску.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">Няма апавяшчэнняў</item>
+        <item quantity="one">%d апавяшчэнне</item>
+        <item quantity="other">%d апавяшчэнняў</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d слупок</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d слупкі</item>
+        <item quantity="many">%d слупкоў</item>
+        <item quantity="other">%d слупкоў</item>
+    </plurals>
+</resources>

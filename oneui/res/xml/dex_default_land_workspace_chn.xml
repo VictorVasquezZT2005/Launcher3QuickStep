@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <home>
+        <favorite screen="0" x="5" y="7" launcher:className="com.samsung.android.gallery.app.activity.GalleryActivity" launcher:packageName="com.sec.android.gallery3d" />
+        <favorite screen="0" x="6" y="7" launcher:className="com.samsung.android.app.calendar.activity.MainActivity" launcher:packageName="com.samsung.android.calendar" />
+        <favorite screen="0" x="7" y="7" launcher:className="com.sec.android.app.myfiles.ui.MainActivity" launcher:packageName="com.sec.android.app.myfiles" />
+        <favorite screen="0" x="8" y="7" launcher:className="com.android.settings.Settings" launcher:packageName="com.android.settings" />
+        <favorite screen="0" x="9" y="7" launcher:className="com.samsung.android.app.notes.memolist.MemoListActivity" launcher:packageName="com.samsung.android.app.notes" />
+        <favorite screen="0" x="10" y="7" launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" launcher:packageName="com.sec.android.app.samsungapps" />
+    </home>
+</favorites>

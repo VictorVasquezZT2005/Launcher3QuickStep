@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.common.PageNavigationView android:id="@id/page_navigation_view" android:tag="layout/page_navigation_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/previous_button_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="left" android:id="@id/previous_button" android:tag="binding_1" android:layout_width="@dimen/page_navigation_button_size" android:layout_height="@dimen/page_navigation_button_size" android:src="@drawable/page_navigation_previous" android:scaleType="centerCrop" android:contentDescription="@string/previous_button" android:tooltipText="@string/previous_button" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/next_button_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="right" android:id="@id/next_button" android:tag="binding_2" android:layout_width="@dimen/page_navigation_button_size" android:layout_height="@dimen/page_navigation_button_size" android:src="@drawable/page_navigation_next" android:scaleType="centerCrop" android:contentDescription="@string/next_button" android:tooltipText="@string/next_button" />
+    </FrameLayout>
+</com.honeyspace.ui.common.PageNavigationView>

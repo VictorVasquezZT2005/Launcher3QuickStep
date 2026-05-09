@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.widgetlist.presentation.ListExpandContainer android:gravity="center_vertical" android:orientation="vertical" android:id="@id/list_expand_container" android:tag="layout/list_expand_container_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/list_expand" layout="@layout/list_expand" />
+</com.honeyspace.ui.honeypots.widgetlist.presentation.ListExpandContainer>

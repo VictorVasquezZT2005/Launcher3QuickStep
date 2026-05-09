@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/settings_apps_edge_floating_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/apps_edge_edit" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="@dimen/sesl_action_bar_default_height" android:layout_marginTop="@dimen/apps_edge_action_bar_padding_top" android:backgroundTint="@color/apps_edge_settings_background_color" android:titleTextColor="@color/settings_app_info_title" android:subtitleTextColor="@color/settings_app_info_sub_title" android:buttonGravity="top|bottom" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+            <LinearLayout android:orientation="vertical" android:id="@id/available_container_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                <FrameLayout android:id="@id/available_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/panel_container" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="bottom" android:id="@id/floating_bottom_layout" android:paddingBottom="8.0dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:showFloatingItemBackground="false">
+        <FrameLayout android:layout_gravity="center|bottom" android:id="@id/search_view_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.app.honeyspace.edge.appsedge.ui.setting.presentation.SettingsSearchView android:textAppearance="@style/SecSemiBold" android:textSize="19.0sp" android:id="@id/search_view" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/settings_search_view_height" android:imeOptions="actionSearch|flagNoExtractUi" android:iconifiedByDefault="false" android:queryHint="@string/all_apps_saerch_hint" style="@style/AppsEdgeSettingSearchView" />
+        </FrameLayout>
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+</FrameLayout>

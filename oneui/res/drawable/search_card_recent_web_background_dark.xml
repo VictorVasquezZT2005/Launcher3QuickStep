@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/recent_web_card_round_radius" />
+            <solid android:color="@color/history_item_bg_color_dark" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/recent_web_card_round_radius" />
+            <stroke android:width="@dimen/suggestion_settings_card_item_border" android:color="@color/common_card_item_border_color_dark_medium" />
+        </shape>
+    </item>
+</layer-list>

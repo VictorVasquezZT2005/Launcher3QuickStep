@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:tag="layout/open_source_license_list_item_0" android:background="@drawable/ripple_background_list" android:paddingLeft="@dimen/list_item_inner_padding" android:paddingTop="@dimen/list_item_top_padding" android:paddingRight="@dimen/list_item_inner_padding" android:paddingBottom="@dimen/list_item_top_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="?android:listPreferredItemHeightSmall" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:id="@id/license_list_item_panel_name" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

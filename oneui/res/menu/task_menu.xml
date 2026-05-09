@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_app_info" android:title="@string/task_option_app_info" android:showAsAction="never" />
+    <item android:id="@id/menu_split" android:title="@string/task_option_split_screen" android:showAsAction="never" />
+    <item android:id="@id/menu_popup" android:title="@string/task_option_popup_window" android:showAsAction="never" />
+    <item android:id="@id/menu_keep_open" android:title="@string/task_option_dedicated_app" android:showAsAction="never" />
+    <item android:id="@id/menu_app_continuity" android:title="@string/task_option_app_continuity" android:showAsAction="never" />
+</menu>

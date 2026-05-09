@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/card_layout" android:tag="layout/card_layout_0" android:background="@drawable/search_card_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/card_header_layout" />
+    <TextView android:textColor="@color/result_view_indexing_status_text_color" android:id="@id/indexing_status" android:tag="binding_1" android:paddingTop="@dimen/result_view_indexing_status_top_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/search_card_indexing_status" android:layout_below="@id/header_layout" android:paddingHorizontal="@dimen/result_view_indexing_status_horizontal_padding" style="@style/SearchTextAppearance" />
+    <com.honeyspace.search.ui.honeypot.presentation.content.animatable.AnimatableRecyclerView android:id="@id/item_list" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/indexing_status" />
+</RelativeLayout>

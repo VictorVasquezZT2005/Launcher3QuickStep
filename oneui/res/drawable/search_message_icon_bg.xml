@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/icon_background_radius" />
+            <solid android:color="@color/message_icon_holder_bg" />
+            <size android:height="@dimen/icon_background_height" android:width="@dimen/icon_background_width" />
+        </shape>
+    </item>
+</layer-list>

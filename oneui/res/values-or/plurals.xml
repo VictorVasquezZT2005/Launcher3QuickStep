@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dରୁ ଅଧିକ ଡେସ୍କଟପ୍ ୱର୍କସ୍ପେସ୍ ଯୋଡାଯାଇ ପାରିବ ନାହିଁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dରୁ ଅଧିକ ଡେସ୍କଟପ୍ ୱର୍କସ୍ପେସ୍ ଯୋଡାଯାଇ ପାରିବ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ରୁ ଅଧିକ ଷ୍ଟାକ୍ ୱିଜେଟ୍ ଯୋଡି ପାରିବେ ନାହିଁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ରୁ ଅଧିକ ଷ୍ଟାକ୍ ୱିଜେଟ୍ ଯୋଡି ପାରିବେ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ରୁ ଅଧିକ ଆପ୍ଲିକେସନ୍‌ ଖୋଲିପାରିବେ ନାହିଁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ରୁ ଅଧିକ ଆପ୍ଲିକେସନ୍ ଖୋଲିପାରିବେ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଆଜି %d ଘଣ୍ଟା ବାକି ଅଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଆଜି %d ଘଣ୍ଟା ବାକି ଅଛି</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଆଜି %d ମିନିଟ୍ ବାକି ଅଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଆଜି %d ମିନିଟ୍ ବାକି ଅଛି</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ସକ୍ରିୟ ଆପ୍ଲିକେସନ୍‌</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ସକ୍ରିୟ ଆପ୍ଲିକେସନ୍</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ବେକଗ୍ରାଉଣ୍ଡରେ %dଟି ଆଇଟମ୍ ସକ୍ରିୟ ଅଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ବେକଗ୍ରାଉଣ୍ଡରେ %dଟି ଆଇଟମ୍ ସକ୍ରିୟ ଅଛି</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ସ୍ତମ୍ଭ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ସ୍ତମ୍ଭ</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଧାଡି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଧାଡି</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ରୁ ଅଧିକ ବର୍ଣ୍ଣ ପ୍ରବେଶ କରିପାରିବେ ନାହିଁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ରୁ ଅଧିକ ବର୍ଣ୍ଣ ପ୍ରବେଶ କରିପାରିବେ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$dଟି ଅଧିକ %2$s ନୋଟିଫିକେସନ୍</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$dଟି ଅଧିକ %2$s ନୋଟିଫିକେସନ୍</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଆପ୍ଲିକେସନ୍‌ ପର୍ଯ୍ୟନ୍ତ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଆପ୍ଲିକେସନ୍‌ ପର୍ଯ୍ୟନ୍ତ</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ରୁ ଅଧିକ ପ୍ୟାନେଲ୍ ଚୟନ କରିପାରିବେ ନାହିଁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ରୁ ଅଧିକ ପ୍ୟାନେଲ୍ ଚୟନ କରିପାରିବେ ନାହିଁ।</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ଦିନ ବାକି ଅଛି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ଦିନ ବାକି ଅଛି</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ଦିନରେ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ଦିନରେ</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s, ଏବଂ %3$dଟି ଅନ୍ୟ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s, %2$s, ଏବଂ %3$dଟି ଅନ୍ୟ</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ପ୍ରତି %d ଦିନରେ ପୁନରାବୃତ୍ତି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ପ୍ରତି %d ଦିନରେ ପୁନରାବୃତ୍ତି</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ପ୍ରତି %d ଘଣ୍ଟାରେ ପୁନରାବୃତ୍ତି ହୁଏ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ପ୍ରତି %d ଘଣ୍ଟାରେ ପୁନରାବୃତ୍ତି ହୁଏ</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ପ୍ରତି %d ମିନିଟରେ ପୁନରାବୃତ୍ତି ହୁଏ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ପ୍ରତି %d ମିନିଟରେ ପୁନରାବୃତ୍ତି ହୁଏ</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ପ୍ରତି %d ମାସରେ ପୁନରାବୃତ୍ତି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ପ୍ରତି %d ମାସରେ ପୁନରାବୃତ୍ତି</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ପ୍ରତି %d ସପ୍ତାହରେ ପୁନରାବୃତ୍ତି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ପ୍ରତି %d ସପ୍ତାହରେ ପୁନରାବୃତ୍ତି</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ପ୍ରତି %d ବର୍ଷରେ ପୁନରାବୃତ୍ତି</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ପ୍ରତି %d ବର୍ଷରେ ପୁନରାବୃତ୍ତି</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ଚୟନିତ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ଚୟନିତ</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଶୟନ ସମୟ: %d ଘଣ୍ଟା</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଶୟନ ସମୟ: %d ଘଣ୍ଟା</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଶୟନ ସମୟ: %d ମିନିଟ୍</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଶୟନ ସମୟ: %d ମିନିଟ୍</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ଶୀଘ୍ର ଉନ୍ମୋଚନ କରିବାକୁ %dଟି ଆପ୍‌ ଖୋଲନ୍ତୁ।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ଶୀଘ୍ର ଉନ୍ମୋଚନ କରିବାକୁ %dଟି ଆପ୍‌ ଖୋଲନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">କୌଣସି ନୋଟିଫିକେସନ୍ ନାହିଁ</item>
+        <item quantity="one">%dଟି ନୋଟିଫିକେସନ୍</item>
+        <item quantity="other">%dଟି ନୋଟିଫିକେସନ୍</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%dଟି ସ୍ତମ୍ଭ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%dଟି ସ୍ତମ୍ଭ</item>
+    </plurals>
+</resources>

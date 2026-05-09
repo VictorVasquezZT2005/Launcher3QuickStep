@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/settings_chunk_single_column_corner_radius" />
+            <stroke android:width="@dimen/settings_rounded_box_stroke" android:color="@color/apps_edge_settings_selected_panel_stroke" />
+        </shape>
+    </item>
+    <item android:left="@dimen/settings_rounded_box_stroke" android:top="@dimen/settings_rounded_box_stroke" android:right="@dimen/settings_rounded_box_stroke" android:bottom="@dimen/settings_rounded_box_stroke">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/settings_chunk_single_column_corner_radius" />
+            <solid android:color="@color/apps_edge_settings_selected_panel_background" />
+        </shape>
+    </item>
+</layer-list>

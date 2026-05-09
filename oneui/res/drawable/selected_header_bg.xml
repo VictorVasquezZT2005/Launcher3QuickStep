@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="14.0dp" android:right="14.0dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/add_btn_bg_radius" />
+            <solid android:color="@color/selected_widget_bg_color" />
+        </shape>
+    </item>
+</layer-list>

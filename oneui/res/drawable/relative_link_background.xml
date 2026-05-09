@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/home_settings_sec_widget_round_and_bgcolor" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sesl_primary_color_dark" />
+            <corners android:radius="@dimen/relative_link_background_corner_radius" />
+        </shape>
+    </item>
+</layer-list>

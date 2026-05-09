@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.foldersetting.presentation.FolderColorPalette android:orientation="vertical" android:id="@id/color_palette_container" android:tag="layout/folder_setting_color_palette_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/color_picker_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/color_palette_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp">
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/white" android:tag="button" android:background="@drawable/folder_color_white" android:layout_width="30.0dp" android:layout_height="30.0dp" android:contentDescription="@string/default_folder_color" android:tooltipText="@string/default_folder_color" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/orange" android:tag="button" android:background="@drawable/folder_color_orange" android:layout_width="30.0dp" android:layout_height="30.0dp" android:contentDescription="@string/orange" android:tooltipText="@string/orange" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/yellow" android:tag="button" android:background="@drawable/folder_color_yellow" android:layout_width="30.0dp" android:layout_height="30.0dp" android:contentDescription="@string/yellow" android:tooltipText="@string/yellow" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/green" android:tag="button" android:background="@drawable/folder_color_green" android:layout_width="30.0dp" android:layout_height="30.0dp" android:contentDescription="@string/light_green" android:tooltipText="@string/light_green" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/blue" android:tag="button" android:background="@drawable/folder_color_blue" android:layout_width="30.0dp" android:layout_height="30.0dp" android:contentDescription="@string/light_blue" android:tooltipText="@string/light_blue" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/custom" android:tag="button" android:background="@drawable/folder_color_custom" android:layout_width="30.0dp" android:layout_height="30.0dp" android:contentDescription="@string/color_picker" android:tooltipText="@string/color_picker" />
+        </LinearLayout>
+    </LinearLayout>
+</com.honeyspace.ui.honeypots.foldersetting.presentation.FolderColorPalette>

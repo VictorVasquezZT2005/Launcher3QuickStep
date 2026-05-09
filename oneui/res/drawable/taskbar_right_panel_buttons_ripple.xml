@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/taskbar_right_panel_buttons_ripple_dark" />
+    <item android:drawable="@drawable/taskbar_right_panel_buttons_ripple_light" />
+</layer-list>

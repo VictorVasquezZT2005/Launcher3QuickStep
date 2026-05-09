@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/root_layout" android:tag="layout/activity_permissions_layout_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="match_parent" android:layout_height="match_parent" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+        <View android:layout_gravity="bottom" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:background="@android:color/transparent" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/permission_view_container" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <include android:id="@id/permission_content_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="34.0dp" android:layout_marginEnd="38.0dp" layout="@layout/permission_content_list_layout" />
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:background="@color/privacy_background_color" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/appbar">
+        <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="?android:actionBarSize" android:clipToOutline="false" app:background="@android:color/transparent" app:layout_collapseMode="pin" app:title="@string/settings_menu_permissions" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

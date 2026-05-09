@@ -1,0 +1,111 @@
+.class public final Lpt/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lnt/b;
+.implements Ljava/io/Serializable;
+
+
+# static fields
+.field public static final c:Lpt/b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lpt/b;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lpt/b;->c:Lpt/b;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final b(Ljava/lang/Object;Ljava/lang/String;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final c()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final d(Ljava/lang/String;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final e(Ljava/lang/String;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final g()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final getName()Ljava/lang/String;
+    .locals 0
+
+    const-string p0, "NOP"
+
+    return-object p0
+.end method
+
+.method public final h()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final i()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final k(Ljava/lang/String;Ljava/lang/Exception;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final l(Ljava/lang/String;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final m(Ljava/lang/String;)V
+    .locals 0
+
+    return-void
+.end method

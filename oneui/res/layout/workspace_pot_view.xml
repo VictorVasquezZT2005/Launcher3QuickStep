@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.workspace.presentation.WorkspaceContainer android:layout_gravity="left" android:orientation="vertical" android:id="@id/workspace_pot_view" android:tag="layout/workspace_pot_view_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.honeypots.workspace.presentation.WorkspaceFastRecyclerView android:id="@id/workspace_fast_recycler_view" android:tag="binding_1" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include android:layout_gravity="center|bottom" android:id="@id/workspace_page_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/page_indicator" />
+    <include android:gravity="center" android:layout_gravity="right|center" android:id="@id/homescreen_search_bar_icon" android:layout_width="@dimen/page_indicator_search_layout_size_land" android:layout_height="@dimen/page_indicator_search_layout_size_land" layout="@layout/search_icon" />
+    <LinearLayout android:gravity="center|top" android:layout_gravity="top" android:orientation="horizontal" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@id/page_action_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/page_action_layout" />
+        <Space android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <include android:id="@id/page_action_layout_for_sync" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/page_action_layout" />
+    </LinearLayout>
+</com.honeyspace.ui.honeypots.workspace.presentation.WorkspaceContainer>

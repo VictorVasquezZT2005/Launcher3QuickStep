@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.recentscreen.presentation.RecentsContainerView android:orientation="vertical" android:id="@id/recentContainer" android:tag="layout/recentscreen_pot_view_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.honeypots.recentscreen.presentation.SubViewContainerView android:id="@id/subViewContainer" android:tag="binding_1" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/search_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/baseTopGuideLine" layout="@layout/search_layout" />
+        <include android:id="@id/moreOption" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/baseTopGuideLine" layout="@layout/more_option_layout" />
+        <include android:id="@id/fgsButtonContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/baseTopGuideLine" layout="@layout/fgs_button_layout" />
+        <com.honeyspace.ui.honeypots.recentscreen.presentation.AddDeskButton android:id="@id/add_desk_button" android:tag="binding_2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/add_desktop" android:tooltipText="@string/add_desktop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/baseTopGuideLine" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/baseTopGuideLine" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </com.honeyspace.ui.honeypots.recentscreen.presentation.SubViewContainerView>
+    <include android:id="@id/handOffContainer" layout="@layout/hand_off_layout" />
+</com.honeyspace.ui.honeypots.recentscreen.presentation.RecentsContainerView>

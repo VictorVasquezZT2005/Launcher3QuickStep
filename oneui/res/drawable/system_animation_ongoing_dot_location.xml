@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/privacy_location_dot_background" />
+    <stroke android:width="0.5dp" android:color="@color/privacy_location_dot_stroke" />
+    <size android:height="@dimen/privacy_dot_view_size" android:width="@dimen/privacy_dot_view_size" />
+</shape>

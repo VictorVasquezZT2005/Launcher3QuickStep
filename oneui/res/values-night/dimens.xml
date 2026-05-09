@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="center_minus_one_task_scene_dim_alpha">0.0</dimen>
+    <dimen name="task_switcher_focus_border_stroke_width">3.0dp</dimen>
+</resources>

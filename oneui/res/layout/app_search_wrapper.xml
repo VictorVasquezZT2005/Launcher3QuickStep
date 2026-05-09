@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/app_search_wrapper" android:tag="layout/app_search_wrapper_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/app_search_bar_background_blur" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/search_bar_elevation" />
+    <FrameLayout android:id="@id/backgroundContainer" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/search_bar_elevation" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/app_search_edit_text_container" android:tag="binding_2" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:elevation="@dimen/search_bar_elevation">
+        <LinearLayout android:id="@id/app_search_edit_text_wrapper" android:tag="binding_3" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/SecSemiBold" android:textSize="@dimen/search_bar_text_size" android:ellipsize="end" android:gravity="start|center" android:id="@id/app_search_edit_text" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/app_search" android:drawablePadding="@dimen/apps_drawable_start_search_icon_padding" android:drawableStart="@drawable/apps_drawable_start_search_bar_icon" android:paddingStart="@dimen/search_bar_text_padding_start" android:paddingEnd="@dimen/search_bar_text_padding_start" android:drawableTint="@color/apps_search_icon_color" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/voice_search_button_wrapper" android:tag="binding_4" android:background="@drawable/button_ripple_background" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingEnd="@dimen/voice_search_icon_btn_padding_end">
+            <include android:gravity="end" android:id="@id/voice_search_icon_button" layout="@layout/voice_search_icon_button" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/app_searchbar_round_stroke_view" android:tag="binding_5" android:background="@drawable/searchbar_round_stroke_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:elevation="@dimen/search_bar_elevation" />
+</FrameLayout>

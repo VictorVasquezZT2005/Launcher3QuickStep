@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/noti_list_item_group_header_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.honeyspace.ui.honeypots.dexpanel.notification.presentation.NotiGroupHeaderShadowView android:layout_gravity="center|bottom" android:id="@id/noti_group_header_shadow" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.honeyspace.ui.honeypots.dexpanel.notification.presentation.NotificationContainer android:gravity="center_vertical" android:id="@id/notification_container" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="10.0dp" android:contextClickable="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/app_icon" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/app_icon">
+                <LinearLayout android:orientation="vertical" android:id="@id/notification_content" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textColor="@color/notification_shelf_button_text_color" android:id="@id/title" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.Title" />
+                        <TextView android:textColor="@color/notification_time_color" android:ellipsize="marquee" android:id="@id/header_text" android:tag="binding_7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/notification_item_time_margin_start" style="@style/TextAppearance.Time" />
+                        <TextView android:textColor="@color/notification_time_color" android:id="@id/time_or_chronometer" android:tag="binding_8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_marginStart="@dimen/notification_item_time_margin_start" style="@style/TextAppearance.Time" />
+                    </LinearLayout>
+                    <TextView android:textAppearance="@style/SecRegular" android:textColor="@color/notification_text_color" android:ellipsize="end" android:id="@id/content" android:tag="binding_9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" />
+                    <ProgressBar android:id="@id/progress" android:tag="binding_10" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/notification_item_progress_bar_height" style="@android:style/Widget.Material.Light.ProgressBar.Horizontal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/group_noti_count_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                    <TextView android:textColor="@color/noti_group_count_color" android:layout_gravity="center_vertical" android:id="@id/group_noti_count" android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.5" android:layout_marginEnd="@dimen/notification_group_header_margin_end" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageButton android:id="@id/dismissButton" android:tag="binding_12" android:background="@drawable/grouped_notification_more_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dex_dismiss" android:contentDescription="@string/dismiss_button_content_description" android:layout_alignParentEnd="true" android:tooltipText="@string/dismiss_button_content_description" />
+        </RelativeLayout>
+    </com.honeyspace.ui.honeypots.dexpanel.notification.presentation.NotificationContainer>
+</FrameLayout>

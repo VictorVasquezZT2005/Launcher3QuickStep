@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/result_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingVertical="@dimen/common_list_card_inner_vertical_padding">
+            <com.samsung.android.sdk.commandview.widget.ContrastTextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/command_card_main_text_color" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" app:contrastColor="@color/command_search_contrast_text" />
+            <com.samsung.android.sdk.commandview.widget.ContrastTextView android:textColor="@color/result_view_secondary_text_color" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" app:contrastColor="@color/command_search_contrast_text" style="@style/ResultViewSecondaryText" />
+            <com.samsung.android.sdk.commandview.widget.SecSearchHorizontalRadioViewContainer android:gravity="center" android:orientation="horizontal" android:id="@id/entry_layout" android:paddingTop="@dimen/sec_common_list_item_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

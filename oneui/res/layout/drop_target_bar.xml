@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.homescreen.droptargetbar.CancelDropTargetBar android:theme="@style/HomeScreenElementTheme" android:layout_gravity="center|top" android:id="@id/cancel_drop_target_bar" android:tag="layout/drop_target_bar_0" android:focusable="false" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:alpha="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.honeyspace.ui.honeypots.homescreen.droptargetbar.CancelDropTarget android:gravity="center" android:layout_gravity="center" android:id="@id/cancel_drop_target" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="1.0dp" style="@style/DropTargetButton" />
+</com.honeyspace.ui.honeypots.homescreen.droptargetbar.CancelDropTargetBar>

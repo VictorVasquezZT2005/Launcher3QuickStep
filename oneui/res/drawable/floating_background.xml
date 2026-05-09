@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/floating_task_bar_background_color" />
+            <corners android:radius="@dimen/floating_task_bar_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/transparent" />
+            <padding android:left="@dimen/floating_task_bar_stoke" android:top="@dimen/floating_task_bar_stoke" android:right="@dimen/floating_task_bar_stoke" android:bottom="@dimen/floating_task_bar_stoke" />
+            <corners android:radius="@dimen/floating_task_bar_radius" />
+            <stroke android:width="@dimen/floating_task_bar_stoke" android:color="@color/floating_task_bar_stroke_color" />
+        </shape>
+    </item>
+</layer-list>

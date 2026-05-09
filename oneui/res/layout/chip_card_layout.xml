@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/card_layout" android:tag="layout/chip_card_layout_0" android:background="@drawable/search_card_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/card_header_layout" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/item_list" android:paddingTop="@dimen/chip_card_top_padding" android:paddingBottom="@dimen/chip_card_bottom_padding" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/header_layout" android:paddingHorizontal="@dimen/chip_card_horizontal_padding">
+        <androidx.constraintlayout.helper.widget.Flow android:orientation="horizontal" android:id="@id/flow" android:layout_width="0.0dp" android:layout_height="wrap_content" app:flow_horizontalGap="@dimen/chip_card_horizontal_gap" app:flow_verticalGap="@dimen/chip_card_vertical_gap" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

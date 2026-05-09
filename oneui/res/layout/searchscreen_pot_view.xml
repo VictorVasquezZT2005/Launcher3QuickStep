@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.search.ui.honeypot.presentation.control.GestureControlView android:id="@id/gesture_control_layout" android:tag="layout/searchscreen_pot_view_0" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/left_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/guideline_root_left_percent" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/right_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/guideline_root_right_percent" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/main_ui" android:tag="binding_1" android:layout_width="0.0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@id/right_guideline" app:layout_constraintStart_toEndOf="@id/left_guideline" style="?mainUiContainer">
+            <RelativeLayout android:gravity="center_horizontal" android:id="@id/content_area" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center" android:id="@id/no_recent_searches" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/contents_ui_horizontal_padding">
+                    <TextView android:textSize="@dimen/no_recent_searches_text_size" android:textColor="@color/no_recent_searches_text_color" android:gravity="center" android:id="@id/no_recent_searches_text" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/search_card_recent_searches_no_recent_searches_message" style="@style/SearchTextAppearance" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/see_more_results" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <Button android:id="@id/see_more_results_button" android:background="@drawable/search_card_see_more_background" android:layout_marginBottom="@dimen/prediction_see_more_results_half_input_ui_height" android:foreground="@drawable/search_recoil_background_rounded" android:text="@string/search_more_button" android:stateListAnimator="?seslSmallTouchAnimator" android:paddingHorizontal="@dimen/prediction_see_more_results_button_horizontal_padding" android:paddingVertical="@dimen/prediction_see_more_results_button_vertical_padding" style="@style/SearchCardButtonTitle" />
+                </LinearLayout>
+            </RelativeLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/input_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.honeyspace.search.ui.honeypot.presentation.control.GestureControlView>

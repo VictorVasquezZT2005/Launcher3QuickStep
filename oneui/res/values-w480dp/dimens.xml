@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clear_all_button_height">36.0dp</dimen>
+    <dimen name="fgs_button_default_height">30.0dp</dimen>
+    <dimen name="sesl_config_prefSnackWidth">68.00001%</dimen>
+</resources>

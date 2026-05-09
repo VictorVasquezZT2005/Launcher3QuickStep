@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/edge_panel_view_0" android:padding="@dimen/edge_panel_shadow_elevation" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="right" android:id="@id/panel_root_view" android:tag="binding_1" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardElevation="@dimen/edge_panel_shadow_elevation">
+        <View android:id="@id/blur_screenshot" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <FrameLayout android:id="@id/panel_container_view" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

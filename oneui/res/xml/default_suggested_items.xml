@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <suggested>
+        <favorite launcher:className="com.sec.android.app.popupcalculator.Calculator" launcher:packageName="com.sec.android.app.popupcalculator" />
+        <favorite launcher:className="com.samsung.android.gallery.app.activity.GalleryActivity" launcher:packageName="com.sec.android.gallery3d" />
+        <favorite launcher:className="com.samsung.android.app.calendar.activity.MainActivity" launcher:packageName="com.samsung.android.calendar" />
+        <favorite launcher:className="com.android.settings.Settings" launcher:packageName="com.android.settings" />
+        <favorite launcher:className="com.sec.android.app.clockpackage.ClockPackage" launcher:packageName="com.sec.android.app.clockpackage" />
+        <favorite launcher:className="com.sec.android.app.myfiles.ui.MainActivity" launcher:packageName="com.sec.android.app.myfiles" />
+        <favorite launcher:className="com.samsung.android.app.notes.memolist.MemoListActivity" launcher:packageName="com.samsung.android.app.notes" />
+        <favorite launcher:className="com.samsung.android.app.shealth.home.HomeMainActivity" launcher:packageName="com.sec.android.app.shealth" />
+        <favorite launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" launcher:packageName="com.sec.android.app.sbrowser" />
+        <favorite launcher:className="com.sec.android.app.camera.Camera" launcher:packageName="com.sec.android.app.camera" />
+        <favorite launcher:className="com.samsung.android.contacts.contactslist.PeopleActivity" launcher:packageName="com.samsung.android.app.contacts" />
+        <favorite launcher:className="com.android.mms.ui.ConversationComposer" launcher:packageName="com.samsung.android.messaging" />
+        <favorite launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" launcher:packageName="com.sec.android.app.samsungapps" />
+        <favorite launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" launcher:packageName="com.google.android.youtube" />
+        <favorite launcher:className="com.google.android.gm.ConversationListActivityGmail" launcher:packageName="com.google.android.gm" />
+        <favorite launcher:className="com.samsung.android.email.ui.activity.MessageListXL" launcher:packageName="com.samsung.android.email.provider" />
+        <favorite launcher:className="com.samsung.android.dialer.DialtactsActivity" launcher:packageName="com.samsung.android.dialer" />
+    </suggested>
+</favorites>

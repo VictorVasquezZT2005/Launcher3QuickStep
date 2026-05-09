@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/context_connection_setting" android:title="@string/taskbar_connection_settings" />
+    <item android:id="@id/context_devicecare_setting" android:title="@string/taskbar_devicecare_settings" />
+</menu>

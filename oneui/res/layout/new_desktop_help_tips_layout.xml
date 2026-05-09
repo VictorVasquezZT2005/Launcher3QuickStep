@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="right" android:id="@id/tips_layer" android:tag="layout/new_desktop_help_tips_layout_0" android:layout_width="@dimen/new_desktop_help_tips_bubble_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bubble_layout" android:layout_width="@dimen/new_desktop_help_tips_bubble_width" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/new_desktop_help_tips_bubble_right_margin">
+        <View android:id="@id/bubble_bg_left" android:background="@drawable/bubble_transparent_01_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" />
+        <View android:id="@id/bubble_bg_right" android:background="@drawable/bubble_transparent_01_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/bubble_bg_left" />
+        <TextView android:textColor="@color/new_desktop_help_tips_text_color" android:gravity="center_vertical" android:id="@id/bubble_text" android:tag="binding_1" android:layout_width="@dimen/new_desktop_help_tips_text_view_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_desktop_help_tips_bubble_padding_top" android:layout_marginBottom="@dimen/new_desktop_help_tips_bubble_padding_bottom" android:text="@string/new_desktop_help_tips_message" android:fontFamily="sec" android:layout_marginStart="@dimen/new_desktop_help_tips_bubble_padding_horizontal" />
+    </RelativeLayout>
+</FrameLayout>

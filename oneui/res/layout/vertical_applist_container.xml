@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.verticalapplist.presentation.VerticalApplistContainer android:id="@id/vertical_applist_container" android:tag="layout/vertical_applist_container_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/vertical_applist_recycler_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.honeyspace.ui.honeypots.verticalapplist.presentation.VerticalApplistRecyclerView android:id="@id/vertical_applist_recycler_view" android:tag="binding_1" android:scrollbars="vertical" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:verticalScrollbarPosition="right" android:clipToOutline="true" />
+    </FrameLayout>
+    <com.honeyspace.ui.honeypots.verticalapplist.presentation.VerticalApplistFastScroller android:gravity="center" android:layout_gravity="right" android:orientation="vertical" android:id="@id/vertical_applist_scroller" android:tag="binding_2" android:background="@drawable/fast_scroller_background" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    <TextView android:layout_gravity="right|top" android:id="@id/vertical_applist_scroller_popup" android:tag="binding_3" android:background="@drawable/fast_scroller_popup_background" android:layout_width="wrap_content" style="@style/FastScrollerPopup" />
+    <include android:id="@id/vertical_apps_change_page_mode_button" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/vertical_apps_change_page_mode_button" />
+    <FrameLayout android:layout_gravity="right|bottom" android:id="@id/vertical_apps_knox_icon" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/vertical_apps_knox_icon_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_knox" android:scaleType="fitEnd" />
+    </FrameLayout>
+</com.honeyspace.ui.honeypots.verticalapplist.presentation.VerticalApplistContainer>

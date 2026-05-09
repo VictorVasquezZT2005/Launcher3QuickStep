@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:duration="@integer/popup_fade_out_alpha_duration" android:fromAlpha="1.0" android:toAlpha="0.0" />
+    <scale android:interpolator="@interpolator/sine_in_out_80" android:duration="@integer/popup_fade_out_scale_duration" android:pivotX="0.0%" android:pivotY="100.0%" android:fromXScale="100.0%" android:toXScale="@fraction/popup_fade_out_scale_to" android:fromYScale="100.0%" android:toYScale="@fraction/popup_fade_out_scale_to" />
+</set>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple android:color="@color/apps_search_bar_icon_ripple_color" android:radius="@dimen/apps_picker_search_voice_icon_bg_radius" />
+    </item>
+</layer-list>

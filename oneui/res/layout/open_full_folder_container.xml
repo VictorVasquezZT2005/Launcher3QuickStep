@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.folder.presentation.open.OpenFullFolderContainer android:id="@id/folder_container" android:tag="layout/open_full_folder_container_0" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/homeup" android:tag="binding_1" android:src="@drawable/homescreen_ic_navi_grid_homeup" style="@style/OptionButtonStyle" />
+    <ImageView android:id="@id/add_apps" android:tag="binding_2" android:foreground="@drawable/option_button_background_focus" android:src="@drawable/folder_add_apps" android:contentDescription="@string/add_application" android:tooltipText="@string/add_application" style="@style/OptionButtonStyle" />
+    <ImageView android:id="@id/folder_setting" android:tag="binding_3" android:foreground="@drawable/option_button_selector" android:src="@drawable/folder_settings" android:contentDescription="@string/folder_setting" android:tooltipText="@string/folder_setting" style="@style/OptionButtonStyle" />
+    <include android:id="@id/folder_title" layout="@layout/open_folder_title" />
+    <com.honeyspace.ui.honeypots.folder.presentation.open.OpenFolderFRView android:id="@id/folder_fr_view" android:tag="binding_4" android:layout_width="match_parent" android:layout_height="match_parent" android:clipToOutline="true" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/folder_page_indicator_stub" android:tag="binding_5" android:layout="@layout/page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="top" android:id="@id/drag_out_guide_stub" android:tag="binding_6" android:layout="@layout/drag_out_guide" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/drag_out_guide_bottom_stub" android:tag="binding_7" android:layout="@layout/drag_out_guide_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.honeyspace.ui.honeypots.folder.presentation.open.OpenFullFolderContainer>

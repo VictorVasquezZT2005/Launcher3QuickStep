@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cocktail-provider cocktailWidth="550" configure="com.samsung.app.honeyspace.edge.appsedge.app.AppsEdgeSettings" label="@string/appsedge_app_name" labelhide="true" landlayout="true" previewImage="@drawable/edge_edgepanels_preview_apps_mtrl" />

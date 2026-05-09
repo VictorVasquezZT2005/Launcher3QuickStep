@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഡെസ്‌ക്‌ടോപ്പ് വർക്ക്‌സ്‌പെയ്‌സിൽ കൂടുതൽ ചേർക്കാനാകില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ഡെസ്‌ക്‌ടോപ്പ് വർക്ക്‌സ്‌പെയ്‌സുകളിൽ കൂടുതൽ ചേർക്കാനാകില്ല.</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ൽ കൂടുതൽ അടുക്കിയ വിജറ്റ് ചേർക്കാനാകില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d-ൽ കൂടുതൽ അടുക്കിയ വിജറ്റുകൾ ചേർക്കാനാകില്ല.</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ആപ്പിൽ കൂടുതൽ തുറക്കാക്കാനാകില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആപ്പുകളിൽ കൂടുതൽ തുറക്കാക്കാനാകില്ല.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇന്ന് %d മണിക്കൂർ ശേഷിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഇന്ന് %d മണിക്കൂർ ശേഷിക്കുന്നു</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇന്ന് %d മിനിറ്റ് ശേഷിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഇന്ന് %d മിനിറ്റ് ശേഷിക്കുന്നു</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d സജീവ ആപ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d സജീവ ആപ്പുകൾ</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">പശ്ചാത്തലത്തിൽ %d ഇനം സജീവമാണ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">പശ്ചാത്തലത്തിൽ %d ഇനങ്ങൾ സജീവമാണ്</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d നിര</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d നിരകൾ</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d വരി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d വരികൾ</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">അക്ഷരം %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">അക്ഷരങ്ങൾ %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s അറിയിപ്പ് %1$d കൂടി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%2$s അറിയിപ്പുകൾ %1$d കൂടി</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ആപ്പ് വരെ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ആപ്പുകൾ വരെ</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">പാനൽ %d-ൽ കൂടുതൽ തിരഞ്ഞെടുക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">പാനലുകൾ %d-ൽ കൂടുതൽ തിരഞ്ഞെടുക്കാനാവില്ല.</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ദിവസം ബാക്കി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ദിവസം ബാക്കി</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ദിവസത്തിൽ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ദിവസത്തിൽ</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, %2$s, കൂടാതെ %3$d മറ്റുള്ളതും</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%1$s, %2$s, കൂടാതെ %3$d മറ്റുള്ളവരും</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d ദിവസത്തിലും ആവർത്തിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഓരോ %d ദിവസത്തിലും ആവർത്തിക്കുന്നു</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d മണിക്കൂറിലും ആവർത്തിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഓരോ %d മണിക്കൂറിലും ആവർത്തിക്കുന്നു</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d മിനിറ്റിലും ആവർത്തിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഓരോ %d മിനിറ്റിലും ആവർത്തിക്കുന്നു</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d മാസത്തിലും ആവർത്തിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഓരോ %d മാസത്തിലും ആവർത്തിക്കുന്നു</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d ആഴ്ചയിലും ആവർത്തിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഓരോ %d ആഴ്ചയിലും ആവർത്തിക്കുന്നു</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d വർഷത്തിലും ആവർത്തിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഓരോ %d വർഷത്തിലും ആവർത്തിക്കുന്നു</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d തിരഞ്ഞെടുത്തു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഉറക്ക സമയം: %d മണിക്കൂർ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഉറക്ക സമയം: %d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഉറക്ക സമയം: %d മിനിറ്റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ഉറക്ക സമയം: %d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ദ്രുത ലോഞ്ചിംഗിനായി %d ആപ്പ് തുറന്നുവെച്ചു.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ദ്രുത ലോഞ്ചിംഗിനായി %d ആപ്പുകൾ തുറന്നുവെച്ചു.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">അറിയിപ്പുകൾ ഒന്നുമില്ല</item>
+        <item quantity="one">%d അറിയിപ്പ്</item>
+        <item quantity="other">%d അറിയിപ്പുകൾ</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d നിര</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d നിരകൾ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/about_page_retry_update_btn_bg_color" />
+    <corners android:radius="@dimen/about_page_button_radius" />
+    <padding android:left="@dimen/about_page_button_left_right_min_padding" android:right="@dimen/about_page_button_left_right_min_padding" />
+</shape>

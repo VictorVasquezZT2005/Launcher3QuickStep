@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_desktop_max_workspace_toast">
+        <item quantity="zero">تتعذر إضافة أكثر من %d مساحة عمل سطح المكتب.</item>
+        <item quantity="one">تتعذر إضافة أكثر من مساحة عمل سطح المكتب واحدة.</item>
+        <item quantity="two">تتعذر إضافة أكثر من مساحتي عمل سطح المكتب.</item>
+        <item quantity="few">تتعذر إضافة أكثر من %d مساحات عمل سطح المكتب.</item>
+        <item quantity="many">تتعذر إضافة أكثر من %d مساحة عمل سطح المكتب.</item>
+        <item quantity="other">تتعذر إضافة أكثر من %d مساحة عمل سطح المكتب.</item>
+    </plurals>
+    <plurals name="cannot_add_to_stacked_widget">
+        <item quantity="zero">تتعذر إضافة أكثر من %d تطبيق مصغر مكدّس.</item>
+        <item quantity="one">تتعذر إضافة أكثر من تطبيق مصغر مكدّس واحد.</item>
+        <item quantity="two">تتعذر إضافة أكثر من تطبيقين مصغرين مكدّسين.</item>
+        <item quantity="few">تتعذر إضافة أكثر من %d تطبيقات مصغرة مكدّسة.</item>
+        <item quantity="many">تتعذر إضافة أكثر من %d تطبيقاً مصغراً مكدّساً.</item>
+        <item quantity="other">تتعذر إضافة أكثر من %d تطبيق مصغر مكدّس.</item>
+    </plurals>
+    <plurals name="cant_keep_open">
+        <item quantity="zero">يتعذر إبقاء أكثر من %d تطبيق مفتوحاً.</item>
+        <item quantity="one">يتعذر إبقاء أكثر من تطبيق واحد مفتوحاً.</item>
+        <item quantity="two">يتعذر إبقاء أكثر من تطبيقين مفتوحين.</item>
+        <item quantity="few">يتعذر إبقاء أكثر من %d تطبيقات مفتوحة.</item>
+        <item quantity="many">يتعذر إبقاء أكثر من %d تطبيقاً مفتوحاً.</item>
+        <item quantity="other">يتعذر إبقاء أكثر من %d تطبيق مفتوح.</item>
+    </plurals>
+    <plurals name="dwb_left_time_hour">
+        <item quantity="zero">تتبقى %d ساعة اليوم</item>
+        <item quantity="one">تتبقى ساعة واحدة اليوم</item>
+        <item quantity="two">تتبقى ساعتان اليوم</item>
+        <item quantity="few">تتبقى %d ساعات اليوم</item>
+        <item quantity="many">تتبقى %d ساعةً اليوم</item>
+        <item quantity="other">تتبقى %d ساعة اليوم</item>
+    </plurals>
+    <plurals name="dwb_left_time_minute">
+        <item quantity="zero">يتبقى %d دقيقة اليوم</item>
+        <item quantity="one">يتبقى دقيقة واحدة اليوم</item>
+        <item quantity="two">يتبقى دقيقتان اليوم</item>
+        <item quantity="few">يتبقى %d دقائق اليوم</item>
+        <item quantity="many">يتبقى %d دقيقةً اليوم</item>
+        <item quantity="other">يتبقى %d دقيقة اليوم</item>
+    </plurals>
+    <plurals name="fgs_button_text">
+        <item quantity="zero">%d تطبيق نشط</item>
+        <item quantity="one">تطبيق واحد نشط</item>
+        <item quantity="two">تطبيقان نشطان</item>
+        <item quantity="few">%d تطبيقات نشطة</item>
+        <item quantity="many">%d تطبيقاً نشطاً</item>
+        <item quantity="other">%d تطبيق نشط</item>
+    </plurals>
+    <plurals name="fgs_button_tts_text">
+        <item quantity="zero">%d عنصر نشط في الخلفية</item>
+        <item quantity="one">عنصر واحد نشط في الخلفية</item>
+        <item quantity="two">عنصران نشطان في الخلفية</item>
+        <item quantity="few">%d عناصر نشطة في الخلفية</item>
+        <item quantity="many">%d عنصراً نشطاً في الخلفية</item>
+        <item quantity="other">%d عنصر نشط في الخلفية</item>
+    </plurals>
+    <plurals name="folder_col_suffix">
+        <item quantity="zero">%d عمود</item>
+        <item quantity="one">عمود واحد</item>
+        <item quantity="two">عمودان</item>
+        <item quantity="few">%d أعمدة</item>
+        <item quantity="many">%d عموداً</item>
+        <item quantity="other">%d عمود</item>
+    </plurals>
+    <plurals name="folder_row_suffix">
+        <item quantity="zero">%d صف</item>
+        <item quantity="one">صف واحد</item>
+        <item quantity="two">صفان</item>
+        <item quantity="few">%d صفوف</item>
+        <item quantity="many">%d صفاً</item>
+        <item quantity="other">%d صف</item>
+    </plurals>
+    <plurals name="limit_message">
+        <item quantity="zero">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="one">يتعذر إدخال أكثر من حرف واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من حرفين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أحرف.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d حرفًا.</item>
+        <item quantity="other">يتعذر إدخال أكثر من %d حرف.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="notification_group_footer_text">
+        <item quantity="zero">%1$d إشعار إضافي من إشعارات %2$s</item>
+        <item quantity="one">إشعار واحد إضافي من إشعارات %2$s</item>
+        <item quantity="two">إشعاران إضافيان من إشعارات %2$s</item>
+        <item quantity="few">%1$d إشعارات إضافية من إشعارات %2$s</item>
+        <item quantity="many">%1$d إشعاراً إضافياً من إشعارات %2$s</item>
+        <item quantity="other">%1$d إشعار إضافي من إشعارات %2$s</item>
+    </plurals>
+    <plurals name="number_of_recent_apps">
+        <item quantity="zero">ما يصل إلى %d تطبيق</item>
+        <item quantity="one">ما يصل إلى تطبيق واحد</item>
+        <item quantity="two">ما يصل إلى تطبيقين</item>
+        <item quantity="few">ما يصل إلى %d تطبيقات</item>
+        <item quantity="many">ما يصل إلى %d تطبيقاً</item>
+        <item quantity="other">ما يصل إلى %d تطبيق</item>
+    </plurals>
+    <plurals name="panel_count">
+        <item quantity="zero">يتعذر تحديد أكثر من %d لوحة.</item>
+        <item quantity="one">يتعذر تحديد أكثر من لوحة واحدة.</item>
+        <item quantity="two">يتعذر تحديد أكثر من لوحتَين.</item>
+        <item quantity="few">يتعذر تحديد أكثر من %d لوحات.</item>
+        <item quantity="many">يتعذر تحديد أكثر من %d لوحة.</item>
+        <item quantity="other">يتعذر تحديد أكثر من %d لوحة.</item>
+    </plurals>
+    <plurals name="pde_coupon_upcoming">
+        <item quantity="zero">يتبقى %d يوم</item>
+        <item quantity="one">يتبقى يوم واحد</item>
+        <item quantity="two">يتبقى يومان</item>
+        <item quantity="few">يتبقى %d أيام</item>
+        <item quantity="many">يتبقى %d يوماً</item>
+        <item quantity="other">يتبقى %d يوم</item>
+    </plurals>
+    <plurals name="pde_reservation_upcoming">
+        <item quantity="zero">بعد %d يوم</item>
+        <item quantity="one">بعد يوم واحد</item>
+        <item quantity="two">بعد يومين</item>
+        <item quantity="few">بعد %d أيام</item>
+        <item quantity="many">بعد %d يوماً</item>
+        <item quantity="other">بعد %d يوم</item>
+    </plurals>
+    <plurals name="plurals_routine_launch_panel_text">
+        <item quantity="zero">%1$s و%2$sو %3$d آخر</item>
+        <item quantity="one">%1$s و%2$s وواحد آخر</item>
+        <item quantity="two">%1$s و%2$s واثنان آخران</item>
+        <item quantity="few">%1$s و%2$s و%3$d أخرى</item>
+        <item quantity="many">%1$s و%2$s و%3$d آخر</item>
+        <item quantity="other">%1$s و%2$s و%3$d آخر</item>
+    </plurals>
+    <plurals name="repeats_daily">
+        <item quantity="zero">تكرار كل %d يوم</item>
+        <item quantity="one">تكرار كل يوم واحد</item>
+        <item quantity="two">تكرار كل يومين</item>
+        <item quantity="few">تكرار كل %d أيام</item>
+        <item quantity="many">تكرار كل %d يوماً</item>
+        <item quantity="other">تكرار كل %d يوم</item>
+    </plurals>
+    <plurals name="repeats_hourly">
+        <item quantity="zero">تكرار كل %d ساعة</item>
+        <item quantity="one">تكرار كل ساعة</item>
+        <item quantity="two">تكرار كل ساعتين</item>
+        <item quantity="few">تكرار كل %d ساعات</item>
+        <item quantity="many">تكرار كل %d ساعة</item>
+        <item quantity="other">تكرار كل %d ساعة</item>
+    </plurals>
+    <plurals name="repeats_minutely">
+        <item quantity="zero">تكرار كل %d دقيقة</item>
+        <item quantity="one">تكرار كل دقيقة</item>
+        <item quantity="two">تكرار كل دقيقتين</item>
+        <item quantity="few">تكرار كل %d دقائق</item>
+        <item quantity="many">تكرار كل %d دقيقة</item>
+        <item quantity="other">تكرار كل %d دقيقة</item>
+    </plurals>
+    <plurals name="repeats_monthly">
+        <item quantity="zero">تكرار كل %d شهر</item>
+        <item quantity="one">تكرار كل شهر واحد</item>
+        <item quantity="two">تكرار كل شهرين</item>
+        <item quantity="few">تكرار كل %d أشهر</item>
+        <item quantity="many">تكرار كل %d شهراً</item>
+        <item quantity="other">تكرار كل %d شهر</item>
+    </plurals>
+    <plurals name="repeats_weekly">
+        <item quantity="zero">تكرار كل %d أسبوع</item>
+        <item quantity="one">تكرار كل أسبوع واحد</item>
+        <item quantity="two">تكرار كل أسبوعين</item>
+        <item quantity="few">تكرار كل %d أسابيع</item>
+        <item quantity="many">تكرار كل %d أسبوعاً</item>
+        <item quantity="other">تكرار كل %d أسبوع</item>
+    </plurals>
+    <plurals name="repeats_yearly">
+        <item quantity="zero">تكرار كل %d عام</item>
+        <item quantity="one">تكرار كل عام واحد</item>
+        <item quantity="two">تكرار كل عامين</item>
+        <item quantity="few">تكرار كل %d أعوام</item>
+        <item quantity="many">تكرار كل %d عاماً</item>
+        <item quantity="other">تكرار كل %d عام</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+        <item quantity="other">تم تحديد %d</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_hour_plurals">
+        <item quantity="zero">وقت النوم: %d ساعة</item>
+        <item quantity="one">وقت النوم: ساعة واحدة</item>
+        <item quantity="two">وقت النوم: ساعتان</item>
+        <item quantity="few">وقت النوم: %d ساعات</item>
+        <item quantity="many">وقت النوم: %d ساعةً</item>
+        <item quantity="other">وقت النوم: %d ساعة</item>
+    </plurals>
+    <plurals name="sesl_sleep_duration_in_min_plurals">
+        <item quantity="zero">وقت النوم: %d دقيقة</item>
+        <item quantity="one">وقت النوم: دقيقة واحدة</item>
+        <item quantity="two">وقت النوم: دقيقتان</item>
+        <item quantity="few">وقت النوم: %d دقائق</item>
+        <item quantity="many">وقت النوم: %d دقيقةً</item>
+        <item quantity="other">وقت النوم: %d دقيقة</item>
+    </plurals>
+    <plurals name="task_option_dedicated_app_toast">
+        <item quantity="zero">تم إبقاء %d تطبيق مفتوحاً لتشغيله سريعاً.</item>
+        <item quantity="one">تم إبقاء تطبيق واحد مفتوحاً لتشغيله سريعاً.</item>
+        <item quantity="two">تم إبقاء تطبيقَين مفتوحَين لتشغيلهما سريعاً.</item>
+        <item quantity="few">تم إبقاء %d تطبيقات مفتوحة لتشغيلها سريعاً.</item>
+        <item quantity="many">تم إبقاء %d تطبيقاً مفتوحاً لتشغيله سريعاً.</item>
+        <item quantity="other">تم إبقاء %d تطبيق مفتوحاً لتشغيله سريعاً.</item>
+    </plurals>
+    <plurals name="tooltip_plural_notification_count">
+        <item quantity="zero">ما من إشعارات</item>
+        <item quantity="one">إشعار واحد</item>
+        <item quantity="other">%d إشعار</item>
+    </plurals>
+    <plurals name="vertical_apps_grid_button_suffix">
+        <item quantity="zero">%d عمود</item>
+        <item quantity="one">عمود واحد</item>
+        <item quantity="two">عمودان</item>
+        <item quantity="few">%d أعمدة</item>
+        <item quantity="many">%d عموداً</item>
+        <item quantity="other">%d عمود</item>
+    </plurals>
+</resources>

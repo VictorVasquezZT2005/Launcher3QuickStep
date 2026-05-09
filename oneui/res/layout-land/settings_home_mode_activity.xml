@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.homescreen.settings.ColoredWindowInsetPaddingLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/settings_activity" android:background="@color/sec_widget_round_and_bgcolor" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="match_parent" android:layout_height="match_parent" android:touchscreenBlocksFocus="false" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed" style="@style/CollapsingToolbarLayoutStyle">
+                <View android:layout_gravity="bottom" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="?actionBarSize" app:background="@android:color/transparent" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:id="@id/black_view_start" android:background="?roundedCornerColor" android:layout_width="wrap_content" android:layout_height="match_parent" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ScrollView android:id="@id/home_screen_mode_view" android:fadingEdgeLength="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+                        <LinearLayout android:orientation="vertical" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="5.05">
+                                    <LinearLayout android:orientation="vertical" android:id="@id/home_screen_preview" android:background="@color/minus_one_page_setting_selector_background_color" android:paddingTop="@dimen/home_mode_setting_preview_image_padding" android:paddingBottom="@dimen/home_mode_setting_preview_image_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mode_preview_image" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_mode_settings_home_apps_preview_image" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+                                    </LinearLayout>
+                                    <View android:background="@color/home_settings_sec_widget_round_and_bgcolor" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                                </LinearLayout>
+                                <LinearLayout android:orientation="vertical" android:id="@id/mode_help_text_layout_container" android:background="@color/home_settings_sec_widget_round_and_bgcolor" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="4.95">
+                                    <LinearLayout android:orientation="vertical" android:id="@id/mode_help_text_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                        <TextView android:id="@id/mode_help_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/home_screen_mode_home_apps_body_text" android:layout_marginStart="@dimen/home_mode_setting_help_text_side_padding" android:layout_marginEnd="@dimen/home_mode_setting_help_text_side_padding" style="@style/HomeModeSettingHelpTextTheme" />
+                                    </LinearLayout>
+                                    <View android:layout_width="match_parent" android:layout_height="wrap_content" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <View android:id="@id/home_screen_mode_gap" android:background="@color/home_settings_sec_widget_round_and_bgcolor" android:layout_width="match_parent" android:layout_height="0.0dp" />
+                            <LinearLayout android:orientation="vertical" android:id="@id/home_screen_mode" android:background="@color/minus_one_page_setting_selector_background_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <LinearLayout android:gravity="center_vertical" android:id="@id/mode_apps" android:background="@drawable/recoil_background_effect_top" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/home_mode_setting_mode_container_padding_start" android:paddingEnd="@dimen/home_mode_setting_mode_container_padding_end">
+                                    <androidx.appcompat.widget.AppCompatRadioButton android:gravity="center_vertical" android:id="@id/mode_apps_radio" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                    <TextView android:paddingTop="@dimen/list_item_top_padding" android:paddingBottom="@dimen/list_item_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_screen_mode_apps" android:paddingStart="@dimen/home_mode_setting_mode_list_side_padding" android:paddingEnd="0.0dp" style="?android:textAppearanceListItem" />
+                                </LinearLayout>
+                                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/home_mode_settings_divider_start_margin">
+                                    <View android:background="?android:listDivider" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/home_mode_settings_radio_button_start_margin" />
+                                </LinearLayout>
+                                <LinearLayout android:gravity="center_vertical" android:id="@id/mode_home_only" android:background="@drawable/recoil_background_effect_bottom" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/home_mode_setting_mode_container_padding_start" android:paddingEnd="@dimen/home_mode_setting_mode_container_padding_end">
+                                    <androidx.appcompat.widget.AppCompatRadioButton android:gravity="center_vertical" android:id="@id/mode_home_only_radio" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                    <TextView android:paddingTop="@dimen/list_item_top_padding" android:paddingBottom="@dimen/list_item_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_screen_mode_only_home" android:paddingStart="@dimen/home_mode_setting_mode_list_side_padding" android:paddingEnd="0.0dp" style="?android:textAppearanceListItem" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <View android:id="@id/home_mode_help_text_gap" android:background="@color/home_settings_sec_widget_round_and_bgcolor" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" />
+                            <LinearLayout android:orientation="vertical" android:id="@id/mode_help_text_layout_tablet" android:background="@color/home_settings_sec_widget_round_and_bgcolor" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <TextView android:id="@id/mode_help_text_tablet" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/home_screen_mode_home_apps_body_text" android:layout_marginStart="@dimen/home_mode_setting_help_text_side_padding" android:layout_marginEnd="@dimen/home_mode_setting_help_text_side_padding" style="@style/HomeModeSettingHelpTextTheme" />
+                            </LinearLayout>
+                            <View android:id="@id/home_mode_apply_button_gap" android:background="@color/home_settings_sec_widget_round_and_bgcolor" android:layout_width="match_parent" android:layout_height="0.0dp" />
+                            <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/home_mode_apply_button_layout" android:background="@color/home_settings_sec_widget_round_and_bgcolor" android:paddingBottom="@dimen/home_mode_setting_apply_button_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/settings_apply_button_text_size" android:textColor="@color/about_page_retry_update_btn_text_color" android:layout_gravity="center" android:id="@id/home_mode_apply_button" android:background="@drawable/home_settings_apply_button_background" android:paddingTop="0.0dp" android:paddingBottom="0.0dp" android:layout_width="wrap_content" android:layout_height="@dimen/cover_main_sync_apply_button_height" android:text="@string/apply" android:stateListAnimator="?seslSmallTouchAnimator" style="@style/ApplyButtonStyle" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+                <View android:id="@id/black_view_end" android:background="?roundedCornerColor" android:layout_width="wrap_content" android:layout_height="match_parent" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/appbar">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/ToolbarStyle" android:layout_gravity="bottom" android:id="@id/home_mode_change_toolbar" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="?android:actionBarSize" android:clipToOutline="false" app:background="@android:color/transparent" app:layout_collapseMode="pin" />
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.android.homescreen.settings.ColoredWindowInsetPaddingLinearLayout>

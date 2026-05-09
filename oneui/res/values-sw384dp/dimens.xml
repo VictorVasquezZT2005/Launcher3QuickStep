@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="security_panel_desc_margin_top">21.299988dp</dimen>
+    <dimen name="setting_handle_bottom_margin">51.19998dp</dimen>
+    <dimen name="setting_handle_color_icon_item_size">42.599976dp</dimen>
+    <dimen name="setting_handle_color_selected_icon_size">25.5dp</dimen>
+    <dimen name="setting_handle_color_selector_horizontal_space">17.599976dp</dimen>
+    <dimen name="setting_handle_color_selector_side_padding">25.5dp</dimen>
+    <dimen name="setting_handle_color_selector_updown_padding">17.0dp</dimen>
+    <dimen name="settings_contained_button_margin_top">8.5dp</dimen>
+    <dimen name="settings_edit_text_height">38.399994dp</dimen>
+    <dimen name="settings_edit_text_size">13.899994sp</dimen>
+    <dimen name="settings_handle_bottom_margin">21.299988dp</dimen>
+    <dimen name="settings_handle_move_icon_container_width">64.0dp</dimen>
+    <dimen name="settings_handle_move_icon_width">32.0dp</dimen>
+    <dimen name="settings_handle_small_height">86.399994dp</dimen>
+    <dimen name="settings_handle_trigger_width">7.5dp</dimen>
+    <dimen name="settings_item_label_size">13.899994sp</dimen>
+    <dimen name="settings_reorder_content_top_padding">21.299988dp</dimen>
+    <dimen name="settings_wide_panel_check_height">32.0dp</dimen>
+    <dimen name="settings_wide_panel_check_width">42.69998dp</dimen>
+    <dimen name="settings_wide_panel_end_margin">9.599976dp</dimen>
+    <dimen name="settings_wide_panel_list_end_margin">21.299988dp</dimen>
+    <dimen name="settings_wide_panel_list_start_margin">21.299988dp</dimen>
+    <dimen name="settings_wide_panel_preview_height">375.59375dp</dimen>
+    <dimen name="settings_wide_panel_preview_height_with_shadow">398.59375dp</dimen>
+    <dimen name="settings_wide_panel_preview_top_margin">4.299988dp</dimen>
+    <dimen name="settings_wide_panel_preview_top_margin_with_shadow">-7.399994dp</dimen>
+    <dimen name="settings_wide_panel_reorder_list_start_margin">11.72998dp</dimen>
+    <dimen name="settings_wide_panel_start_margin">9.599976dp</dimen>
+    <dimen name="settings_wide_panel_top_margin">11.699982dp</dimen>
+    <dimen name="settings_wide_panel_width">86.399994dp</dimen>
+    <dimen name="settings_wide_panel_width_with_shadow">105.5dp</dimen>
+</resources>

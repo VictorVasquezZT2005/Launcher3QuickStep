@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.widgetlist.presentation.WidgetListContainer android:id="@id/widget_list_container" android:tag="layout/widget_list_view_tablet_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/dim_background" android:tag="binding_1" android:background="@color/dex_container_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include android:id="@id/search_bar" android:layout_width="wrap_content" android:layout_height="@dimen/widget_search_bar_container_height" android:layout_centerHorizontal="true" layout="@layout/widget_search_bar" />
+    <LinearLayout android:gravity="center" android:id="@id/widget_container" android:tag="binding_2" android:background="@drawable/widget_list_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/search_bar" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:clipToOutline="true">
+        <com.honeyspace.ui.honeypots.widgetlist.presentation.ListRecyclerView android:id="@id/list_recycler_view" android:tag="binding_3" android:scrollbars="vertical" android:layout_width="0.0dp" android:layout_height="match_parent" android:paddingVertical="@dimen/list_recyler_view_vertical_padding" />
+        <com.honeyspace.ui.honeypots.widgetlist.presentation.ExpandedWidgetViewTablet android:id="@id/widget_expanded_container" android:tag="binding_4" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_marginRight="@dimen/widget_expand_container_margin_right" android:paddingVertical="@dimen/widget_expand_container_vertical_padding">
+            <androidx.core.widget.NestedScrollView android:id="@id/list_expand_scroll" android:tag="binding_5" android:background="@drawable/list_expand_bg" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+                <include android:layout_gravity="top" android:id="@id/recommended" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/recommended_widgets_container" />
+            </androidx.core.widget.NestedScrollView>
+            <include android:id="@id/side_bar_scroll_expand" layout="@layout/side_bar_scroll_expand" />
+        </com.honeyspace.ui.honeypots.widgetlist.presentation.ExpandedWidgetViewTablet>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="17.0sp" android:textColor="#fafafa" android:gravity="center" android:id="@id/no_result_view" android:tag="binding_6" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/search_no_results_found" android:fontFamily="sec" android:textFontWeight="400" />
+</com.honeyspace.ui.honeypots.widgetlist.presentation.WidgetListContainer>

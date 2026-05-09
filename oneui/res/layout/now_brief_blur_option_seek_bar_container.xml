@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.common.nowbrief.NowBriefBlurOptionSeekBar android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/now_brief_blur_option_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/now_brief_blur_option_divider_height" />
+    <TextView android:textSize="@dimen/now_brief_blur_option_title_text_size" android:textColor="@color/now_brief_blur_option_text_color" android:gravity="center_vertical" android:id="@id/now_brief_opacity_title" android:layout_width="match_parent" android:layout_height="@dimen/now_brief_blur_option_opacity_title_height" android:text="@string/now_brief_blur_option_background_effect" android:fontFamily="sec" android:textFontWeight="400" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/now_brief_blur_option_seek_bar_height">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/now_brief_opacity_icon" android:background="@drawable/opacity_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/now_brief_blur_option_seek_bar_height" android:layout_weight="1.0">
+            <androidx.appcompat.widget.SeslSeekBar android:layout_gravity="center_vertical" android:id="@id/now_brief_opacity_seek_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="2" android:min="0" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="@color/now_brief_blur_option_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/now_brief_blur_option_divider_height" android:layout_marginTop="@dimen/now_brief_blur_option_opacity_margin_bottom" />
+</com.honeyspace.ui.common.nowbrief.NowBriefBlurOptionSeekBar>

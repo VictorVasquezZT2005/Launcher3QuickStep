@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/more_task_item_container" android:tag="layout/more_task_item_0" android:layout_width="@dimen/more_task_item_width" android:layout_height="@dimen/more_task_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:IconView="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/icon_container" android:layout_width="@dimen/more_task_panel_max_icon_container_size" android:layout_height="match_parent" />
+    <TextView android:textSize="@dimen/more_task_window_title_text_size" android:textColor="@color/more_task_item_title_color" android:layout_gravity="center_vertical" android:id="@id/icon_label" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sec" android:layout_marginStart="@dimen/more_task_item_icon_margin_start" android:textFontWeight="400" />
+</LinearLayout>

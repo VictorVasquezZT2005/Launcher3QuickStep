@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.common.quickoption.NotificationView android:orientation="horizontal" android:tag="layout/quickoption_notification_0" android:paddingTop="@dimen/notification_padding_top" android:paddingBottom="@dimen/notification_padding_bottom" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_margin_top" android:paddingStart="@dimen/notification_padding_start" android:paddingEnd="@dimen/notification_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/notification_icon_size" android:layout_height="@dimen/notification_icon_size" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/notification_spacing_between_icon_and_text">
+        <TextView android:textSize="@dimen/notification_title_text_size" android:textColor="@color/notification_title_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_width="match_parent" android:layout_height="@dimen/notification_title_height" android:maxLines="1" android:fontFamily="sec" android:textFontWeight="400" />
+        <TextView android:textSize="@dimen/notification_content_text_size" android:textColor="@color/notification_content_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/content" android:layout_width="match_parent" android:layout_height="@dimen/notification_content_height" android:maxLines="1" android:fontFamily="sec" android:textFontWeight="400" />
+    </LinearLayout>
+</com.honeyspace.ui.common.quickoption.NotificationView>

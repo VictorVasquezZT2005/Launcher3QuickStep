@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <home>
+        <nowbrief screen="0" spanX="4" spanY="4" x="0" y="0" />
+        <appwidget className="com.google.android.googlequicksearchbox.SearchWidgetProvider" packageName="com.google.android.googlequicksearchbox" screen="0" spanX="4" spanY="1" x="0" y="4" />
+        <favorite className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" packageName="com.sec.android.app.samsungapps" postPosition="true" screen="0" x="0" y="5" />
+        <favorite className="com.samsung.android.gallery.app.activity.GalleryActivity" packageName="com.sec.android.gallery3d" screen="0" x="1" y="5" />
+        <favorite className="com.android.vending.AssetBrowserActivity" packageName="com.android.vending" screen="0" x="2" y="5" />
+        <pairapps components="com.android.chrome/com.google.android.apps.chrome.Main;com.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivity" orientation="3" screen="0" x="3" y="5" />
+        <folder postPosition="true" screen="1" title="Microsoft" x="3" y="3">
+            <favorite className="com.microsoft.office.officesuite.OfficeSuiteActivity" packageName="com.microsoft.office.officehubrow" screen="0" />
+            <favorite className="com.microsoft.skydrive.MainActivity" packageName="com.microsoft.skydrive" screen="1" />
+            <favorite className="com.microsoft.office.outlook.MainActivity" packageName="com.microsoft.office.outlook" screen="2" />
+            <pairapps components="com.android.chrome/com.google.android.apps.chrome.Main;com.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivity" orientation="5" screen="3" />
+        </folder>
+        <favorite className="com.samsung.android.gallery.app.activity.GalleryActivity" packageName="com.sec.android.gallery3d" screen="1" x="0" y="4" />
+    </home>
+    <hotseat launcher:refPackageName="">
+        <favorite launcher:className="com.samsung.android.dialer.DialtactsActivity" launcher:packageName="com.samsung.android.dialer" launcher:screen="0" />
+        <favorite screen="1" launcher:className="com.android.mms.ui.ConversationComposer" launcher:packageName="com.samsung.android.messaging" />
+        <favorite className="com.sec.android.app.sbrowser.SBrowserMainActivity" packageName="com.sec.android.app.sbrowser" screen="2" />
+        <pairapps components="com.android.chrome/com.google.android.apps.chrome.Main;com.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivity" orientation="3" screen="3" />
+        <folder screen="4" title="Google">
+            <favorite className="com.google.android.googlequicksearchbox.SearchActivity" packageName="com.google.android.googlequicksearchbox" screen="0" />
+            <favorite className="com.google.android.gm.ConversationListActivityGmail" packageName="com.google.android.gm" screen="1" />
+            <favorite className="com.google.android.maps.MapsActivity" packageName="com.google.android.apps.maps" screen="2" />
+            <favorite className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" packageName="com.google.android.youtube" screen="3" />
+            <favorite className="com.google.android.apps.docs.app.NewMainProxyActivity" packageName="com.google.android.apps.docs" screen="4" />
+            <favorite className="com.google.android.apps.youtube.music.activities.MusicActivity" packageName="com.google.android.apps.youtube.music" screen="5" />
+            <favorite className="com.google.android.videos.GoogleTvEntryPoint" packageName="com.google.android.videos" screen="6" />
+            <favorite className="com.google.android.apps.tachyon.MainActivity" packageName="com.google.android.apps.tachyon" screen="7" />
+            <favorite className="com.google.android.apps.photos.home.HomeActivity" packageName="com.google.android.apps.photos" screen="8" />
+            <favorite className="com.google.commerce.tapandpay.android.wallet.WalletActivity" packageName="com.google.android.apps.walletnfcrel" screen="9" />
+        </folder>
+    </hotseat>
+</favorites>

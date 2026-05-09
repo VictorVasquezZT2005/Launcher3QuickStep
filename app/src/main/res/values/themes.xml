@@ -12,8 +12,13 @@
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
 
-        <!-- Material 3 attributes for translucent surfaces -->
-        <item name="colorSurfaceContainer">?attr/colorSurfaceContainerHigh</item>
+        <!-- Material 3 attributes -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
 
         <!-- Style for the PopupMenu -->
         <item name="popupMenuStyle">@style/Widget.App.PopupMenu</item>
@@ -22,11 +27,15 @@
     <style name="Widget.App.PopupMenu" parent="Widget.Material3.PopupMenu">
         <item name="android:itemBackground">?attr/selectableItemBackground</item>
         <item name="android:popupBackground">@drawable/bg_popup_menu</item>
-        <!-- Forzar el redondeo mediante Material 3 Shape -->
         <item name="shapeAppearance">@style/ShapeAppearance.App.Popup</item>
     </style>
 
     <style name="ShapeAppearance.App.Popup" parent="ShapeAppearance.Material3.MediumComponent">
         <item name="cornerSize">28dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Icon" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
     </style>
 </resources>

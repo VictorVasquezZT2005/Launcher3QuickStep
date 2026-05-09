@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/history_item_layout" android:tag="layout/hotwords_card_item_layout_0" android:background="@drawable/background_hot_word_suggestion_item_shape" android:paddingTop="@dimen/hot_word_grid_view_margin_top" android:paddingBottom="@dimen/hot_word_grid_view_margin_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/hot_word_grid_view_padding_horizontal" android:paddingEnd="@dimen/hot_word_grid_view_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/hot_word_item_text_size" android:textColor="@color/hot_word_item_name_color" android:gravity="center" android:layout_gravity="center" android:id="@id/hot_word_item_title" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" />
+</LinearLayout>

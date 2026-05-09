@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/suggestion_settings_card_item_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/suggestion_settings_card_item_radius" />
+            <solid android:color="@color/hot_word_card_item_bg_color" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/recall_item" android:tag="layout/recall_item_layout_0" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pde_card_additional_margin_gap" android:importantForAccessibility="no" android:layout_marginHorizontal="@dimen/pde_card_padding_horizontal_toggle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/recall_item_icon" android:focusable="false" android:layout_width="@dimen/pde_card_additional_icon_size" android:layout_height="@dimen/pde_card_additional_icon_size" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/pde_card_additional_margin_gap" />
+    <com.honeyspace.search.ui.honeypot.presentation.content.ContrastTextView android:id="@id/recall_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:textAlignment="viewStart" app:contrastColor="@color/highlight_color" style="@style/SearchCardPDEAdditionalTitle" />
+</LinearLayout>

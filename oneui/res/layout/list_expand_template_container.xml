@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.honeyspace.ui.honeypots.widgetlist.presentation.ListExpandTemplateContainer android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/expand_template_container" android:tag="layout/list_expand_template_container_0" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/expand_widget_container_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:layout_gravity="center|top" android:id="@id/expand_cell_label" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sec" android:breakStrategy="simple" android:textFontWeight="600" />
+        <TextView android:textSize="@dimen/widget_cell_label_size" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center|top" android:id="@id/expand_cell_description" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sec" android:textFontWeight="400" />
+    </LinearLayout>
+</com.honeyspace.ui.honeypots.widgetlist.presentation.ListExpandTemplateContainer>
